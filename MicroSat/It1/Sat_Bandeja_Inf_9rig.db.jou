@@ -991,3 +991,13 @@ elementprops_create( "1D_Al7075_Rig_out", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
 "Analysis", "Analysis"], "" )
 $# Property Set "1D_Al7075_Rig_out" created.
 uil_primary_file.db_save(  )
+elementprops_create( "0D_Mass_equip_11kg", 1, 25, 18, 27, 2, 20, [2069, 4001,  @
+4024, 10, 4026, 11, 4028, 4029, 12], [1, 9, 2, 1, 1, 1, 1, 1, 1], ["11.", "",  @
+"", " 9.1541669E-10", " 0.", " 1.3541666E-10", "", "", ""], "" )
+$# Property Set "0D_Mass_equip_11kg" created.
+elementprops_create( "0D_Mass_sat_39.325kg", 1, 25, 18, 27, 2, 20, [2069,  @
+4001, 4024, 10, 4026, 11, 4028, 4029, 12], [1, 9, 2, 1, 1, 1, 1, 1, 1], [ @
+"39.325", "", "", " 9.1541669E-10", " 0.", " 1.3541666E-10", "", "", ""], "" )
+$# Property Set "0D_Mass_sat_39.325kg" created.
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
