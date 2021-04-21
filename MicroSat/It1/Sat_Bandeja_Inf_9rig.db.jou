@@ -4030,3 +4030,130 @@ gm_visibility_widget( " Node 1000:1480 Element 1000:1359 3000:3179 4000:42" // @
 gm_visibility_widget( " Node 1000:1480 Element 1000:1359 3000:3179 4000:42" // @
 "99 4500:4559", FALSE )
 gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", TRUE )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+sys_poll_option( 0 )
+gm_visibility_widget( " Node 1000:1480 Element 1000:1359 3000:3179 4000:42" // @
+"99 4500:4559", TRUE )
+ga_view_aa_set( -72.379059, 0.607657, -18.507006 )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", FALSE )
+ga_view_aa_set( -104.216080, 1.681536, -31.388241 )
+ga_view_aa_set( -140.868439, -6.882967, -16.145620 )
+ga_view_center_set( -0.004933, -0.004842 )
+ga_view_zoom_set( 0.119968 )
+ga_view_center_set( -0.000128, 0.001455 )
+ga_view_zoom_set( 0.134964 )
+ga_view_center_set( 0.005277, 0.008425 )
+ga_view_zoom_set( 0.151835 )
+ga_view_center_set( 0.011294, 0.016074 )
+ga_view_zoom_set( 0.170814 )
+ga_view_center_set( 0.017919, 0.024319 )
+ga_view_zoom_set( 0.192166 )
+ga_view_center_set( 0.026993, 0.033920 )
+ga_view_zoom_set( 0.216186 )
+ga_view_aa_set( -124.435020, 5.610241, -21.539320 )
+ga_view_aa_set( -61.481071, -0.099151, -55.337124 )
+ga_view_aa_set( -66.629578, -5.039451, 84.808540 )
+$# UNDO:
+gm_visibility_widget( " Node 1000:1480 Element 1000:1359 3000:3179 4000:42" // @
+"99 4500:4559", TRUE )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", FALSE )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", TRUE )
+gm_visibility_widget( " Node 1000:1480 Element 1000:1359 3000:3179 4000:42" // @
+"99 4500:4559", FALSE )
+uil_toolbar.wireframe(  )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "126", "[0.225 0.225 0.08]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 126
+ga_view_aa_set( -73.576752, 2.233172, 10.835950 )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( -81.124359, -3.985705, 2.032952 )
+ga_view_center_set( 0.005527, -0.009815 )
+ga_view_zoom_set( 0.111918 )
+ga_view_center_set( 0.011378, -0.014321 )
+ga_view_zoom_set( 0.125907 )
+mesh_seed_display_mgr.erase(  )
+gm_visibility_widget( " Node 1000:1480 Element 1000:1359 3000:3179 4000:42" // @
+"99 4500:4559", TRUE )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 0 )
+ga_display_beam_set( "general", 0 )
+sys_poll_option( 0 )
+mesh_seed_display_mgr.erase(  )
+STRING fem_create_nodes__nodes_created[VIRTUAL]
+fem_create_nodes_1( "Coord 0", "Coord 0", 3, "4000", "Point 126",  @
+fem_create_nodes__nodes_created )
+$# === 1 node created.  ID = 4000.
+uil_primary_file.db_save(  )
+mesh_seed_display_mgr.erase(  )
+$# UNDO:
+ga_view_aa_set( -80.405479, -5.138324, -0.799086 )
+mesh_seed_display_mgr.erase(  )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_center_set( 0.011110, -0.009706 )
+ga_view_zoom_set( 0.115176 )
+ga_view_center_set( 0.020482, -0.010507 )
+ga_view_zoom_set( 0.129573 )
+ga_view_center_set( 0.031898, -0.011190 )
+ga_view_zoom_set( 0.145769 )
+ga_view_center_set( 0.044742, -0.011958 )
+ga_view_zoom_set( 0.163990 )
+ga_view_center_set( 0.059192, -0.012822 )
+ga_view_zoom_set( 0.184489 )
+ga_view_center_set( 0.074436, -0.010294 )
+ga_view_zoom_set( 0.207550 )
+ga_view_center_set( 0.091411, -0.007451 )
+ga_view_zoom_set( 0.233494 )
+ga_view_center_set( 0.085800, -0.010847 )
+ga_view_zoom_set( 0.262681 )
+uil_toolbar.shaded_smooth(  )
+ga_view_aa_set( 113.263824, -9.893638, 154.596893 )
+ga_view_aa_set( 95.899345, 2.939611, -149.033234 )
+ga_view_center_set( 0.094770, -0.002929 )
+ga_view_zoom_set( 0.295516 )
+ga_view_aa_set( -82.841301, -13.615342, -117.286331 )
+fem_create_mpc_nodal2( 4561, "RBE2", 2.2E-05, 2, [TRUE, FALSE], ["0", "0"], [ @
+"Node 1276 1294 1254 1236", "Node 4000"], ["UX,UY,UZ", ""] )
+$# MPC 4561 created.
+ga_view_aa_set( -40.738388, 0.587404, -84.728859 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -66.658951, -3.348625, -105.332794 )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 21-Apr-21 14:37:04
