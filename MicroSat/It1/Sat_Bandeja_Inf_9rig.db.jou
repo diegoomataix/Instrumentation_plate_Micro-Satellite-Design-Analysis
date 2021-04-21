@@ -1001,3 +1001,3032 @@ elementprops_create( "0D_Mass_sat_39.325kg", 1, 25, 18, 27, 2, 20, [2069,  @
 $# Property Set "0D_Mass_sat_39.325kg" created.
 uil_primary_file.db_save(  )
 uil_primary_file.db_save(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+uil_primary_file.db_save(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+ga_view_center_set( 0.494023, -0.016838 )
+ga_view_zoom_set( 0.318217 )
+ga_view_center_set( 0.555466, -0.036895 )
+ga_view_zoom_set( 0.357994 )
+ga_view_center_set( 0.494023, -0.018717 )
+ga_view_zoom_set( 0.318217 )
+ga_view_center_set( 0.439287, -0.003274 )
+ga_view_zoom_set( 0.282860 )
+ga_view_center_set( 0.390633, 0.010347 )
+ga_view_zoom_set( 0.251431 )
+ga_view_center_set( 0.347386, 0.022360 )
+ga_view_zoom_set( 0.223494 )
+ga_view_center_set( 0.308943, 0.033039 )
+ga_view_zoom_set( 0.198661 )
+ga_view_center_set( 0.350317, 0.025794 )
+ga_view_zoom_set( 0.223494 )
+ga_view_center_set( 0.396957, 0.018115 )
+ga_view_zoom_set( 0.251431 )
+ga_view_center_set( 0.455150, 0.018804 )
+ga_view_zoom_set( 0.282860 )
+ga_view_center_set( 0.163805, 0.004661 )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+$# UNDO: FEM Create Mesh Seed for Curve 1:120
+ga_view_center_set( 0.120995, 0.000905 )
+ga_view_zoom_set( 0.318217 )
+ga_view_center_set( 0.164163, 0.004661 )
+ga_view_zoom_set( 0.282860 )
+mesh_seed_create( "Curve 1:120", 1, 3, 0., 0., 0. )
+uil_primary_file.db_save(  )
+$# UNDO: FEM Create Mesh Surface for Surface 33 32 46 45 31 34 35 47 55 54 4...
+INTEGER fem_create_mesh_surfa_num_nodes
+INTEGER fem_create_mesh_surfa_num_elems
+STRING fem_create_mesh_s_nodes_created[VIRTUAL]
+STRING fem_create_mesh_s_elems_created[VIRTUAL]
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 21:60", 1, ["0.0127279"],  @
+"Quad4", "1000", "1000", "Coord 0", "Coord 0",  @
+fem_create_mesh_surfa_num_nodes, fem_create_mesh_surfa_num_elems,  @
+fem_create_mesh_s_nodes_created, fem_create_mesh_s_elems_created )
+$# 16 nodes and 9 elements created for Surface 21.
+$# 16 nodes and 9 elements created for Surface 22.
+$# 16 nodes and 9 elements created for Surface 23.
+$# 16 nodes and 9 elements created for Surface 24.
+$# 16 nodes and 9 elements created for Surface 25.
+$# 16 nodes and 9 elements created for Surface 26.
+$# 16 nodes and 9 elements created for Surface 27.
+$# 16 nodes and 9 elements created for Surface 28.
+$# 16 nodes and 9 elements created for Surface 29.
+$# 16 nodes and 9 elements created for Surface 30.
+$# 16 nodes and 9 elements created for Surface 31.
+$# 16 nodes and 9 elements created for Surface 32.
+$# 16 nodes and 9 elements created for Surface 33.
+$# 16 nodes and 9 elements created for Surface 34.
+$# 16 nodes and 9 elements created for Surface 35.
+$# 16 nodes and 9 elements created for Surface 36.
+$# 16 nodes and 9 elements created for Surface 37.
+$# 16 nodes and 9 elements created for Surface 38.
+$# 16 nodes and 9 elements created for Surface 39.
+$# 16 nodes and 9 elements created for Surface 40.
+$# 16 nodes and 9 elements created for Surface 41.
+$# 16 nodes and 9 elements created for Surface 42.
+$# 16 nodes and 9 elements created for Surface 43.
+$# 16 nodes and 9 elements created for Surface 44.
+$# 16 nodes and 9 elements created for Surface 45.
+$# 16 nodes and 9 elements created for Surface 46.
+$# 16 nodes and 9 elements created for Surface 47.
+$# 16 nodes and 9 elements created for Surface 48.
+$# 16 nodes and 9 elements created for Surface 49.
+$# 16 nodes and 9 elements created for Surface 50.
+$# 16 nodes and 9 elements created for Surface 51.
+$# 16 nodes and 9 elements created for Surface 52.
+$# 16 nodes and 9 elements created for Surface 53.
+$# 16 nodes and 9 elements created for Surface 54.
+$# 16 nodes and 9 elements created for Surface 55.
+$# 16 nodes and 9 elements created for Surface 56.
+$# 16 nodes and 9 elements created for Surface 57.
+$# 16 nodes and 9 elements created for Surface 58.
+$# 16 nodes and 9 elements created for Surface 59.
+$# 16 nodes and 9 elements created for Surface 60.
+$# === 640 nodes created.  IDs  = 1000:1639.
+$# === 360 elements created.  IDs  = 1000:1359.
+fem_associate_elems_to_ep( "2D_Al7075_Bandeja_Inf_2mm",  @
+fem_create_mesh_s_elems_created, fem_create_mesh_surfa_num_elems )
+$# 360 Element(s) associated to the Element Property 2D_Al7075_Bandeja_Inf_2mm.
+ga_view_center_set( 0.196214, 0.017176 )
+ga_view_zoom_set( 0.318217 )
+ga_view_center_set( 0.164375, 0.005191 )
+ga_view_zoom_set( 0.282860 )
+$# UNDO: FEM Create Mesh Surface for Surface 10:1:-1 20:11:-1
+$# UNDO: FEM Create Mesh Surface for Surface 10:1:-1 20:11:-1
+fem_create_mesh_surf_4( "IsoMesh", 49152, "", 1, ["0.00745585"], "Tria3", "#", @
+ "#", "Coord 0", "Coord 0", fem_create_mesh_surfa_num_nodes,  @
+fem_create_mesh_surfa_num_elems, fem_create_mesh_s_nodes_created,  @
+fem_create_mesh_s_elems_created )
+$# Error reported from application FEM
+$#     Surface list is blank.
+$? NO 2001004 
+fem_associate_elems_to_ep( "2D_Al7075_Bandeja_Inf_2mm",  @
+fem_create_mesh_s_elems_created, fem_create_mesh_surfa_num_elems )
+$# UNDO: FEM Create Mesh Surface for Surface 11:15 17 18 14 19 20 1:10
+fem_create_mesh_surf_4( "IsoMesh", 49152,  @
+"Surface 11:15 17 18 14 19 20 1:10 16", 1, ["0.00745585"], "Tria3", "#", "#",  @
+"Coord 0", "Coord 0", fem_create_mesh_surfa_num_nodes,  @
+fem_create_mesh_surfa_num_elems, fem_create_mesh_s_nodes_created,  @
+fem_create_mesh_s_elems_created )
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 11.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 12.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 13.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 14.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 15.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 17.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 18.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 19.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 20.
+$# Smoothing took 3 cycle(s).
+$# 10 nodes and 9 elements created for Surface 1.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 2.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 3.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 4.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 5.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 6.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 7.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 8.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 9.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 10.
+$# Smoothing took 2 cycle(s).
+$# 10 nodes and 9 elements created for Surface 16.
+$# === 200 nodes created.  IDs  = 1640:1839.
+$# === 180 elements created.  IDs  = 1360:1539.
+fem_associate_elems_to_ep( "2D_Al7075_Bandeja_Inf_2mm",  @
+fem_create_mesh_s_elems_created, fem_create_mesh_surfa_num_elems )
+$# 180 Element(s) associated to the Element Property 2D_Al7075_Bandeja_Inf_2mm.
+ga_view_center_set( 0.189443, 0.015748 )
+ga_view_zoom_set( 0.289975 )
+ga_view_center_set( 0.236998, 0.046616 )
+ga_view_zoom_set( 0.326222 )
+ga_view_center_set( 0.290498, 0.081343 )
+ga_view_zoom_set( 0.367000 )
+ga_view_center_set( 0.350684, 0.120410 )
+ga_view_zoom_set( 0.412875 )
+ga_view_center_set( 0.290498, 0.081343 )
+ga_view_zoom_set( 0.367000 )
+ga_view_center_set( 0.236998, 0.046616 )
+ga_view_zoom_set( 0.326222 )
+ga_view_center_set( 0.189444, 0.015748 )
+ga_view_zoom_set( 0.289975 )
+ga_view_center_set( 0.113356, -0.033641 )
+ga_view_zoom_set( 0.231980 )
+ga_view_center_set( 0.079539, -0.055591 )
+ga_view_zoom_set( 0.206205 )
+ga_view_center_set( 0.049016, -0.074407 )
+ga_view_zoom_set( 0.183293 )
+ga_view_center_set( 0.021884, -0.091133 )
+ga_view_zoom_set( 0.162927 )
+ga_view_center_set( -0.021527, -0.117893 )
+ga_view_zoom_set( 0.130342 )
+ga_view_center_set( -0.056255, -0.139302 )
+ga_view_zoom_set( 0.104273 )
+ga_view_center_set( -0.071807, -0.148582 )
+ga_view_zoom_set( 0.092687 )
+ga_view_center_set( -0.085631, -0.156832 )
+ga_view_zoom_set( 0.082389 )
+ga_view_center_set( -0.097919, -0.164164 )
+ga_view_zoom_set( 0.073235 )
+ga_view_center_set( -0.108842, -0.170682 )
+ga_view_zoom_set( 0.065097 )
+ga_view_center_set( -0.099621, -0.165207 )
+ga_view_zoom_set( 0.073235 )
+ga_view_center_set( -0.089247, -0.159048 )
+ga_view_zoom_set( 0.082389 )
+ga_view_center_set( -0.077576, -0.152118 )
+ga_view_zoom_set( 0.092687 )
+ga_view_center_set( -0.064447, -0.144323 )
+ga_view_zoom_set( 0.104273 )
+ga_view_center_set( -0.049676, -0.135553 )
+ga_view_zoom_set( 0.117308 )
+ga_view_center_set( -0.033109, -0.125687 )
+ga_view_zoom_set( 0.131971 )
+ga_view_center_set( 0.004168, -0.103487 )
+ga_view_zoom_set( 0.164964 )
+ga_view_center_set( 0.027466, -0.089613 )
+ga_view_zoom_set( 0.185584 )
+ga_view_center_set( 0.053598, -0.074004 )
+ga_view_zoom_set( 0.208782 )
+ga_view_center_set( 0.082996, -0.056444 )
+ga_view_zoom_set( 0.234880 )
+ga_view_center_set( 0.090918, -0.062336 )
+ga_view_zoom_set( 0.264240 )
+ga_view_center_set( 0.099830, -0.068964 )
+ga_view_zoom_set( 0.297270 )
+ga_view_center_set( 0.109731, -0.076045 )
+ga_view_zoom_set( 0.334429 )
+ga_view_center_set( 0.120446, -0.082883 )
+ga_view_zoom_set( 0.376232 )
+ga_view_center_set( 0.108462, -0.076609 )
+ga_view_zoom_set( 0.334429 )
+ga_view_center_set( 0.097809, -0.071032 )
+ga_view_zoom_set( 0.297270 )
+ga_view_center_set( 0.088229, -0.066075 )
+ga_view_zoom_set( 0.264240 )
+ga_view_center_set( 0.067090, 0.010555 )
+ga_view_center_set( 0.087686, -0.003061 )
+ga_view_zoom_set( 0.234880 )
+ga_view_center_set( 0.105994, -0.015163 )
+ga_view_zoom_set( 0.208782 )
+ga_view_center_set( 0.122268, -0.025921 )
+ga_view_zoom_set( 0.185584 )
+ga_view_center_set( 0.136734, -0.035484 )
+ga_view_zoom_set( 0.164964 )
+ga_view_center_set( 0.149592, -0.043984 )
+ga_view_zoom_set( 0.146634 )
+ga_view_center_set( 0.161077, -0.051540 )
+ga_view_zoom_set( 0.130342 )
+ga_view_center_set( 0.171285, -0.058256 )
+ga_view_zoom_set( 0.115859 )
+ga_view_center_set( 0.180359, -0.064226 )
+ga_view_zoom_set( 0.102986 )
+ga_view_center_set( 0.194878, -0.073778 )
+ga_view_zoom_set( 0.082389 )
+ga_view_center_set( 0.200775, -0.078023 )
+ga_view_zoom_set( 0.073235 )
+ga_view_center_set( 0.205852, -0.081796 )
+ga_view_zoom_set( 0.065097 )
+ga_view_center_set( 0.213668, -0.087878 )
+ga_view_zoom_set( 0.052078 )
+ga_view_center_set( 0.214525, -0.085474 )
+ga_view_zoom_set( 0.058588 )
+ga_view_center_set( 0.215488, -0.082769 )
+ga_view_zoom_set( 0.065911 )
+ga_view_center_set( 0.218739, -0.073641 )
+ga_view_zoom_set( 0.090628 )
+ga_view_center_set( 0.220229, -0.069458 )
+ga_view_zoom_set( 0.101956 )
+ga_view_center_set( 0.222249, -0.064622 )
+ga_view_zoom_set( 0.114701 )
+ga_view_center_set( 0.224522, -0.059182 )
+ga_view_zoom_set( 0.129038 )
+ga_view_center_set( 0.229636, -0.046942 )
+ga_view_zoom_set( 0.161298 )
+ga_view_center_set( 0.232832, -0.039292 )
+ga_view_zoom_set( 0.181460 )
+ga_view_center_set( 0.236427, -0.030685 )
+ga_view_zoom_set( 0.204143 )
+ga_view_center_set( 0.259923, -0.024360 )
+ga_view_zoom_set( 0.229660 )
+ga_view_center_set( 0.286355, -0.017243 )
+ga_view_zoom_set( 0.258368 )
+ga_view_center_set( 0.316091, -0.009237 )
+ga_view_zoom_set( 0.290664 )
+ga_view_center_set( 0.159133, -0.006331 )
+ga_view_center_set( 0.165123, 0.003200 )
+ga_view_zoom_set( 0.258368 )
+ga_view_center_set( 0.170449, 0.011672 )
+ga_view_zoom_set( 0.229660 )
+ga_view_center_set( 0.175182, 0.019203 )
+ga_view_zoom_set( 0.204143 )
+ga_view_center_set( 0.179390, 0.025896 )
+ga_view_zoom_set( 0.181460 )
+ga_view_center_set( 0.175182, 0.019203 )
+ga_view_zoom_set( 0.204143 )
+ga_view_center_set( 0.170449, 0.011672 )
+ga_view_zoom_set( 0.229660 )
+ga_view_center_set( 0.165123, 0.003200 )
+ga_view_zoom_set( 0.258368 )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", FALSE )
+ga_view_aa_set( -23.020500, -8.212318, 3.718603 )
+ga_view_aa_set( -68.897202, 2.305815, -73.792557 )
+ga_view_center_set( 0.020489, -0.004838 )
+ga_view_zoom_set( 0.303750 )
+ga_view_aa_set( -57.402477, 6.197067, -66.792076 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( 0.000000, 0.030314 )
+ga_view_zoom_set( 0.341719 )
+ga_view_center_set( -0.023194, 0.069859 )
+ga_view_zoom_set( 0.384434 )
+ga_view_center_set( -0.049288, 0.114348 )
+ga_view_zoom_set( 0.432488 )
+ga_view_center_set( -0.016873, 0.076504 )
+ga_view_zoom_set( 0.384434 )
+ga_view_center_set( 0.011939, 0.042865 )
+ga_view_zoom_set( 0.341719 )
+ga_view_center_set( 0.037551, 0.012964 )
+ga_view_zoom_set( 0.303750 )
+ga_view_center_set( 0.060316, -0.013615 )
+ga_view_zoom_set( 0.270000 )
+ga_view_center_set( 0.080653, -0.037240 )
+ga_view_zoom_set( 0.240000 )
+ga_view_center_set( 0.028545, -0.040023 )
+ga_view_zoom_set( 0.270000 )
+ga_view_center_set( -0.023132, -0.041787 )
+ga_view_zoom_set( 0.303750 )
+ga_view_center_set( -0.001870, -0.008375 )
+mesh_seed_display_mgr.erase(  )
+verify_boundaries_display_mgr.initialize(  )
+verify_boundaries_display_mgr.plot( "Free_Edges" )
+verify_boundaries_display_mgr.plot( "Free_Faces" )
+verify_boundaries_display_mgr.plot( "Free_Edges" )
+verify_boundaries_display_mgr.erase(  )
+$# Acknowledgement requested from application FEM Verify
+$#     At this time, the test for ASPECT and JACOBIAN values are not 
+$# available for the MSC.Nastran preference.  Using the MSC.Patran tests.
+$? NO 11111 
+$# Acknowledgement requested from application FEM Verify
+$#     At this time, the test for ASPECT and JACOBIAN values are not 
+$# available for the MSC.Nastran preference.  Using the MSC.Patran tests.
+$? NO 11111 
+REAL fem_equiv_all_x_equivtol_ab
+INTEGER fem_equiv_all_x_segment
+fem_equiv_all_group4( [" "], 0, "", 1, 1, 4.9999999E-06, FALSE,  @
+fem_equiv_all_x_equivtol_ab, fem_equiv_all_x_segment )
+$# Realigning database with new node numbers...
+$# Database realignment completed.
+$# Geometric equivalencing completed. 359 nodes deleted.
+uil_primary_file.db_save(  )
+verify_boundaries_display_mgr.initialize(  )
+verify_boundaries_display_mgr.plot( "Free_Edges" )
+uil_primary_file.db_save(  )
+verify_boundaries_display_mgr.erase(  )
+ga_view_center_set( -0.024280, -0.025470 )
+ga_view_zoom_set( 0.341719 )
+ga_view_center_set( -0.001998, -0.008375 )
+ga_view_zoom_set( 0.303750 )
+ga_view_center_set( 0.017808, 0.006821 )
+ga_view_zoom_set( 0.270000 )
+uil_primary_file.db_save(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+STRING fem_renum_elem_new_ids[VIRTUAL]
+fem_renum_elem_1( "Elm 1360:1539", "3000", 2, fem_renum_elem_new_ids )
+$# 180 FEM entities renumbered.  New IDs are:  Element 3000:3179
+repaint_graphics(  )
+uil_primary_file.db_save(  )
+ga_view_center_set( 0.018605, 0.033059 )
+ga_view_zoom_set( 0.303750 )
+ga_view_center_set( 0.019373, 0.062704 )
+ga_view_zoom_set( 0.341719 )
+ga_view_center_set( 0.020238, 0.096055 )
+ga_view_zoom_set( 0.384434 )
+ga_view_center_set( 0.019806, 0.064865 )
+ga_view_zoom_set( 0.341719 )
+ga_view_center_set( 0.019421, 0.037141 )
+ga_view_zoom_set( 0.303750 )
+ga_view_center_set( 0.019080, 0.012497 )
+ga_view_zoom_set( 0.270000 )
+ga_view_center_set( 0.018776, -0.009409 )
+ga_view_zoom_set( 0.240000 )
+ga_view_center_set( 0.018596, -0.027981 )
+ga_view_zoom_set( 0.213333 )
+ga_view_center_set( 0.018437, -0.044490 )
+ga_view_zoom_set( 0.189630 )
+ga_view_center_set( 0.018365, -0.059164 )
+ga_view_zoom_set( 0.168560 )
+ga_view_center_set( 0.018429, -0.072840 )
+ga_view_zoom_set( 0.149831 )
+ga_view_center_set( 0.018766, -0.085950 )
+ga_view_zoom_set( 0.133183 )
+ga_view_center_set( 0.019115, -0.097654 )
+ga_view_zoom_set( 0.118385 )
+ga_view_center_set( 0.019426, -0.108146 )
+ga_view_zoom_set( 0.105231 )
+ga_view_center_set( 0.019071, -0.097432 )
+ga_view_zoom_set( 0.118385 )
+ga_view_center_set( 0.018671, -0.085379 )
+ga_view_zoom_set( 0.133183 )
+ga_view_center_set( 0.018222, -0.071819 )
+ga_view_zoom_set( 0.149831 )
+ga_view_center_set( 0.017717, -0.056565 )
+ga_view_zoom_set( 0.168560 )
+ga_view_center_set( 0.017148, -0.039403 )
+ga_view_zoom_set( 0.189630 )
+ga_view_center_set( 0.016509, -0.020096 )
+ga_view_zoom_set( 0.213333 )
+ga_view_center_set( 0.015789, 0.001624 )
+ga_view_zoom_set( 0.240000 )
+ga_view_center_set( 0.046548, -0.021895 )
+ga_view_zoom_set( 0.213333 )
+ga_view_center_set( 0.073889, -0.042801 )
+ga_view_zoom_set( 0.189630 )
+ga_view_center_set( 0.086183, -0.061597 )
+ga_view_zoom_set( 0.168560 )
+ga_view_center_set( 0.097111, -0.078304 )
+ga_view_zoom_set( 0.149831 )
+ga_view_center_set( 0.106824, -0.093155 )
+ga_view_zoom_set( 0.133183 )
+ga_view_center_set( 0.115708, -0.104060 )
+ga_view_zoom_set( 0.118385 )
+ga_view_center_set( 0.123605, -0.113754 )
+ga_view_zoom_set( 0.105231 )
+ga_view_center_set( 0.130624, -0.122370 )
+ga_view_zoom_set( 0.093539 )
+ga_view_center_set( 0.136864, -0.130029 )
+ga_view_zoom_set( 0.083145 )
+ga_view_center_set( 0.142410, -0.136838 )
+ga_view_zoom_set( 0.073907 )
+ga_view_center_set( 0.147340, -0.142889 )
+ga_view_zoom_set( 0.065695 )
+ga_view_center_set( 0.151722, -0.148268 )
+ga_view_zoom_set( 0.058396 )
+ga_view_center_set( 0.155617, -0.153050 )
+ga_view_zoom_set( 0.051907 )
+ga_view_center_set( 0.159080, -0.157300 )
+ga_view_zoom_set( 0.046140 )
+ga_view_center_set( 0.162209, -0.161009 )
+ga_view_zoom_set( 0.041013 )
+ga_view_center_set( 0.164991, -0.164306 )
+ga_view_zoom_set( 0.036456 )
+ga_view_center_set( 0.167464, -0.167236 )
+ga_view_zoom_set( 0.032405 )
+ga_view_center_set( 0.169662, -0.169841 )
+ga_view_zoom_set( 0.028805 )
+ga_view_center_set( 0.172080, -0.171811 )
+ga_view_zoom_set( 0.025604 )
+ga_view_center_set( 0.174229, -0.173562 )
+ga_view_zoom_set( 0.022759 )
+ga_view_center_set( 0.176140, -0.175118 )
+ga_view_zoom_set( 0.020231 )
+ga_view_center_set( 0.178306, -0.172991 )
+ga_view_zoom_set( 0.022759 )
+ga_view_center_set( 0.180743, -0.170577 )
+ga_view_zoom_set( 0.025604 )
+ga_view_center_set( 0.186270, -0.165040 )
+ga_view_zoom_set( 0.032005 )
+ga_view_center_set( 0.197078, -0.154374 )
+ga_view_zoom_set( 0.044007 )
+ga_view_center_set( 0.202087, -0.149485 )
+ga_view_zoom_set( 0.049508 )
+ga_view_center_set( 0.206387, -0.144236 )
+ga_view_zoom_set( 0.055697 )
+ga_view_center_set( 0.211036, -0.138635 )
+ga_view_zoom_set( 0.062659 )
+ga_view_center_set( 0.216187, -0.132573 )
+ga_view_zoom_set( 0.070491 )
+ga_view_center_set( 0.221952, -0.125812 )
+ga_view_zoom_set( 0.079303 )
+ga_view_center_set( 0.241310, -0.103897 )
+ga_view_zoom_set( 0.109041 )
+ga_view_center_set( 0.251515, -0.096381 )
+ga_view_zoom_set( 0.122672 )
+ga_view_center_set( 0.263048, -0.087925 )
+ga_view_zoom_set( 0.138005 )
+ga_view_center_set( 0.288997, -0.068783 )
+ga_view_zoom_set( 0.172507 )
+ga_view_center_set( 0.305215, -0.056820 )
+ga_view_zoom_set( 0.194070 )
+ga_view_center_set( 0.323542, -0.043443 )
+ga_view_zoom_set( 0.218329 )
+ga_view_center_set( 0.344160, -0.028394 )
+ga_view_zoom_set( 0.245620 )
+ga_view_center_set( 0.367355, -0.011463 )
+ga_view_zoom_set( 0.276323 )
+ga_view_center_set( 0.393449, 0.007583 )
+ga_view_zoom_set( 0.310863 )
+ga_view_center_set( -0.066628, -0.001742 )
+ga_view_aa_set( -78.979744, -0.328836, 1.796325 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+result_label_format_set( 1, 4 )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+ga_view_center_set( -0.090349, 0.010380 )
+ga_view_zoom_set( 0.349721 )
+ga_view_center_set( -0.117035, 0.024018 )
+ga_view_zoom_set( 0.393436 )
+ga_view_center_set( -0.147057, 0.039361 )
+ga_view_zoom_set( 0.442615 )
+ga_view_center_set( -0.180832, 0.056621 )
+ga_view_zoom_set( 0.497942 )
+ga_view_center_set( -0.218828, 0.076039 )
+ga_view_zoom_set( 0.560185 )
+ga_view_center_set( -0.180832, 0.056621 )
+ga_view_zoom_set( 0.497942 )
+ga_view_center_set( -0.147057, 0.039361 )
+ga_view_zoom_set( 0.442615 )
+ga_view_center_set( -0.117036, 0.024018 )
+ga_view_zoom_set( 0.393436 )
+ga_view_center_set( -0.069001, -0.000530 )
+ga_view_zoom_set( 0.314749 )
+ga_view_center_set( -0.047652, -0.011440 )
+ga_view_zoom_set( 0.279777 )
+ga_view_center_set( -0.028675, -0.021138 )
+ga_view_zoom_set( 0.248690 )
+ga_view_center_set( -0.011807, -0.029759 )
+ga_view_zoom_set( 0.221058 )
+ga_view_center_set( 0.015182, -0.043552 )
+ga_view_zoom_set( 0.176846 )
+ga_view_center_set( 0.027177, -0.049682 )
+ga_view_zoom_set( 0.157197 )
+ga_view_center_set( 0.037604, -0.054247 )
+ga_view_zoom_set( 0.139731 )
+ga_view_center_set( 0.046767, -0.058148 )
+ga_view_zoom_set( 0.124205 )
+ga_view_center_set( 0.054773, -0.061476 )
+ga_view_zoom_set( 0.110404 )
+ga_view_aa_set( -89.810898, -0.410471, 19.836386 )
+ga_view_center_set( 0.047605, -0.063780 )
+ga_view_zoom_set( 0.124205 )
+ga_view_aa_set( -71.253555, 3.128762, 16.550503 )
+ga_view_center_set( 0.046558, -0.064173 )
+ga_view_zoom_set( 0.139731 )
+ga_view_center_set( 0.044732, -0.065616 )
+ga_view_zoom_set( 0.157197 )
+ga_view_center_set( 0.047029, -0.063525 )
+ga_view_zoom_set( 0.139731 )
+ga_view_center_set( 0.049071, -0.061666 )
+ga_view_zoom_set( 0.124205 )
+ga_view_center_set( 0.052338, -0.058691 )
+ga_view_zoom_set( 0.099364 )
+ga_view_center_set( 0.053791, -0.057370 )
+ga_view_zoom_set( 0.088323 )
+ga_view_aa_set( -75.054092, 1.695911, 11.756911 )
+ga_view_center_set( 0.049136, -0.052771 )
+ga_view_zoom_set( 0.099364 )
+ga_view_center_set( 0.043900, -0.047597 )
+ga_view_zoom_set( 0.111784 )
+ga_view_center_set( 0.038009, -0.041777 )
+ga_view_zoom_set( 0.125757 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( 0.034510, -0.040797 )
+ga_view_zoom_set( 0.141477 )
+ga_view_center_set( 0.030573, -0.039693 )
+ga_view_zoom_set( 0.159162 )
+ga_view_center_set( 0.026145, -0.038452 )
+ga_view_zoom_set( 0.179057 )
+ga_view_center_set( 0.021162, -0.037055 )
+ga_view_zoom_set( 0.201439 )
+ga_view_center_set( 0.015557, -0.035484 )
+ga_view_zoom_set( 0.226619 )
+ga_view_center_set( 0.002946, -0.031949 )
+ga_view_zoom_set( 0.283274 )
+ga_view_center_set( -0.004936, -0.029740 )
+ga_view_zoom_set( 0.318683 )
+ga_view_center_set( 0.002946, -0.031949 )
+ga_view_zoom_set( 0.283274 )
+ga_view_center_set( 0.009952, -0.033913 )
+ga_view_zoom_set( 0.251799 )
+ga_view_center_set( 0.016180, -0.035659 )
+ga_view_zoom_set( 0.223821 )
+ga_view_center_set( 0.009952, -0.033913 )
+ga_view_zoom_set( 0.251799 )
+ga_view_center_set( 0.014988, 0.013929 )
+ga_view_center_set( -0.005155, 0.003857 )
+ga_view_center_set( 0.028177, 0.030130 )
+ga_view_zoom_set( 0.283274 )
+ga_view_center_set( 0.065079, 0.059210 )
+ga_view_zoom_set( 0.318683 )
+ga_view_center_set( 0.106325, 0.091521 )
+ga_view_zoom_set( 0.358518 )
+ga_view_center_set( 0.065079, 0.059210 )
+ga_view_zoom_set( 0.318683 )
+ga_view_center_set( 0.028416, 0.030488 )
+ga_view_zoom_set( 0.283274 )
+ga_view_center_set( -0.004174, 0.004958 )
+ga_view_zoom_set( 0.251799 )
+ga_view_center_set( -0.033142, -0.017735 )
+ga_view_zoom_set( 0.223821 )
+ga_view_center_set( -0.058556, -0.037069 )
+ga_view_zoom_set( 0.198952 )
+ga_view_center_set( -0.081147, -0.054254 )
+ga_view_zoom_set( 0.176846 )
+ga_view_center_set( -0.101227, -0.069529 )
+ga_view_zoom_set( 0.157197 )
+ga_view_center_set( -0.119076, -0.083108 )
+ga_view_zoom_set( 0.139731 )
+ga_view_center_set( -0.105056, -0.071297 )
+ga_view_zoom_set( 0.157197 )
+ga_view_center_set( -0.089283, -0.058009 )
+ga_view_zoom_set( 0.176846 )
+ga_view_center_set( -0.106655, -0.052753 )
+ga_view_zoom_set( 0.198952 )
+ga_view_center_set( -0.126198, -0.046840 )
+ga_view_zoom_set( 0.223821 )
+ga_view_center_set( -0.148184, -0.040188 )
+ga_view_zoom_set( 0.251799 )
+ga_view_center_set( -0.172918, -0.032704 )
+ga_view_zoom_set( 0.283274 )
+ga_view_center_set( -0.031281, 0.015453 )
+ga_view_center_set( -0.044776, 0.029127 )
+ga_view_zoom_set( 0.318683 )
+ga_view_aa_set( -4.001066, -1.999238, -0.052376 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.053732, 0.030620 )
+ga_view_zoom_set( 0.283274 )
+ga_view_center_set( -0.061694, 0.031947 )
+ga_view_zoom_set( 0.251799 )
+ga_view_center_set( -0.068771, 0.032560 )
+ga_view_zoom_set( 0.223821 )
+ga_view_center_set( -0.032960, 0.010178 )
+ga_view_center_set( -0.024656, 0.010414 )
+ga_view_zoom_set( 0.251799 )
+ga_view_center_set( -0.029692, 0.010414 )
+uil_primary_file.db_save(  )
+ga_view_center_set( -0.026613, 0.003248 )
+ga_view_zoom_set( 0.283274 )
+ga_view_center_set( -0.023150, -0.004813 )
+ga_view_zoom_set( 0.318683 )
+ga_view_center_set( -0.026613, 0.003248 )
+ga_view_zoom_set( 0.283274 )
+ga_view_center_set( -0.029692, 0.010414 )
+ga_view_zoom_set( 0.251799 )
+ga_view_center_set( -0.032428, 0.016783 )
+ga_view_zoom_set( 0.223821 )
+ga_view_center_set( -0.034861, 0.022445 )
+ga_view_zoom_set( 0.198952 )
+ga_view_center_set( -0.032428, 0.016783 )
+ga_view_zoom_set( 0.223821 )
+ga_view_center_set( -0.029503, 0.010320 )
+ga_view_zoom_set( 0.251799 )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179", FALSE )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", TRUE )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mesh_seed_display_mgr.erase(  )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179", TRUE )
+sys_poll_option( 2 )
+ga_group_create( "Bandeja_Inf" )
+ga_group_entity_add( "Bandeja_Inf", "Point 1:125 Curve 1:120 Surface 1:60 " // @
+"Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:1082 1084:1098 1100:111" // @
+"4 1116:1130 1132:1134 1136:1138 1140:1142 1144:1158 1160:1174 1176:1190 1" // @
+"192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1224:1238 1244:1254 1261" // @
+":1263 1265:1267 1269:1271 1277:1279 1281:1283 1285:1287 1293:1295 1297:12" // @
+"99 1301:1303 1309 1310 1313 1314 1317 1318 1324:1326 1328:1330 1332:1334 " // @
+"1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 1368:1370 1372:1374 137" // @
+"6:1378 1384:1386 1388:1390 1392:1394 1401 1402 1405 1406 1409 1410 1417:1" // @
+"419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1455 1457:1459 1461:1463" // @
+" 1469:1471 1473:1475 1477:1479 1485 1486 1489 1490 1493 1494 1500:1502 15" // @
+"04:1506 1508:1510 1516:1518 1520:1522 1528:1530 1532:1534 1536:1538 1545 " // @
+"1546 1549 1550 1553 1554 1565:1567 1569:1571 1581:1583 1585:1587 1589:159" // @
+"1 1597 1598 1601 1602 1605 1606 1612:1614 1616:1618 1629 1630 1633 1634 1" // @
+"640:1645 1652 1654 1655 1662 1664 1665 1672 1674 1675 1682 1684 1685 1687" // @
+":1689 1692 1694 1695 1702 1704 1705 1712 1714 1715 1722 1724 1725 1727:17" // @
+"29 1731 1732 1735 1742 1744 1745 1752 1754 1755 1762 1764 1765 1772 1774 " // @
+"1775 1777:1779 1784 1787 1788 1794 1797 1798 1804 1807 1808 1814 1817 181" // @
+"8 1824 1827 1828 1832 1834 1835 Elm 1000:1359 3000:3179" )
+ga_group_current_set( "Bandeja_Inf" )
+$# Group "Bandeja_Inf" created.
+sys_poll_option( 0 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, [ @
+"default_group"] )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_Inf"] )
+ga_group_entity_remove( "default_group",  @
+" Point 1:125 Curve 1:120 Surface 1:60 Node 1000:1015 1017:1031 1033:1047 " // @
+"1049:1063 1068:1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 114" // @
+"0:1142 1144:1158 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1" // @
+"206 1208:1222 1224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279" // @
+" 1281:1283 1285:1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 13" // @
+"17:1318 1324:1326 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:" // @
+"1358 1360:1362 1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:139" // @
+"4 1401:1402 1405:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1" // @
+"441:1443 1453:1455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485" // @
+":1486 1489:1490 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:15" // @
+"22 1528:1530 1532:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 " // @
+"1569:1571 1581:1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 161" // @
+"2:1614 1616:1618 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1" // @
+"665 1672 1674:1675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705" // @
+" 1712 1714:1715 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 17" // @
+"52 1754:1755 1762 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 " // @
+"1797:1798 1804 1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Ele" // @
+"ment 1000:1359 3000:3179" )
+$# Entities removed from Group "default_group":  Point 1:125 Curve 1:120 
+$# Surface 1:60 Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:1082 
+$# 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:1158 
+$# 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 
+$# 1224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 
+$# 1285:1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 
+$# 1324:1326 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 
+$# 1360:1362 1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 
+$# 1401:1402 1405:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 
+$# 1441:1443 1453:1455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 
+$# 1485:1486 1489:1490 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 
+$# 1520:1522 1528:1530 1532:1534 1536:1538 1545:1546 1549:1550 1553:1554 
+$# 1565:1567 1569:1571 1581:1583 1585:1587 1589:1591 1597:1598 1601:1602 
+$# 1605:1606 1612:1614 1616:1618 1629:1630 1633:1634 1640:1645 1652 1654:1655 
+$# 1662 1664:1665 1672 1674:1675 1682 1684:1685 1687:1689 1692 1694:1695 1702 
+$# 1704:1705 1712 1714:1715 1722 1724:1725 1727:1729 1731:1732 1735 1742 
+$# 1744:1745 1752 1754:1755 1762 1764:1765 1772 1774:1775 1777:1779 1784 
+$# 1787:1788 1794 1797:1798 1804 1807:1808 1814 1817:1818 1824 1827:1828 1832 
+$# 1834:1835 Element 1000:1359 3000:3179
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, [ @
+"default_group"] )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_Inf"] )
+ga_view_aa_set( 58.003197, 7.450809, -0.646272 )
+ga_view_aa_set( 30.336651, 17.525465, -11.915773 )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", FALSE )
+ga_view_aa_set( 5.214025, -5.155693, -4.366810 )
+ga_view_aa_set( -31.476906, 0.067024, 9.288082 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_aa_set( 0., 0., 0. )
+uil_primary_file.db_save(  )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", TRUE )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179", FALSE )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179", TRUE )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 21:120", 16384, 0.0099999998, "Bar2", "4000",  @
+"4000", "Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# 4 nodes and 3 elements created for Curve 21.
+$# 4 nodes and 3 elements created for Curve 22.
+$# 4 nodes and 3 elements created for Curve 23.
+$# 4 nodes and 3 elements created for Curve 24.
+$# 4 nodes and 3 elements created for Curve 25.
+$# 4 nodes and 3 elements created for Curve 26.
+$# 4 nodes and 3 elements created for Curve 27.
+$# 4 nodes and 3 elements created for Curve 28.
+$# 4 nodes and 3 elements created for Curve 29.
+$# 4 nodes and 3 elements created for Curve 30.
+$# 4 nodes and 3 elements created for Curve 31.
+$# 4 nodes and 3 elements created for Curve 32.
+$# 4 nodes and 3 elements created for Curve 33.
+$# 4 nodes and 3 elements created for Curve 34.
+$# 4 nodes and 3 elements created for Curve 35.
+$# 4 nodes and 3 elements created for Curve 36.
+$# 4 nodes and 3 elements created for Curve 37.
+$# 4 nodes and 3 elements created for Curve 38.
+$# 4 nodes and 3 elements created for Curve 39.
+$# 4 nodes and 3 elements created for Curve 40.
+$# 4 nodes and 3 elements created for Curve 41.
+$# 4 nodes and 3 elements created for Curve 42.
+$# 4 nodes and 3 elements created for Curve 43.
+$# 4 nodes and 3 elements created for Curve 44.
+$# 4 nodes and 3 elements created for Curve 45.
+$# 4 nodes and 3 elements created for Curve 46.
+$# 4 nodes and 3 elements created for Curve 47.
+$# 4 nodes and 3 elements created for Curve 48.
+$# 4 nodes and 3 elements created for Curve 49.
+$# 4 nodes and 3 elements created for Curve 50.
+$# 4 nodes and 3 elements created for Curve 51.
+$# 4 nodes and 3 elements created for Curve 52.
+$# 4 nodes and 3 elements created for Curve 53.
+$# 4 nodes and 3 elements created for Curve 54.
+$# 4 nodes and 3 elements created for Curve 55.
+$# 4 nodes and 3 elements created for Curve 56.
+$# 4 nodes and 3 elements created for Curve 57.
+$# 4 nodes and 3 elements created for Curve 58.
+$# 4 nodes and 3 elements created for Curve 59.
+$# 4 nodes and 3 elements created for Curve 60.
+$# 4 nodes and 3 elements created for Curve 61.
+$# 4 nodes and 3 elements created for Curve 62.
+$# 4 nodes and 3 elements created for Curve 63.
+$# 4 nodes and 3 elements created for Curve 64.
+$# 4 nodes and 3 elements created for Curve 65.
+$# 4 nodes and 3 elements created for Curve 66.
+$# 4 nodes and 3 elements created for Curve 67.
+$# 4 nodes and 3 elements created for Curve 68.
+$# 4 nodes and 3 elements created for Curve 69.
+$# 4 nodes and 3 elements created for Curve 70.
+$# 4 nodes and 3 elements created for Curve 71.
+$# 4 nodes and 3 elements created for Curve 72.
+$# 4 nodes and 3 elements created for Curve 73.
+$# 4 nodes and 3 elements created for Curve 74.
+$# 4 nodes and 3 elements created for Curve 75.
+$# 4 nodes and 3 elements created for Curve 76.
+$# 4 nodes and 3 elements created for Curve 77.
+$# 4 nodes and 3 elements created for Curve 78.
+$# 4 nodes and 3 elements created for Curve 79.
+$# 4 nodes and 3 elements created for Curve 80.
+$# 4 nodes and 3 elements created for Curve 81.
+$# 4 nodes and 3 elements created for Curve 82.
+$# 4 nodes and 3 elements created for Curve 83.
+$# 4 nodes and 3 elements created for Curve 84.
+$# 4 nodes and 3 elements created for Curve 85.
+$# 4 nodes and 3 elements created for Curve 86.
+$# 4 nodes and 3 elements created for Curve 87.
+$# 4 nodes and 3 elements created for Curve 88.
+$# 4 nodes and 3 elements created for Curve 89.
+$# 4 nodes and 3 elements created for Curve 90.
+$# 4 nodes and 3 elements created for Curve 91.
+$# 4 nodes and 3 elements created for Curve 92.
+$# 4 nodes and 3 elements created for Curve 93.
+$# 4 nodes and 3 elements created for Curve 94.
+$# 4 nodes and 3 elements created for Curve 95.
+$# 4 nodes and 3 elements created for Curve 96.
+$# 4 nodes and 3 elements created for Curve 97.
+$# 4 nodes and 3 elements created for Curve 98.
+$# 4 nodes and 3 elements created for Curve 99.
+$# 4 nodes and 3 elements created for Curve 100.
+$# 4 nodes and 3 elements created for Curve 101.
+$# 4 nodes and 3 elements created for Curve 102.
+$# 4 nodes and 3 elements created for Curve 103.
+$# 4 nodes and 3 elements created for Curve 104.
+$# 4 nodes and 3 elements created for Curve 105.
+$# 4 nodes and 3 elements created for Curve 106.
+$# 4 nodes and 3 elements created for Curve 107.
+$# 4 nodes and 3 elements created for Curve 108.
+$# 4 nodes and 3 elements created for Curve 109.
+$# 4 nodes and 3 elements created for Curve 110.
+$# 4 nodes and 3 elements created for Curve 111.
+$# 4 nodes and 3 elements created for Curve 112.
+$# 4 nodes and 3 elements created for Curve 113.
+$# 4 nodes and 3 elements created for Curve 114.
+$# 4 nodes and 3 elements created for Curve 115.
+$# 4 nodes and 3 elements created for Curve 116.
+$# 4 nodes and 3 elements created for Curve 117.
+$# 4 nodes and 3 elements created for Curve 118.
+$# 4 nodes and 3 elements created for Curve 119.
+$# 4 nodes and 3 elements created for Curve 120.
+$# === 400 nodes created.  IDs  = 4000:4399.
+$# === 300 elements created.  IDs  = 4000:4299.
+fem_associate_elems_to_ep( "1D_Al7075_Rig_in",  @
+fem_create_mesh_c_elems_created, fem_create_mesh_curve_num_elems )
+$# 300 Element(s) associated to the Element Property 1D_Al7075_Rig_in.
+$# UNDO: FEM Create Mesh Curve for Curve 6:20 1:5
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 6:20 1:5", 16384, 0.0099999998, "Bar2", "4500", @
+ "4500", "Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# 4 nodes and 3 elements created for Curve 6.
+$# 4 nodes and 3 elements created for Curve 7.
+$# 4 nodes and 3 elements created for Curve 8.
+$# 4 nodes and 3 elements created for Curve 9.
+$# 4 nodes and 3 elements created for Curve 10.
+$# 4 nodes and 3 elements created for Curve 11.
+$# 4 nodes and 3 elements created for Curve 12.
+$# 4 nodes and 3 elements created for Curve 13.
+$# 4 nodes and 3 elements created for Curve 14.
+$# 4 nodes and 3 elements created for Curve 15.
+$# 4 nodes and 3 elements created for Curve 16.
+$# 4 nodes and 3 elements created for Curve 17.
+$# 4 nodes and 3 elements created for Curve 18.
+$# 4 nodes and 3 elements created for Curve 19.
+$# 4 nodes and 3 elements created for Curve 20.
+$# 4 nodes and 3 elements created for Curve 1.
+$# 4 nodes and 3 elements created for Curve 2.
+$# 4 nodes and 3 elements created for Curve 3.
+$# 4 nodes and 3 elements created for Curve 4.
+$# 4 nodes and 3 elements created for Curve 5.
+$# === 80 nodes created.  IDs  = 4500:4579.
+$# === 60 elements created.  IDs  = 4500:4559.
+fem_associate_elems_to_ep( "1D_Al7075_Rig_out",  @
+fem_create_mesh_c_elems_created, fem_create_mesh_curve_num_elems )
+$# 60 Element(s) associated to the Element Property 1D_Al7075_Rig_out.
+ga_view_aa_set( 131.722778, 2.911979, -77.294563 )
+ga_view_aa_set( -56.384151, 1.027548, -139.027908 )
+ga_view_aa_set( -66.735657, -5.936863, -148.905762 )
+ga_view_center_set( 0.000465, 0.013410 )
+ga_view_zoom_set( 0.309825 )
+ga_view_center_set( 0.000595, 0.028496 )
+ga_view_zoom_set( 0.348553 )
+ga_view_center_set( 0.000465, 0.013410 )
+ga_view_zoom_set( 0.309825 )
+ga_view_center_set( 0.000348, 0.000000 )
+ga_view_zoom_set( 0.275400 )
+ga_view_center_set( 0.000245, -0.011920 )
+ga_view_zoom_set( 0.244800 )
+ga_view_center_set( 0.000080, -0.030992 )
+ga_view_zoom_set( 0.195840 )
+ga_view_center_set( 0.000007, -0.039469 )
+ga_view_zoom_set( 0.174080 )
+ga_view_center_set( -0.000059, -0.047003 )
+ga_view_zoom_set( 0.154738 )
+ga_view_center_set( -0.000163, -0.059059 )
+ga_view_zoom_set( 0.123790 )
+ga_view_center_set( -0.000209, -0.064417 )
+ga_view_zoom_set( 0.110036 )
+ga_view_aa_set( -73.944824, 1.933017, -122.035034 )
+ga_view_aa_set( -97.904655, 0.617594, -121.935829 )
+ga_view_center_set( 0.018497, -0.042410 )
+ga_view_aa_set( -79.937805, -0.457569, -120.911636 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 0 )
+ga_display_beam_set( "general", 0 )
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+ga_view_aa_set( -38.947701, -0.006776, -121.292686 )
+ga_view_center_set( 0.003601, 0.009916 )
+ga_view_zoom_set( 0.152520 )
+ga_view_center_set( 0.007652, 0.020815 )
+ga_view_zoom_set( 0.171585 )
+ga_view_center_set( 0.012137, 0.033293 )
+ga_view_zoom_set( 0.193033 )
+ga_view_center_set( 0.017182, 0.047331 )
+ga_view_zoom_set( 0.217162 )
+ga_view_aa_set( -62.225597, -4.705530, -134.552841 )
+ga_view_aa_set( -68.596687, 0.154681, -118.293007 )
+ga_view_center_set( 0.015351, 0.067244 )
+ga_view_zoom_set( 0.244308 )
+ga_view_center_set( 0.013291, 0.089646 )
+ga_view_zoom_set( 0.274846 )
+ga_view_center_set( 0.015660, 0.068274 )
+ga_view_zoom_set( 0.244308 )
+ga_view_center_set( 0.017766, 0.049277 )
+ga_view_zoom_set( 0.217162 )
+ga_view_center_set( 0.019637, 0.032391 )
+ga_view_zoom_set( 0.193033 )
+ga_view_center_set( 0.021301, 0.017381 )
+ga_view_zoom_set( 0.171585 )
+ga_view_center_set( 0.022780, 0.004038 )
+ga_view_zoom_set( 0.152520 )
+ga_view_center_set( 0.023352, -0.007707 )
+ga_view_zoom_set( 0.135573 )
+ga_view_center_set( 0.023860, -0.018148 )
+ga_view_zoom_set( 0.120510 )
+ga_view_center_set( 0.024311, -0.027428 )
+ga_view_zoom_set( 0.107120 )
+mesh_seed_display_mgr.erase(  )
+elementprops_modify( "1D_Al7075_Rig_in", "1D_Al7075_Rig_in", 11, 2, 42, 1, 1,  @
+20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045,  @
+4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111,  @
+4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], [ @
+"Section_rig_in_13x5", "m:Al7075", "<0. 0. 1.>", "<0. 0. -0.008>",  @
+"<0. 0. -0.008>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis", "Analysis" @
+], "Element 4000:4299" )
+$# Property Set "1D_Al7075_Rig_in" modified.
+elementprops_modify( "1D_Al7075_Rig_out", "1D_Al7075_Rig_out", 11, 2, 42, 1,  @
+1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045,  @
+4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111,  @
+4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], [ @
+"Section_rig_in_13x9.5", "m:Al7075", "<0. 0. 1.>", "<0. 0. -0.008>",  @
+"<0. 0. -0.008>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis", "Analysis" @
+], "Element 4500:4559" )
+$# Property Set "1D_Al7075_Rig_out" modified.
+ga_view_aa_set( -116.213509, -13.091688, -90.097885 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -111.568375, -2.551979, -105.959793 )
+ga_view_aa_set( -63.371841, -4.148604, -104.790253 )
+ga_view_aa_set( -97.690887, -2.481041, -120.020798 )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+verify_boundaries_display_mgr.initialize(  )
+verify_boundaries_display_mgr.plot( "Free_Edges" )
+ga_view_aa_set( -51.812595, 3.096622, -114.908302 )
+verify_boundaries_display_mgr.erase(  )
+verify_normals_display_mgr.initialize(  )
+ga_view_aa_set( -82.799484, -2.721256, -126.527206 )
+ga_view_aa_set( -73.560020, -1.835128, -120.589302 )
+STRING fem_verify_normals_group_name[32]
+INTEGER fem_verify_normals_table_id
+fem_verify_element_normals( FALSE, TRUE, "", fem_verify_normals_group_name,  @
+fem_verify_normals_table_id )
+$# There are NO reversed normals in group Bandeja_Inf.
+res_data_load_elem_scalar( 0, fem_verify_normals_table_id )
+res_data_title( 0, "ENodal", "Scalar", 1, [""] )
+res_display_fringe_create( "", "FreeFaces", 1, ["GR:Bandeja_Inf"], 12, [ @
+"Range:_", "RangeOverwrite:OFF", "FringeStyle:Discrete/Smooth", "Shade:None",  @
+"ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None", "ScaleFactor:1.0",  @
+"LabelStyle:Exponential,12,White,3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+ga_view_aa_set( -85.140694, -3.895413, -131.385025 )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", FALSE )
+ga_view_aa_set( -69.093216, -5.036022, -125.409081 )
+verify_normals_display_mgr.erase( TRUE, FALSE )
+$# Acknowledgement requested from application FEM Verify
+$#     At this time, the test for ASPECT and JACOBIAN values are not 
+$# available for the MSC.Nastran preference.  Using the MSC.Patran tests.
+$? NO 11111 
+verify_normals_display_mgr.initialize(  )
+verify_boundaries_display_mgr.initialize(  )
+verify_boundaries_display_mgr.plot( "Free_Edges" )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 4000:4399 4500:457" // @
+"9 Element 1000:1359 3000:3179 4000:4299 4500:4559", FALSE )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 4000:4399 4500:457" // @
+"9 Element 1000:1359 3000:3179 4000:4299 4500:4559", TRUE )
+node_size( 9 )
+node_size( 0 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 0 )
+ga_display_beam_set( "general", 0 )
+sys_poll_option( 0 )
+verify_boundaries_display_mgr.erase(  )
+REAL fem_equiv_all_x_equivtol_ab
+fem_equiv_all_group4( [" "], 0, "", 1, 1, 4.9999999E-06, FALSE,  @
+fem_equiv_all_x_equivtol_ab, fem_equiv_all_x_segment )
+$# Realigning database with new node numbers...
+$# Database realignment completed.
+$# Geometric equivalencing completed. 480 nodes deleted.
+verify_boundaries_display_mgr.initialize(  )
+verify_boundaries_display_mgr.plot( "Free_Edges" )
+ga_view_center_set( -0.038559, -0.002762 )
+ga_view_zoom_set( 0.151986 )
+ga_view_center_set( -0.000398, -0.000854 )
+ga_view_zoom_set( 0.135099 )
+verify_boundaries_display_mgr.erase(  )
+REAL fem_equiv_all_x_equivtol_ab
+fem_equiv_all_group4( [" "], 0, "", 1, 1, 4.9999999E-06, FALSE,  @
+fem_equiv_all_x_equivtol_ab, fem_equiv_all_x_segment )
+$# Geometric equivalencing completed. 0 nodes deleted.
+uil_primary_file.db_save(  )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+ga_view_aa_set( -111.998177, -6.882457, -140.802261 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -79.458389, -4.720538, -127.345306 )
+ga_view_center_set( 0.020298, 0.002138 )
+ga_view_zoom_set( 0.152853 )
+ga_view_center_set( 0.042981, 0.003846 )
+ga_view_zoom_set( 0.171960 )
+ga_view_center_set( 0.022231, 0.000978 )
+ga_view_zoom_set( 0.152853 )
+ga_view_center_set( 0.003787, -0.001571 )
+ga_view_zoom_set( 0.135869 )
+ga_view_center_set( -0.012608, -0.003836 )
+ga_view_zoom_set( 0.120773 )
+ga_view_center_set( -0.027001, -0.006167 )
+ga_view_zoom_set( 0.107354 )
+ga_view_center_set( -0.039794, -0.008239 )
+ga_view_zoom_set( 0.095425 )
+ga_view_center_set( -0.051165, -0.010081 )
+ga_view_zoom_set( 0.084823 )
+ga_view_center_set( -0.061051, -0.011654 )
+ga_view_zoom_set( 0.075398 )
+ga_view_center_set( -0.069838, -0.013053 )
+ga_view_zoom_set( 0.067020 )
+ga_view_center_set( -0.077649, -0.014296 )
+ga_view_zoom_set( 0.059574 )
+ga_view_center_set( -0.084659, -0.015424 )
+ga_view_zoom_set( 0.052954 )
+ga_view_aa_set( -79.085541, 3.573560, -150.063522 )
+ga_view_center_set( -0.091248, -0.016465 )
+ga_view_zoom_set( 0.047071 )
+ga_view_center_set( -0.097174, -0.017462 )
+ga_view_zoom_set( 0.041840 )
+ga_view_center_set( -0.102443, -0.018348 )
+ga_view_zoom_set( 0.037192 )
+ga_view_center_set( -0.107126, -0.019135 )
+ga_view_zoom_set( 0.033059 )
+ga_view_center_set( -0.111288, -0.019835 )
+ga_view_zoom_set( 0.029386 )
+ga_view_center_set( -0.115010, -0.020501 )
+ga_view_zoom_set( 0.026121 )
+ga_view_center_set( -0.118319, -0.021094 )
+ga_view_zoom_set( 0.023218 )
+ga_view_center_set( -0.121260, -0.021620 )
+ga_view_zoom_set( 0.020639 )
+ga_view_center_set( -0.123781, -0.022204 )
+ga_view_zoom_set( 0.018345 )
+ga_view_center_set( -0.126029, -0.022723 )
+ga_view_zoom_set( 0.016307 )
+ga_view_center_set( -0.126053, -0.023465 )
+ga_view_zoom_set( 0.014495 )
+ga_view_center_set( -0.126075, -0.024125 )
+ga_view_zoom_set( 0.012885 )
+ga_view_center_set( -0.126094, -0.024712 )
+ga_view_zoom_set( 0.011453 )
+ga_view_center_set( -0.126112, -0.025234 )
+ga_view_zoom_set( 0.010180 )
+ga_view_center_set( -0.126127, -0.025697 )
+ga_view_zoom_set( 0.009049 )
+ga_view_center_set( -0.126140, -0.026109 )
+ga_view_zoom_set( 0.008044 )
+ga_view_center_set( -0.126153, -0.026475 )
+ga_view_zoom_set( 0.007150 )
+ga_view_center_set( -0.126163, -0.026801 )
+ga_view_zoom_set( 0.006356 )
+ga_view_center_set( -0.126173, -0.027090 )
+ga_view_zoom_set( 0.005649 )
+ga_view_center_set( -0.126181, -0.027347 )
+ga_view_zoom_set( 0.005022 )
+ga_view_center_set( -0.126100, -0.027832 )
+ga_view_zoom_set( 0.004464 )
+ga_view_center_set( -0.126028, -0.028263 )
+ga_view_zoom_set( 0.003968 )
+ga_view_center_set( -0.125964, -0.028646 )
+ga_view_zoom_set( 0.003527 )
+ga_view_center_set( -0.125908, -0.028986 )
+ga_view_zoom_set( 0.003135 )
+ga_view_center_set( -0.125857, -0.029288 )
+ga_view_zoom_set( 0.002787 )
+ga_view_center_set( -0.125812, -0.029557 )
+ga_view_zoom_set( 0.002477 )
+ga_view_center_set( -0.125772, -0.029796 )
+ga_view_zoom_set( 0.002202 )
+ga_view_center_set( -0.125737, -0.030009 )
+ga_view_zoom_set( 0.001957 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 0 )
+ga_display_beam_set( "general", 0 )
+sys_poll_option( 0 )
+ga_view_aa_set( -26.029160, 3.248930, -151.011047 )
+ga_view_aa_set( 180., 90., 180. )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( 23., 56., 0. )
+ga_view_aa_set( 180., -90., 180. )
+ga_view_aa_set( -67., 0., -34. )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_center_set( 0.021460, -0.007796 )
+ga_view_zoom_set( 0.149130 )
+ga_view_center_set( 0.045791, -0.016315 )
+ga_view_zoom_set( 0.167772 )
+ga_view_center_set( 0.073234, -0.025828 )
+ga_view_zoom_set( 0.188743 )
+ga_view_center_set( 0.045791, -0.016315 )
+ga_view_zoom_set( 0.167772 )
+ga_view_center_set( 0.021397, -0.007859 )
+ga_view_zoom_set( 0.149130 )
+ga_view_center_set( -0.000286, -0.000342 )
+ga_view_zoom_set( 0.132560 )
+ga_view_center_set( -0.019561, 0.006339 )
+ga_view_zoom_set( 0.117831 )
+ga_view_center_set( -0.037444, 0.011704 )
+ga_view_zoom_set( 0.104739 )
+ga_view_center_set( -0.053811, 0.016198 )
+ga_view_zoom_set( 0.093101 )
+ga_view_center_set( -0.080627, 0.022824 )
+ga_view_zoom_set( 0.074481 )
+ga_view_center_set( -0.096118, 0.019460 )
+ga_view_zoom_set( 0.066205 )
+ga_view_center_set( -0.109739, 0.016396 )
+ga_view_zoom_set( 0.058849 )
+ga_view_center_set( -0.131135, 0.011454 )
+ga_view_zoom_set( 0.047079 )
+ga_view_center_set( -0.140591, 0.009258 )
+ga_view_zoom_set( 0.041848 )
+ga_view_center_set( -0.148715, 0.007274 )
+ga_view_zoom_set( 0.037199 )
+ga_view_center_set( -0.155935, 0.005510 )
+ga_view_zoom_set( 0.033065 )
+ga_view_center_set( -0.162354, 0.003943 )
+ga_view_zoom_set( 0.029391 )
+ga_view_center_set( -0.176358, 0.000523 )
+ga_view_zoom_set( 0.021376 )
+ga_view_center_set( -0.180435, -0.000482 )
+ga_view_zoom_set( 0.019001 )
+ga_view_center_set( -0.184060, -0.001376 )
+ga_view_zoom_set( 0.016889 )
+ga_view_center_set( -0.187281, -0.002170 )
+ga_view_zoom_set( 0.015013 )
+ga_view_center_set( -0.194268, -0.003876 )
+ga_view_zoom_set( 0.010918 )
+ga_view_center_set( -0.196159, -0.004340 )
+ga_view_zoom_set( 0.009705 )
+ga_view_center_set( -0.197839, -0.004753 )
+ga_view_zoom_set( 0.008627 )
+ga_view_center_set( -0.199333, -0.005120 )
+ga_view_zoom_set( 0.007668 )
+ga_view_center_set( -0.202591, -0.005920 )
+ga_view_zoom_set( 0.005577 )
+ga_view_center_set( -0.203540, -0.006153 )
+ga_view_zoom_set( 0.004957 )
+ga_view_center_set( -0.204384, -0.006360 )
+ga_view_zoom_set( 0.004406 )
+ga_view_center_set( -0.205730, -0.006692 )
+ga_view_zoom_set( 0.003525 )
+ga_view_center_set( -0.207189, -0.007050 )
+ga_view_zoom_set( 0.002564 )
+ga_view_center_set( -0.207587, -0.007150 )
+ga_view_zoom_set( 0.002279 )
+ga_view_center_set( -0.207941, -0.007240 )
+ga_view_zoom_set( 0.002026 )
+ga_view_center_set( -0.208712, -0.007434 )
+ga_view_zoom_set( 0.001473 )
+ga_view_center_set( -0.208938, -0.007491 )
+ga_view_zoom_set( 0.001310 )
+ga_view_center_set( -0.209057, -0.007542 )
+ga_view_zoom_set( 0.001164 )
+ga_view_center_set( -0.209163, -0.007587 )
+ga_view_zoom_set( 0.001035 )
+ga_view_center_set( -0.209333, -0.007659 )
+ga_view_zoom_set( 0.000828 )
+ga_view_center_set( -0.209407, -0.007691 )
+ga_view_zoom_set( 0.000736 )
+ga_view_center_set( -0.209471, -0.007719 )
+ga_view_zoom_set( 0.000654 )
+ga_view_center_set( -0.209503, -0.007742 )
+ga_view_zoom_set( 0.000581 )
+ga_view_center_set( -0.209531, -0.007763 )
+ga_view_zoom_set( 0.000517 )
+ga_view_center_set( -0.209577, -0.007797 )
+ga_view_zoom_set( 0.000413 )
+ga_view_center_set( -0.209597, -0.007812 )
+ga_view_zoom_set( 0.000367 )
+ga_view_center_set( -0.209627, -0.007828 )
+ga_view_zoom_set( 0.000327 )
+ga_view_center_set( -0.209656, -0.007842 )
+ga_view_zoom_set( 0.000290 )
+ga_view_center_set( -0.209682, -0.007855 )
+ga_view_zoom_set( 0.000258 )
+ga_view_center_set( -0.209706, -0.007867 )
+ga_view_zoom_set( 0.000229 )
+ga_view_center_set( -0.209745, -0.007885 )
+ga_view_zoom_set( 0.000184 )
+ga_view_center_set( -0.209773, -0.007895 )
+ga_view_zoom_set( 0.000163 )
+ga_view_center_set( -0.209797, -0.007903 )
+ga_view_zoom_set( 0.000145 )
+ga_view_center_set( -0.209819, -0.007910 )
+ga_view_zoom_set( 0.000129 )
+ga_view_center_set( -0.209840, -0.007917 )
+ga_view_zoom_set( 0.000115 )
+ga_view_center_set( -0.209860, -0.007923 )
+ga_view_zoom_set( 0.000102 )
+ga_view_center_set( -0.209879, -0.007928 )
+ga_view_zoom_set( 0.000091 )
+ga_view_center_set( -0.209895, -0.007933 )
+ga_view_zoom_set( 0.000080 )
+ga_view_center_set( -0.209909, -0.007937 )
+ga_view_zoom_set( 0.000072 )
+ga_view_center_set( -0.209922, -0.007941 )
+ga_view_zoom_set( 0.000064 )
+ga_view_center_set( -0.209933, -0.007944 )
+ga_view_zoom_set( 0.000057 )
+ga_view_center_set( -0.209943, -0.007947 )
+ga_view_zoom_set( 0.000050 )
+ga_view_center_set( -0.209952, -0.007950 )
+ga_view_zoom_set( 0.000045 )
+ga_view_center_set( -0.209966, -0.007954 )
+ga_view_zoom_set( 0.000036 )
+ga_view_center_set( -0.209972, -0.007955 )
+ga_view_zoom_set( 0.000032 )
+ga_view_center_set( -0.209976, -0.007957 )
+ga_view_zoom_set( 0.000028 )
+ga_view_center_set( -0.209979, -0.007958 )
+ga_view_zoom_set( 0.000025 )
+ga_view_center_set( -0.209984, -0.007960 )
+ga_view_zoom_set( 0.000020 )
+ga_view_center_set( -0.209988, -0.007961 )
+ga_view_zoom_set( 0.000016 )
+ga_view_center_set( -0.209989, -0.007962 )
+ga_view_zoom_set( 0.000014 )
+ga_view_center_set( -0.209990, -0.007963 )
+ga_view_zoom_set( 0.000013 )
+ga_view_center_set( -0.209992, -0.007964 )
+ga_view_zoom_set( 0.000010 )
+ga_view_center_set( -0.209993, -0.007964 )
+ga_view_zoom_set( 0.000009 )
+ga_view_center_set( -0.209994, -0.007964 )
+ga_view_zoom_set( 0.000008 )
+ga_view_center_set( -0.209994, -0.007965 )
+ga_view_zoom_set( 0.000007 )
+ga_view_center_set( -0.209995, -0.007965 )
+ga_view_zoom_set( 0.000006 )
+ga_view_center_set( -0.209996, -0.007966 )
+ga_view_zoom_set( 0.000005 )
+ga_view_center_set( -0.209997, -0.007966 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( -0.209997, -0.007966 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( -0.209997, -0.007966 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( -0.209998, -0.007967 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( -0.209998, -0.007967 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( -0.209998, -0.007967 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( -0.209997, -0.007967 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( -0.209997, -0.007966 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( -0.209996, -0.007966 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( -0.209996, -0.007966 )
+ga_view_zoom_set( 0.000005 )
+ga_view_center_set( -0.209995, -0.007965 )
+ga_view_zoom_set( 0.000005 )
+ga_view_center_set( -0.209995, -0.007965 )
+ga_view_zoom_set( 0.000006 )
+ga_view_center_set( -0.209994, -0.007964 )
+ga_view_zoom_set( 0.000007 )
+ga_view_center_set( -0.209993, -0.007964 )
+ga_view_zoom_set( 0.000008 )
+ga_view_center_set( -0.209992, -0.007964 )
+ga_view_zoom_set( 0.000009 )
+ga_view_center_set( -0.209991, -0.007963 )
+ga_view_zoom_set( 0.000010 )
+ga_view_center_set( -0.209989, -0.007962 )
+ga_view_zoom_set( 0.000013 )
+ga_view_center_set( -0.209987, -0.007961 )
+ga_view_zoom_set( 0.000015 )
+ga_view_center_set( -0.209986, -0.007960 )
+ga_view_zoom_set( 0.000016 )
+ga_view_center_set( -0.209984, -0.007959 )
+ga_view_zoom_set( 0.000018 )
+ga_view_center_set( -0.209982, -0.007958 )
+ga_view_zoom_set( 0.000021 )
+ga_view_center_set( -0.209978, -0.007956 )
+ga_view_zoom_set( 0.000026 )
+ga_view_center_set( -0.209975, -0.007954 )
+ga_view_zoom_set( 0.000029 )
+ga_view_center_set( -0.209972, -0.007952 )
+ga_view_zoom_set( 0.000033 )
+ga_view_center_set( -0.209965, -0.007948 )
+ga_view_zoom_set( 0.000041 )
+ga_view_center_set( -0.209961, -0.007946 )
+ga_view_zoom_set( 0.000046 )
+ga_view_center_set( -0.209956, -0.007943 )
+ga_view_zoom_set( 0.000052 )
+ga_view_center_set( -0.209951, -0.007940 )
+ga_view_zoom_set( 0.000059 )
+ga_view_center_set( -0.209945, -0.007937 )
+ga_view_zoom_set( 0.000066 )
+ga_view_center_set( -0.209938, -0.007933 )
+ga_view_zoom_set( 0.000074 )
+ga_view_center_set( -0.209931, -0.007928 )
+ga_view_zoom_set( 0.000083 )
+ga_view_center_set( -0.209923, -0.007923 )
+ga_view_zoom_set( 0.000094 )
+ga_view_center_set( -0.209913, -0.007917 )
+ga_view_zoom_set( 0.000105 )
+ga_view_center_set( -0.209893, -0.007904 )
+ga_view_zoom_set( 0.000132 )
+ga_view_center_set( -0.209880, -0.007896 )
+ga_view_zoom_set( 0.000148 )
+ga_view_center_set( -0.209865, -0.007887 )
+ga_view_zoom_set( 0.000167 )
+ga_view_center_set( -0.209849, -0.007877 )
+ga_view_zoom_set( 0.000188 )
+ga_view_center_set( -0.209831, -0.007865 )
+ga_view_zoom_set( 0.000211 )
+ga_view_center_set( -0.209810, -0.007852 )
+ga_view_zoom_set( 0.000238 )
+ga_view_center_set( -0.209787, -0.007837 )
+ga_view_zoom_set( 0.000267 )
+ga_view_center_set( -0.209761, -0.007821 )
+ga_view_zoom_set( 0.000301 )
+ga_view_center_set( -0.209731, -0.007802 )
+ga_view_zoom_set( 0.000338 )
+ga_view_center_set( -0.209698, -0.007781 )
+ga_view_zoom_set( 0.000381 )
+ga_view_center_set( -0.209661, -0.007758 )
+ga_view_zoom_set( 0.000428 )
+ga_view_center_set( -0.209619, -0.007732 )
+ga_view_zoom_set( 0.000482 )
+ga_view_center_set( -0.209572, -0.007702 )
+ga_view_zoom_set( 0.000542 )
+ga_view_center_set( -0.209466, -0.007635 )
+ga_view_zoom_set( 0.000677 )
+ga_view_center_set( -0.209400, -0.007593 )
+ga_view_zoom_set( 0.000762 )
+ga_view_center_set( -0.209325, -0.007546 )
+ga_view_zoom_set( 0.000857 )
+ga_view_center_set( -0.209241, -0.007493 )
+ga_view_zoom_set( 0.000964 )
+ga_view_center_set( -0.209147, -0.007433 )
+ga_view_zoom_set( 0.001085 )
+ga_view_center_set( -0.209041, -0.007366 )
+ga_view_zoom_set( 0.001220 )
+ga_view_center_set( -0.208921, -0.007291 )
+ga_view_zoom_set( 0.001373 )
+ga_view_center_set( -0.208653, -0.007122 )
+ga_view_zoom_set( 0.001716 )
+ga_view_center_set( -0.208485, -0.007016 )
+ga_view_zoom_set( 0.001931 )
+ga_view_center_set( -0.208296, -0.006896 )
+ga_view_zoom_set( 0.002172 )
+ga_view_center_set( -0.208084, -0.006762 )
+ga_view_zoom_set( 0.002444 )
+ga_view_center_set( -0.207606, -0.006460 )
+ga_view_zoom_set( 0.003055 )
+ga_view_center_set( -0.207307, -0.006272 )
+ga_view_zoom_set( 0.003436 )
+ga_view_center_set( -0.206971, -0.006059 )
+ga_view_zoom_set( 0.003866 )
+ga_view_center_set( -0.206593, -0.005821 )
+ga_view_zoom_set( 0.004349 )
+ga_view_center_set( -0.205742, -0.005283 )
+ga_view_zoom_set( 0.005436 )
+ga_view_center_set( -0.205210, -0.004948 )
+ga_view_zoom_set( 0.006116 )
+ga_view_center_set( -0.204612, -0.004570 )
+ga_view_zoom_set( 0.006880 )
+ga_view_center_set( -0.203939, -0.004145 )
+ga_view_zoom_set( 0.007741 )
+ga_view_center_set( -0.202425, -0.003189 )
+ga_view_zoom_set( 0.009676 )
+ga_view_center_set( -0.201479, -0.002591 )
+ga_view_zoom_set( 0.010885 )
+ga_view_center_set( -0.200414, -0.001919 )
+ga_view_zoom_set( 0.012246 )
+ga_view_center_set( -0.199216, -0.001163 )
+ga_view_zoom_set( 0.013777 )
+ga_view_center_set( -0.197869, -0.000312 )
+ga_view_zoom_set( 0.015499 )
+ga_view_center_set( -0.196353, 0.000646 )
+ga_view_zoom_set( 0.017436 )
+ga_view_center_set( -0.192942, 0.002799 )
+ga_view_zoom_set( 0.021795 )
+ga_view_center_set( -0.190810, 0.004145 )
+ga_view_zoom_set( 0.024519 )
+ga_view_center_set( -0.188412, 0.005660 )
+ga_view_zoom_set( 0.027584 )
+ga_view_center_set( -0.185714, 0.007363 )
+ga_view_zoom_set( 0.031032 )
+ga_view_center_set( -0.179644, 0.011197 )
+ga_view_zoom_set( 0.038790 )
+ga_view_center_set( -0.175850, 0.013592 )
+ga_view_zoom_set( 0.043639 )
+ga_view_center_set( -0.171582, 0.016288 )
+ga_view_zoom_set( 0.049094 )
+ga_view_center_set( -0.166780, 0.019320 )
+ga_view_zoom_set( 0.055231 )
+ga_view_center_set( -0.155976, 0.026142 )
+ga_view_zoom_set( 0.069038 )
+ga_view_center_set( -0.149223, 0.030406 )
+ga_view_zoom_set( 0.077668 )
+ga_view_center_set( -0.141627, 0.035203 )
+ga_view_zoom_set( 0.087377 )
+ga_view_center_set( -0.133081, 0.040600 )
+ga_view_zoom_set( 0.098299 )
+ga_view_center_set( -0.113852, 0.052742 )
+ga_view_zoom_set( 0.122873 )
+ga_view_center_set( -0.101834, 0.060331 )
+ga_view_zoom_set( 0.138233 )
+ga_view_center_set( -0.088314, 0.068868 )
+ga_view_zoom_set( 0.155512 )
+ga_view_center_set( -0.073104, 0.078473 )
+ga_view_zoom_set( 0.174951 )
+ga_view_center_set( -0.055992, 0.089279 )
+ga_view_zoom_set( 0.196819 )
+ga_view_center_set( -0.036742, 0.101435 )
+ga_view_zoom_set( 0.221422 )
+ga_view_center_set( -0.015085, 0.115110 )
+ga_view_zoom_set( 0.249100 )
+ga_view_center_set( -0.035901, 0.101248 )
+ga_view_zoom_set( 0.221422 )
+ga_view_center_set( -0.054405, 0.088926 )
+ga_view_zoom_set( 0.196819 )
+ga_view_center_set( 0.004641, -0.017357 )
+ga_view_center_set( 0.016257, -0.012503 )
+ga_view_zoom_set( 0.221422 )
+ga_view_center_set( 0.029326, -0.007042 )
+ga_view_zoom_set( 0.249100 )
+ga_view_center_set( 0.046763, 0.000431 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( 81.859985, 6.286553, 164.443192 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+ga_view_aa_set( 126.764069, -0.439408, 159.088806 )
+ga_view_aa_set( 118.693817, 2.249232, 163.302643 )
+ga_view_aa_set( -63.319481, 0.549979, 153.523529 )
+ga_view_center_set( 0.002083, -0.004032 )
+ga_view_zoom_set( 0.136068 )
+ga_view_center_set( 0.003977, -0.008707 )
+ga_view_zoom_set( 0.153076 )
+ga_view_center_set( 0.007591, -0.018889 )
+ga_view_zoom_set( 0.136068 )
+ga_view_center_set( 0.010803, -0.027940 )
+ga_view_zoom_set( 0.120949 )
+ga_view_center_set( 0.013659, -0.035985 )
+ga_view_zoom_set( 0.107510 )
+ga_view_center_set( 0.016197, -0.043136 )
+ga_view_zoom_set( 0.095565 )
+ga_view_center_set( 0.018417, -0.049600 )
+ga_view_zoom_set( 0.084946 )
+ga_view_center_set( 0.020359, -0.055346 )
+ga_view_zoom_set( 0.075508 )
+ga_view_center_set( 0.023415, -0.064590 )
+ga_view_zoom_set( 0.060406 )
+ga_view_center_set( 0.024638, -0.068767 )
+ga_view_zoom_set( 0.053695 )
+ga_view_center_set( 0.025724, -0.072479 )
+ga_view_zoom_set( 0.047728 )
+ga_view_center_set( 0.026690, -0.075779 )
+ga_view_zoom_set( 0.042425 )
+ga_view_center_set( 0.028236, -0.081059 )
+ga_view_zoom_set( 0.033940 )
+ga_view_center_set( 0.028821, -0.083495 )
+ga_view_zoom_set( 0.030169 )
+ga_view_center_set( 0.029329, -0.085682 )
+ga_view_zoom_set( 0.026817 )
+ga_view_center_set( 0.029731, -0.087727 )
+ga_view_zoom_set( 0.023837 )
+ga_view_center_set( 0.030089, -0.089545 )
+ga_view_zoom_set( 0.021189 )
+ga_view_center_set( 0.030407, -0.091161 )
+ga_view_zoom_set( 0.018834 )
+ga_view_aa_set( -68.319481, 0.549980, 153.523529 )
+ga_view_center_set( 0.030160, -0.089966 )
+ga_view_zoom_set( 0.021189 )
+ga_view_center_set( 0.029883, -0.088622 )
+ga_view_zoom_set( 0.023837 )
+ga_view_center_set( 0.029572, -0.087109 )
+ga_view_zoom_set( 0.026817 )
+ga_view_center_set( 0.029221, -0.085408 )
+ga_view_zoom_set( 0.030169 )
+ga_view_center_set( 0.028827, -0.083493 )
+ga_view_zoom_set( 0.033940 )
+ga_view_center_set( 0.028341, -0.081326 )
+ga_view_zoom_set( 0.038183 )
+ga_view_center_set( 0.027793, -0.078887 )
+ga_view_zoom_set( 0.042956 )
+ga_view_center_set( 0.027178, -0.076143 )
+ga_view_zoom_set( 0.048325 )
+ga_view_center_set( 0.026485, -0.073057 )
+ga_view_zoom_set( 0.054366 )
+ga_view_center_set( 0.025706, -0.069562 )
+ga_view_zoom_set( 0.061161 )
+ga_view_center_set( 0.024829, -0.065629 )
+ga_view_zoom_set( 0.068807 )
+ga_view_center_set( 0.023843, -0.061206 )
+ga_view_zoom_set( 0.077407 )
+ga_view_center_set( 0.022733, -0.056229 )
+ga_view_zoom_set( 0.087083 )
+ga_view_center_set( 0.021485, -0.050594 )
+ga_view_zoom_set( 0.097969 )
+ga_view_center_set( 0.020081, -0.044254 )
+ga_view_zoom_set( 0.110215 )
+ga_view_center_set( 0.018501, -0.037121 )
+ga_view_zoom_set( 0.123992 )
+ga_view_center_set( 0.016724, -0.029097 )
+ga_view_zoom_set( 0.139491 )
+ga_view_center_set( 0.014430, -0.020188 )
+ga_view_zoom_set( 0.156927 )
+ga_view_center_set( 0.008153, 0.020613 )
+ga_view_aa_set( -81.436943, 11.772778, 161.402817 )
+ga_view_aa_set( -81.452583, 7.908792, 149.872894 )
+ga_view_aa_set( -161.620560, -11.782480, -110.197037 )
+ga_view_aa_set( -19.255974, -4.315619, -87.471268 )
+ga_view_center_set( 0.014372, 0.023491 )
+ga_view_zoom_set( 0.176543 )
+ga_view_center_set( 0.021145, 0.026654 )
+ga_view_zoom_set( 0.198611 )
+ga_view_center_set( 0.028597, 0.029710 )
+ga_view_zoom_set( 0.223437 )
+ga_view_center_set( 0.036792, 0.033148 )
+ga_view_zoom_set( 0.251367 )
+ga_view_center_set( 0.046012, 0.037016 )
+ga_view_zoom_set( 0.282788 )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_center_set( 0.028314, 0.037175 )
+ga_view_zoom_set( 0.251367 )
+ga_view_center_set( 0.012583, 0.036751 )
+ga_view_zoom_set( 0.223437 )
+ga_view_center_set( 0.046099, 0.001002 )
+ga_view_center_set( 0.063808, 0.004251 )
+ga_view_zoom_set( 0.251367 )
+ga_view_aa_set( -112.109322, -5.290817, -162.804626 )
+ga_view_center_set( 0.073875, -0.005339 )
+ga_view_zoom_set( 0.282788 )
+ga_view_center_set( 0.083890, -0.016128 )
+ga_view_zoom_set( 0.318136 )
+ga_view_center_set( 0.074471, -0.006412 )
+ga_view_zoom_set( 0.282788 )
+ga_view_center_set( 0.066100, 0.002225 )
+ga_view_zoom_set( 0.251367 )
+ga_view_center_set( 0.058752, 0.008866 )
+ga_view_zoom_set( 0.223437 )
+ga_view_center_set( 0.053310, 0.013848 )
+ga_view_zoom_set( 0.198611 )
+ga_view_center_set( 0.047951, 0.018351 )
+ga_view_zoom_set( 0.176543 )
+ga_view_center_set( 0.043320, 0.022419 )
+ga_view_zoom_set( 0.156927 )
+ga_view_center_set( 0.039203, 0.026036 )
+ga_view_zoom_set( 0.139491 )
+ga_view_aa_set( -113.131912, -3.408490, 174.070389 )
+ga_view_aa_set( -107.343712, 4.815847, 137.279877 )
+ga_view_center_set( 0.039909, 0.030653 )
+ga_view_zoom_set( 0.156927 )
+ga_view_aa_set( -120.343712, 4.815850, 137.279877 )
+ga_view_center_set( 0.035201, 0.013391 )
+ga_view_aa_set( -67.421638, -2.575410, 128.230988 )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", TRUE )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179 4000:4299 4500:4559", FALSE )
+ga_view_aa_set( -79.302467, -0.506182, 160.283859 )
+ga_view_aa_set( -62.811020, -10.834895, 118.479958 )
+ga_view_aa_set( -84.234856, -8.307803, 128.237808 )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179 4000:4299 4500:4559", TRUE )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", FALSE )
+ga_view_center_set( 0.007305, 0.007606 )
+ga_view_zoom_set( 0.154869 )
+ga_view_center_set( 0.019775, 0.013254 )
+ga_view_zoom_set( 0.174228 )
+ga_view_center_set( 0.036669, 0.017257 )
+ga_view_zoom_set( 0.196006 )
+ga_view_center_set( 0.056749, 0.020852 )
+ga_view_zoom_set( 0.220507 )
+ga_view_center_set( 0.040801, 0.013043 )
+ga_view_zoom_set( 0.196006 )
+ga_view_center_set( 0.026625, 0.006102 )
+ga_view_zoom_set( 0.174228 )
+ga_view_center_set( 0.014023, -0.000068 )
+ga_view_zoom_set( 0.154869 )
+ga_view_center_set( 0.002706, -0.005553 )
+ga_view_zoom_set( 0.137662 )
+ga_view_center_set( -0.001627, -0.009809 )
+ga_view_zoom_set( 0.122366 )
+ga_view_center_set( -0.005479, -0.013592 )
+ga_view_zoom_set( 0.108770 )
+ga_view_center_set( -0.008903, -0.016955 )
+ga_view_zoom_set( 0.096684 )
+ga_view_center_set( -0.010606, -0.019690 )
+ga_view_zoom_set( 0.085941 )
+ga_view_center_set( -0.012152, -0.022122 )
+ga_view_zoom_set( 0.076392 )
+ga_view_center_set( -0.013554, -0.024283 )
+ga_view_zoom_set( 0.067904 )
+ga_view_center_set( -0.015616, -0.026153 )
+ga_view_zoom_set( 0.060359 )
+ga_view_center_set( -0.017470, -0.027771 )
+ga_view_zoom_set( 0.053653 )
+ga_view_center_set( -0.019119, -0.029208 )
+ga_view_zoom_set( 0.047691 )
+ga_view_center_set( -0.020585, -0.030486 )
+ga_view_zoom_set( 0.042392 )
+ga_view_center_set( -0.022459, -0.031876 )
+ga_view_zoom_set( 0.037682 )
+ga_view_center_set( -0.024126, -0.033112 )
+ga_view_zoom_set( 0.033495 )
+ga_view_center_set( -0.025607, -0.034210 )
+ga_view_zoom_set( 0.029774 )
+ga_view_aa_set( -77.801109, -8.062260, 131.272858 )
+ga_view_aa_set( -78.941780, -8.255276, 130.281631 )
+ga_view_aa_set( -75.704575, -6.072705, 140.116745 )
+ga_view_aa_set( -76.620514, -5.446432, 140.992004 )
+ga_view_center_set( -0.022368, -0.032145 )
+ga_view_zoom_set( 0.033495 )
+ga_view_center_set( -0.018598, -0.029935 )
+ga_view_zoom_set( 0.037682 )
+ga_view_center_set( -0.014356, -0.027465 )
+ga_view_zoom_set( 0.042392 )
+ga_view_center_set( -0.009585, -0.024686 )
+ga_view_zoom_set( 0.047691 )
+ga_view_center_set( -0.006207, -0.019971 )
+ga_view_zoom_set( 0.053653 )
+ga_view_center_set( -0.002135, -0.015119 )
+ga_view_zoom_set( 0.060359 )
+ga_view_center_set( 0.002725, -0.010221 )
+ga_view_zoom_set( 0.067904 )
+ga_view_center_set( 0.008536, -0.005683 )
+ga_view_zoom_set( 0.076392 )
+ga_view_center_set( 0.009986, -0.001674 )
+ga_view_zoom_set( 0.085941 )
+ga_view_center_set( 0.011761, 0.002584 )
+ga_view_zoom_set( 0.096684 )
+ga_view_center_set( 0.014207, 0.006843 )
+ga_view_zoom_set( 0.108770 )
+ga_view_center_set( 0.017600, 0.010718 )
+ga_view_zoom_set( 0.122366 )
+ga_view_center_set( 0.018993, 0.017140 )
+ga_view_zoom_set( 0.137662 )
+ga_view_aa_set( -69.783714, -1.400809, 154.414093 )
+ga_view_center_set( 0.032303, 0.004321 )
+ga_view_zoom_set( 0.122366 )
+ga_view_center_set( 0.043445, -0.006845 )
+ga_view_zoom_set( 0.108770 )
+ga_view_center_set( 0.053228, -0.016729 )
+ga_view_zoom_set( 0.096684 )
+ga_view_center_set( 0.061887, -0.025516 )
+ga_view_zoom_set( 0.085941 )
+ga_view_center_set( 0.068200, -0.033841 )
+ga_view_zoom_set( 0.076392 )
+ga_view_center_set( 0.073811, -0.041241 )
+ga_view_zoom_set( 0.067904 )
+ga_view_center_set( 0.077628, -0.047488 )
+ga_view_zoom_set( 0.060359 )
+ga_view_aa_set( -138.258621, 11.798388, 140.270477 )
+ga_view_center_set( 0.075897, -0.042895 )
+ga_view_zoom_set( 0.067904 )
+ga_view_center_set( 0.073950, -0.037728 )
+ga_view_zoom_set( 0.076392 )
+ga_view_center_set( 0.071760, -0.031915 )
+ga_view_zoom_set( 0.085941 )
+ga_view_center_set( 0.065891, -0.025592 )
+ga_view_zoom_set( 0.096684 )
+ga_view_center_set( 0.059288, -0.018479 )
+ga_view_zoom_set( 0.108770 )
+ga_view_center_set( 0.051721, -0.010294 )
+ga_view_zoom_set( 0.122366 )
+ga_view_center_set( 0.047646, -0.005058 )
+ga_view_zoom_set( 0.137662 )
+ga_view_center_set( 0.043061, 0.000833 )
+ga_view_zoom_set( 0.154869 )
+ga_view_center_set( 0.037903, 0.007590 )
+ga_view_zoom_set( 0.174228 )
+ga_view_center_set( 0.034745, 0.012548 )
+ga_view_zoom_set( 0.196006 )
+ga_view_center_set( 0.031439, 0.017382 )
+ga_view_zoom_set( 0.220507 )
+ga_view_center_set( 0.027721, 0.021333 )
+ga_view_zoom_set( 0.248071 )
+ga_view_aa_set( 158.998352, -5.330723, 159.397507 )
+ga_view_center_set( 0.055517, 0.025749 )
+ga_view_zoom_set( 0.220507 )
+ga_view_center_set( 0.080224, 0.028930 )
+ga_view_zoom_set( 0.196006 )
+ga_view_center_set( 0.102774, 0.029187 )
+ga_view_zoom_set( 0.174228 )
+ga_view_center_set( 0.122818, 0.029416 )
+ga_view_zoom_set( 0.154869 )
+ga_view_center_set( 0.140635, 0.029619 )
+ga_view_zoom_set( 0.137662 )
+ga_view_center_set( 0.156318, 0.029542 )
+ga_view_zoom_set( 0.122366 )
+ga_view_center_set( 0.168653, 0.025621 )
+ga_view_zoom_set( 0.108770 )
+ga_view_center_set( 0.178761, 0.021810 )
+ga_view_zoom_set( 0.096684 )
+ga_view_center_set( 0.186587, 0.017843 )
+ga_view_zoom_set( 0.085941 )
+ga_view_center_set( 0.192739, 0.014026 )
+ga_view_zoom_set( 0.076392 )
+ga_view_center_set( 0.195258, 0.011206 )
+ga_view_zoom_set( 0.067904 )
+ga_view_center_set( 0.197497, 0.008700 )
+ga_view_zoom_set( 0.060359 )
+ga_view_center_set( 0.199488, 0.006472 )
+ga_view_zoom_set( 0.053653 )
+ga_view_aa_set( -43.175014, 4.617169, -24.614906 )
+ga_view_center_set( 0.201388, 0.006212 )
+ga_view_zoom_set( 0.060359 )
+ga_view_center_set( 0.203424, 0.005792 )
+ga_view_zoom_set( 0.067904 )
+ga_view_center_set( 0.205685, 0.005205 )
+ga_view_zoom_set( 0.076392 )
+ga_view_center_set( 0.210774, 0.002789 )
+ga_view_zoom_set( 0.095491 )
+ga_view_center_set( 0.215242, 0.006151 )
+ga_view_zoom_set( 0.107427 )
+ga_view_center_set( 0.220405, 0.009933 )
+ga_view_zoom_set( 0.120855 )
+ga_view_center_set( 0.226774, 0.013932 )
+ga_view_zoom_set( 0.135962 )
+ga_view_center_set( 0.235143, 0.017744 )
+ga_view_zoom_set( 0.152957 )
+ga_view_center_set( 0.245009, 0.029835 )
+ga_view_zoom_set( 0.172077 )
+ga_view_center_set( 0.256326, 0.043147 )
+ga_view_zoom_set( 0.193587 )
+ga_view_center_set( 0.269629, 0.057388 )
+ga_view_zoom_set( 0.217785 )
+ga_view_center_set( 0.285330, 0.070747 )
+ga_view_zoom_set( 0.245008 )
+ga_view_aa_set( -63.818974, 2.410506, -45.749752 )
+ga_view_center_set( 0.032971, 0.021746 )
+ga_view_aa_set( -58.748337, -1.145074, -51.779160 )
+mesh_seed_display_mgr.plot(  )
+mesh_seed_display_mgr.plot(  )
+ga_view_aa_set( -167.987961, 3.772864, -62.147778 )
+mesh_seed_display_mgr.plot(  )
+ga_view_aa_set( -61.903187, -4.011218, -44.401936 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 0 )
+ga_display_beam_set( "general", 0 )
+sys_poll_option( 0 )
+mesh_seed_display_mgr.plot(  )
+mesh_seed_display_mgr.plot(  )
+ga_view_aa_set( -64.775444, -3.951232, -41.455669 )
+mesh_seed_display_mgr.plot(  )
+ga_view_center_set( -0.007542, -0.005825 )
+ga_view_zoom_set( 0.159726 )
+ga_view_center_set( 0.000000, 0.000067 )
+ga_view_zoom_set( 0.179692 )
+ga_view_center_set( -0.007542, -0.005825 )
+ga_view_zoom_set( 0.159726 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 1 )
+sys_poll_option( 0 )
+ga_view_center_set( 0.020012, -0.009177 )
+ga_view_zoom_set( 0.149979 )
+ga_view_center_set( 0.041191, -0.019239 )
+ga_view_zoom_set( 0.130416 )
+ga_view_center_set( 0.056879, -0.026692 )
+ga_view_zoom_set( 0.115925 )
+ga_view_center_set( 0.070824, -0.033317 )
+ga_view_zoom_set( 0.103045 )
+ga_view_center_set( 0.083219, -0.039206 )
+ga_view_zoom_set( 0.091595 )
+ga_view_center_set( 0.101433, -0.047859 )
+ga_view_zoom_set( 0.074772 )
+ga_view_center_set( 0.089291, -0.042090 )
+ga_view_zoom_set( 0.085988 )
+ga_view_center_set( 0.077654, -0.036562 )
+ga_view_zoom_set( 0.096736 )
+ga_view_center_set( 0.064563, -0.030342 )
+ga_view_zoom_set( 0.108828 )
+ga_view_center_set( 0.049836, -0.023346 )
+ga_view_zoom_set( 0.122431 )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", TRUE )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179 4000:4299 4500:4559", FALSE )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179 4000:4299 4500:4559", TRUE )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", FALSE )
+ga_view_center_set( 0.001025, -0.001875 )
+ga_view_zoom_set( 0.150912 )
+ga_view_aa_set( -126.233658, 2.771296, -12.142376 )
+ga_view_aa_set( -61.308571, -0.031302, -12.957332 )
+ga_view_aa_set( -61.523949, -8.775444, -28.752697 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+ga_view_aa_set( -71.889107, 3.034467, -46.340168 )
+ga_view_aa_set( -113.669258, -4.537951, -48.879581 )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", TRUE )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179 4000:4299 4500:4559", FALSE )
+ga_view_aa_set( -48.218544, 10.545365, -11.835481 )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_center_set( 0.016829, 0.007411 )
+ga_view_zoom_set( 0.172720 )
+ga_view_center_set( 0.034960, 0.017278 )
+ga_view_zoom_set( 0.194310 )
+ga_view_center_set( 0.052900, 0.033375 )
+ga_view_zoom_set( 0.218599 )
+ga_view_center_set( 0.073083, 0.051023 )
+ga_view_zoom_set( 0.245924 )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179 4000:4299 4500:4559", TRUE )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 0 )
+ga_display_beam_set( "general", 0 )
+sys_poll_option( 0 )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", FALSE )
+ga_view_center_set( -0.006779, 0.022513 )
+ga_view_zoom_set( 0.240000 )
+ga_view_center_set( -0.012805, 0.042254 )
+ga_view_zoom_set( 0.213333 )
+ga_view_center_set( -0.021119, 0.060122 )
+ga_view_zoom_set( 0.189630 )
+ga_view_center_set( -0.035971, 0.075578 )
+ga_view_zoom_set( 0.168560 )
+ga_view_center_set( -0.049489, 0.089317 )
+ga_view_zoom_set( 0.149831 )
+ga_view_center_set( -0.065379, 0.102427 )
+ga_view_zoom_set( 0.133183 )
+ga_view_center_set( -0.079653, 0.114081 )
+ga_view_zoom_set( 0.118385 )
+ga_view_center_set( -0.092651, 0.124351 )
+ga_view_zoom_set( 0.105231 )
+ga_view_center_set( -0.104521, 0.132810 )
+ga_view_zoom_set( 0.093539 )
+ga_view_center_set( -0.115072, 0.140329 )
+ga_view_zoom_set( 0.083145 )
+ga_view_center_set( -0.107711, 0.136455 )
+ga_view_zoom_set( 0.093539 )
+ga_view_center_set( -0.099430, 0.132098 )
+ga_view_zoom_set( 0.105231 )
+ga_view_center_set( -0.090735, 0.127329 )
+ga_view_zoom_set( 0.118385 )
+ga_view_center_set( -0.072068, 0.119094 )
+ga_view_zoom_set( 0.147981 )
+ga_view_center_set( -0.060402, 0.113697 )
+ga_view_zoom_set( 0.166479 )
+ga_view_center_set( -0.074626, 0.119905 )
+ga_view_zoom_set( 0.147981 )
+ga_view_center_set( -0.087270, 0.125422 )
+ga_view_zoom_set( 0.131539 )
+ga_view_center_set( -0.097621, 0.130524 )
+ga_view_zoom_set( 0.116923 )
+ga_view_center_set( -0.106823, 0.135103 )
+ga_view_zoom_set( 0.103932 )
+ga_view_center_set( -0.106005, 0.128034 )
+ga_view_zoom_set( 0.092384 )
+ga_view_center_set( -0.104620, 0.123897 )
+ga_view_zoom_set( 0.082119 )
+ga_view_center_set( -0.103389, 0.120312 )
+ga_view_zoom_set( 0.072995 )
+ga_view_center_set( -0.104251, 0.123928 )
+ga_view_zoom_set( 0.082119 )
+ga_view_center_set( -0.107124, 0.125226 )
+ga_view_zoom_set( 0.092384 )
+ga_view_center_set( -0.118887, 0.118488 )
+ga_view_zoom_set( 0.115480 )
+ga_view_center_set( -0.131642, 0.114764 )
+ga_view_zoom_set( 0.129915 )
+ga_view_center_set( -0.147416, 0.110574 )
+ga_view_zoom_set( 0.146154 )
+ga_view_center_set( -0.166825, 0.105614 )
+ga_view_zoom_set( 0.164423 )
+ga_view_center_set( -0.190809, 0.100172 )
+ga_view_zoom_set( 0.184976 )
+ga_view_center_set( -0.184640, 0.114902 )
+ga_view_zoom_set( 0.164423 )
+ga_view_center_set( -0.179156, 0.127996 )
+ga_view_zoom_set( 0.146154 )
+ga_view_center_set( -0.174281, 0.139635 )
+ga_view_zoom_set( 0.129915 )
+ga_view_center_set( -0.169948, 0.149980 )
+ga_view_zoom_set( 0.115480 )
+ga_view_center_set( -0.163016, 0.166533 )
+ga_view_zoom_set( 0.092384 )
+ga_view_center_set( -0.159934, 0.173890 )
+ga_view_zoom_set( 0.082119 )
+ga_view_center_set( -0.155005, 0.185660 )
+ga_view_zoom_set( 0.065695 )
+ga_view_center_set( -0.150878, 0.180606 )
+ga_view_zoom_set( 0.073907 )
+ga_view_center_set( -0.146173, 0.174919 )
+ga_view_zoom_set( 0.083145 )
+ga_view_center_set( -0.134535, 0.163948 )
+ga_view_zoom_set( 0.103932 )
+ga_view_center_set( -0.125597, 0.163313 )
+ga_view_zoom_set( 0.116923 )
+ga_view_center_set( -0.115788, 0.162204 )
+ga_view_zoom_set( 0.131539 )
+ga_view_center_set( -0.126090, 0.163263 )
+ga_view_zoom_set( 0.116923 )
+ga_view_center_set( -0.135554, 0.164030 )
+ga_view_zoom_set( 0.103932 )
+ga_view_center_set( -0.144123, 0.164634 )
+ga_view_zoom_set( 0.092384 )
+ga_view_center_set( -0.157521, 0.166659 )
+ga_view_zoom_set( 0.073907 )
+ga_view_center_set( -0.163503, 0.167531 )
+ga_view_zoom_set( 0.065695 )
+ga_view_center_set( -0.173429, 0.168839 )
+ga_view_zoom_set( 0.052556 )
+ga_view_center_set( -0.177841, 0.169262 )
+ga_view_zoom_set( 0.046717 )
+ga_view_center_set( -0.184900, 0.169940 )
+ga_view_zoom_set( 0.037373 )
+ga_view_center_set( -0.190597, 0.170305 )
+ga_view_zoom_set( 0.029899 )
+ga_view_center_set( -0.188290, 0.170009 )
+ga_view_zoom_set( 0.033636 )
+ga_view_center_set( -0.185865, 0.169619 )
+ga_view_zoom_set( 0.037840 )
+ga_view_center_set( -0.183297, 0.169164 )
+ga_view_zoom_set( 0.042570 )
+ga_view_center_set( -0.180713, 0.168473 )
+ga_view_zoom_set( 0.047892 )
+ga_view_center_set( -0.179986, 0.167918 )
+ga_view_zoom_set( 0.053878 )
+ga_view_center_set( -0.179350, 0.167112 )
+ga_view_zoom_set( 0.060613 )
+ga_view_center_set( -0.180270, 0.161937 )
+ga_view_zoom_set( 0.083343 )
+node_size( 9 )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179 4000:4299 4500:4559", FALSE )
+gm_visibility_widget( " Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:" // @
+"1082 1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:115" // @
+"8 1160:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1" // @
+"224:1238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285" // @
+":1287 1293:1295 1297:1299 1301:1303 1309:1310 1313:1314 1317:1318 1324:13" // @
+"26 1328:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 " // @
+"1368:1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401:1402 140" // @
+"5:1406 1409:1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1" // @
+"455 1457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485:1486 1489:1490" // @
+" 1493:1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 15" // @
+"32:1534 1536:1538 1545:1546 1549:1550 1553:1554 1565:1567 1569:1571 1581:" // @
+"1583 1585:1587 1589:1591 1597:1598 1601:1602 1605:1606 1612:1614 1616:161" // @
+"8 1629:1630 1633:1634 1640:1645 1652 1654:1655 1662 1664:1665 1672 1674:1" // @
+"675 1682 1684:1685 1687:1689 1692 1694:1695 1702 1704:1705 1712 1714:1715" // @
+" 1722 1724:1725 1727:1729 1731:1732 1735 1742 1744:1745 1752 1754:1755 17" // @
+"62 1764:1765 1772 1774:1775 1777:1779 1784 1787:1788 1794 1797:1798 1804 " // @
+"1807:1808 1814 1817:1818 1824 1827:1828 1832 1834:1835 Element 1000:1359 " // @
+"3000:3179 4000:4299 4500:4559", TRUE )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+sys_poll_option( 0 )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", TRUE )
+ga_view_center_set( 0.018809, -0.025021 )
+ga_view_zoom_set( 0.309825 )
+ga_view_center_set( -0.000813, 0.000929 )
+ga_view_zoom_set( 0.275400 )
+ga_view_center_set( -0.018254, 0.023995 )
+ga_view_zoom_set( 0.244800 )
+ga_view_center_set( -0.033758, 0.044498 )
+ga_view_zoom_set( 0.217600 )
+ga_view_center_set( -0.047865, 0.062805 )
+ga_view_zoom_set( 0.193422 )
+ga_view_center_set( -0.060404, 0.079077 )
+ga_view_zoom_set( 0.171931 )
+ga_view_center_set( -0.080468, 0.105113 )
+ga_view_zoom_set( 0.137545 )
+ga_view_center_set( -0.089385, 0.116685 )
+ga_view_zoom_set( 0.122262 )
+ga_view_center_set( -0.097311, 0.126971 )
+ga_view_zoom_set( 0.108677 )
+ga_view_center_set( -0.104357, 0.136114 )
+ga_view_zoom_set( 0.096602 )
+ga_view_center_set( -0.110222, 0.141309 )
+ga_view_zoom_set( 0.085868 )
+ga_view_center_set( -0.115434, 0.145926 )
+ga_view_zoom_set( 0.076328 )
+ga_view_center_set( -0.120068, 0.150031 )
+ga_view_zoom_set( 0.067847 )
+ga_view_center_set( -0.139744, 0.177848 )
+node_size( 0 )
+node_size( 9 )
+ga_view_center_set( -0.143583, 0.178776 )
+ga_view_zoom_set( 0.060308 )
+ga_view_center_set( -0.147176, 0.180166 )
+ga_view_zoom_set( 0.053607 )
+ga_view_center_set( -0.150370, 0.181401 )
+ga_view_zoom_set( 0.047651 )
+ga_view_center_set( -0.153227, 0.182500 )
+ga_view_zoom_set( 0.042356 )
+ga_view_center_set( -0.155815, 0.183476 )
+ga_view_zoom_set( 0.037650 )
+ga_view_aa_set( -122.875984, -6.346985, -177.717422 )
+ga_view_center_set( -0.154323, 0.184976 )
+ga_view_zoom_set( 0.042356 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( -0.147519, 0.186806 )
+ga_view_zoom_set( 0.047651 )
+ga_view_center_set( -0.132211, 0.190924 )
+ga_view_zoom_set( 0.059564 )
+ga_view_aa_set( 90., 0., 0. )
+uil_toolbar.model_center(  )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_center_set( -0.089326, 0.180798 )
+mesh_seed_display_mgr.erase(  )
+uil_toolbar.hidden_line(  )
+uil_toolbar.wireframe(  )
+uil_toolbar.shaded_smooth(  )
+uil_toolbar.wireframe(  )
+uil_toolbar.shaded_smooth(  )
+ga_view_aa_set( 31.746670, 7.173592, -176.554840 )
+ga_view_center_set( -0.092160, 0.179493 )
+ga_view_zoom_set( 0.052945 )
+ga_view_center_set( -0.094680, 0.178332 )
+ga_view_zoom_set( 0.047063 )
+ga_view_center_set( -0.097361, 0.176030 )
+ga_view_zoom_set( 0.041833 )
+ga_view_center_set( -0.099806, 0.173953 )
+ga_view_zoom_set( 0.037185 )
+ga_view_center_set( -0.101911, 0.172190 )
+ga_view_zoom_set( 0.033054 )
+ga_view_center_set( -0.099778, 0.173702 )
+ga_view_zoom_set( 0.037185 )
+ga_view_center_set( -0.097662, 0.175199 )
+ga_view_zoom_set( 0.041833 )
+ga_view_center_set( -0.097221, 0.177236 )
+ga_view_zoom_set( 0.047063 )
+ga_view_center_set( -0.096864, 0.179449 )
+ga_view_zoom_set( 0.052945 )
+ga_view_center_set( -0.096842, 0.181804 )
+ga_view_zoom_set( 0.059564 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+ga_view_aa_set( -167.118164, -11.956120, 169.257050 )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_center_set( 0.011866, -0.014045 )
+ga_view_zoom_set( 0.302662 )
+ga_view_center_set( 0.023605, -0.029803 )
+ga_view_zoom_set( 0.340494 )
+ga_view_center_set( 0.011866, -0.014045 )
+ga_view_zoom_set( 0.302662 )
+ga_view_center_set( 0.001431, -0.000037 )
+ga_view_zoom_set( 0.269032 )
+ga_view_center_set( -0.007844, 0.012414 )
+ga_view_zoom_set( 0.239140 )
+ga_view_center_set( 0.075855, -0.001935 )
+ga_view_center_set( 0.042966, 0.016571 )
+ga_view_zoom_set( 0.212569 )
+ga_view_center_set( 0.013731, 0.033020 )
+ga_view_zoom_set( 0.188950 )
+ga_view_center_set( -0.011689, 0.047784 )
+ga_view_zoom_set( 0.167956 )
+ga_view_center_set( -0.034284, 0.060907 )
+ga_view_zoom_set( 0.149294 )
+ga_view_center_set( -0.053754, 0.072012 )
+ga_view_zoom_set( 0.132706 )
+ga_view_center_set( -0.071010, 0.081436 )
+ga_view_zoom_set( 0.117961 )
+ga_view_center_set( -0.086349, 0.089680 )
+ga_view_zoom_set( 0.104854 )
+ga_view_center_set( -0.099748, 0.095948 )
+ga_view_zoom_set( 0.093203 )
+ga_view_center_set( -0.111659, 0.101518 )
+ga_view_zoom_set( 0.082848 )
+ga_view_center_set( -0.122245, 0.106470 )
+ga_view_zoom_set( 0.073642 )
+ga_view_center_set( -0.164222, 0.162438 )
+ga_view_center_set( -0.168968, 0.166095 )
+ga_view_zoom_set( 0.065460 )
+ga_view_center_set( -0.173187, 0.169345 )
+ga_view_zoom_set( 0.058186 )
+ga_view_center_set( -0.176938, 0.172234 )
+ga_view_zoom_set( 0.051721 )
+ga_view_center_set( -0.180272, 0.174803 )
+ga_view_zoom_set( 0.045974 )
+ga_view_center_set( -0.183235, 0.177085 )
+ga_view_zoom_set( 0.040866 )
+ga_view_center_set( -0.180702, 0.175733 )
+ga_view_zoom_set( 0.045974 )
+ga_view_center_set( -0.177989, 0.174211 )
+ga_view_zoom_set( 0.051721 )
+ga_view_center_set( -0.175067, 0.172979 )
+ga_view_zoom_set( 0.058186 )
+ga_view_center_set( -0.171976, 0.171569 )
+ga_view_zoom_set( 0.065460 )
+ga_view_center_set( -0.169244, 0.171058 )
+ga_view_zoom_set( 0.073642 )
+ga_view_center_set( -0.163718, 0.169723 )
+ga_view_zoom_set( 0.092053 )
+ga_view_center_set( -0.099281, 0.122776 )
+ga_view_center_set( -0.094391, 0.122796 )
+ga_view_zoom_set( 0.103559 )
+ga_view_center_set( -0.089064, 0.122818 )
+ga_view_zoom_set( 0.116504 )
+ga_view_center_set( -0.083318, 0.123186 )
+ga_view_zoom_set( 0.131067 )
+ga_view_center_set( -0.076853, 0.123545 )
+ga_view_zoom_set( 0.147451 )
+ga_view_center_set( -0.051786, 0.105851 )
+ga_view_aa_set( -35.590382, -1.153936, -108.500526 )
+ga_view_center_set( 0.020465, -0.056345 )
+ga_view_center_set( 0.004245, -0.115325 )
+ga_view_aa_set( -61.572567, 0.365261, -105.913490 )
+ga_view_center_set( 0.018729, -0.115729 )
+ga_view_zoom_set( 0.165882 )
+ga_view_center_set( 0.049640, -0.119296 )
+ga_view_zoom_set( 0.207353 )
+ga_view_center_set( 0.033244, -0.116382 )
+ga_view_zoom_set( 0.184313 )
+ga_view_center_set( 0.007011, -0.111719 )
+ga_view_zoom_set( 0.147451 )
+ga_view_center_set( -0.004648, -0.109647 )
+ga_view_zoom_set( 0.131067 )
+ga_view_center_set( -0.014127, -0.107363 )
+ga_view_zoom_set( 0.116504 )
+ga_view_center_set( -0.034810, -0.102380 )
+ga_view_zoom_set( 0.084730 )
+ga_view_center_set( -0.039319, -0.100872 )
+ga_view_zoom_set( 0.075316 )
+ga_view_center_set( -0.046533, -0.098662 )
+ga_view_zoom_set( 0.060253 )
+ga_view_center_set( -0.049716, -0.097951 )
+ga_view_zoom_set( 0.053558 )
+ga_view_center_set( -0.051121, -0.097419 )
+ga_view_zoom_set( 0.047607 )
+ga_view_center_set( -0.053337, -0.096953 )
+ga_view_zoom_set( 0.038086 )
+ga_view_center_set( 0.017502, -0.096191 )
+ga_view_center_set( 0.013920, -0.096555 )
+ga_view_zoom_set( 0.033854 )
+ga_view_center_set( 0.010710, -0.096891 )
+ga_view_zoom_set( 0.030092 )
+ga_view_center_set( 0.007745, -0.097269 )
+ga_view_zoom_set( 0.026749 )
+ga_view_center_set( 0.004918, -0.097895 )
+ga_view_zoom_set( 0.023777 )
+ga_view_center_set( 0.000379, -0.098946 )
+ga_view_zoom_set( 0.019021 )
+ga_view_center_set( -0.001645, -0.099505 )
+ga_view_zoom_set( 0.016908 )
+ga_view_center_set( -0.003445, -0.100028 )
+ga_view_zoom_set( 0.015029 )
+ga_view_center_set( -0.006324, -0.100864 )
+ga_view_zoom_set( 0.012023 )
+ga_view_center_set( -0.007599, -0.101222 )
+ga_view_zoom_set( 0.010687 )
+ga_view_center_set( -0.009639, -0.101796 )
+ga_view_zoom_set( 0.008550 )
+ga_view_center_set( -0.010546, -0.102050 )
+ga_view_zoom_set( 0.007600 )
+ga_view_center_set( -0.011352, -0.102277 )
+ga_view_zoom_set( 0.006756 )
+ga_view_center_set( -0.012068, -0.102478 )
+ga_view_zoom_set( 0.006005 )
+ga_view_center_set( -0.011344, -0.102279 )
+ga_view_zoom_set( 0.006756 )
+ga_view_center_set( -0.010530, -0.102058 )
+ga_view_zoom_set( 0.007600 )
+ga_view_center_set( -0.009620, -0.101813 )
+ga_view_zoom_set( 0.008550 )
+ga_view_center_set( -0.008647, -0.101472 )
+ga_view_zoom_set( 0.009619 )
+ga_view_center_set( -0.007552, -0.101089 )
+ga_view_zoom_set( 0.010821 )
+ga_view_center_set( -0.006320, -0.100658 )
+ga_view_zoom_set( 0.012174 )
+ga_view_center_set( -0.004062, -0.100181 )
+ga_view_zoom_set( 0.015217 )
+ga_view_center_set( 0.000172, -0.099286 )
+ga_view_zoom_set( 0.020923 )
+ga_view_center_set( 0.002307, -0.098408 )
+ga_view_zoom_set( 0.023539 )
+ga_view_center_set( 0.009511, -0.095446 )
+ga_view_zoom_set( 0.032366 )
+ga_view_center_set( 0.012786, -0.093897 )
+ga_view_zoom_set( 0.036412 )
+ga_view_center_set( 0.020154, -0.090535 )
+ga_view_zoom_set( 0.045515 )
+ga_view_center_set( 0.029365, -0.086333 )
+ga_view_zoom_set( 0.056893 )
+ga_view_center_set( 0.040782, -0.081416 )
+ga_view_zoom_set( 0.071117 )
+ga_view_center_set( 0.054933, -0.075389 )
+ga_view_zoom_set( 0.088896 )
+ga_view_center_set( 0.063553, -0.071960 )
+ga_view_zoom_set( 0.100008 )
+ga_view_center_set( 0.082695, -0.064835 )
+ga_view_zoom_set( 0.125010 )
+ga_view_center_set( 0.094605, -0.060381 )
+ga_view_zoom_set( 0.140636 )
+ga_view_center_set( 0.100771, -0.068207 )
+ga_view_zoom_set( 0.125010 )
+ga_view_center_set( 0.114225, -0.085283 )
+ga_view_zoom_set( 0.090916 )
+ga_view_center_set( 0.118518, -0.090342 )
+ga_view_zoom_set( 0.080815 )
+ga_view_center_set( 0.125332, -0.098492 )
+ga_view_zoom_set( 0.064652 )
+ga_view_center_set( 0.130696, -0.105011 )
+ga_view_zoom_set( 0.051721 )
+ga_view_center_set( 0.134669, -0.108277 )
+ga_view_zoom_set( 0.045974 )
+ga_view_center_set( 0.145265, -0.117141 )
+ga_view_zoom_set( 0.030650 )
+ga_view_center_set( 0.147401, -0.118893 )
+ga_view_zoom_set( 0.027244 )
+ga_view_center_set( 0.149208, -0.120440 )
+ga_view_zoom_set( 0.024217 )
+ga_view_center_set( 0.152394, -0.123547 )
+ga_view_zoom_set( 0.017612 )
+ga_view_center_set( 0.153166, -0.124800 )
+ga_view_zoom_set( 0.014090 )
+ga_view_center_set( 0.153736, -0.125803 )
+ga_view_zoom_set( 0.011272 )
+ga_view_center_set( 0.154962, -0.123641 )
+ga_view_zoom_set( 0.014090 )
+ga_view_center_set( 0.158645, -0.116557 )
+ga_view_zoom_set( 0.022896 )
+ga_view_center_set( 0.159851, -0.114255 )
+ga_view_zoom_set( 0.025758 )
+ga_view_center_set( 0.165618, -0.111893 )
+ga_view_zoom_set( 0.035417 )
+ga_view_center_set( 0.173546, -0.108690 )
+ga_view_zoom_set( 0.048699 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -146.096985, 16.780117, -139.327530 )
+ga_view_center_set( 0.175907, -0.111390 )
+ga_view_zoom_set( 0.054786 )
+ga_view_center_set( 0.181220, -0.117464 )
+ga_view_zoom_set( 0.068483 )
+ga_view_center_set( 0.184511, -0.121203 )
+ga_view_zoom_set( 0.077043 )
+ga_view_center_set( 0.188214, -0.125409 )
+ga_view_zoom_set( 0.086674 )
+ga_view_center_set( 0.192050, -0.129922 )
+ga_view_zoom_set( 0.097508 )
+ga_view_center_set( 0.204999, -0.145152 )
+ga_view_zoom_set( 0.134073 )
+ga_view_center_set( 0.210821, -0.152133 )
+ga_view_zoom_set( 0.150832 )
+ga_view_center_set( 0.217371, -0.159986 )
+ga_view_zoom_set( 0.169686 )
+ga_view_center_set( 0.222307, -0.168749 )
+ga_view_zoom_set( 0.190897 )
+ga_view_center_set( 0.244519, -0.208184 )
+ga_view_zoom_set( 0.286346 )
+ga_view_center_set( -0.033236, 0.003712 )
+ga_view_aa_set( -156.557724, 5.479443, -121.943573 )
+ga_view_aa_set( -101.549187, -7.524129, -104.135185 )
+ga_view_aa_set( -46.959358, 5.593001, -129.417984 )
+ga_view_aa_set( -55.847382, 5.298703, -130.447327 )
+ga_view_center_set( -0.077781, 0.000271 )
+ga_view_zoom_set( 0.322139 )
+ga_view_aa_set( -63.566349, 2.480338, -134.587280 )
+ga_view_center_set( -0.105215, 0.027908 )
+ga_view_zoom_set( 0.362406 )
+ga_view_center_set( -0.166940, 0.090092 )
+ga_view_zoom_set( 0.453008 )
+ga_view_center_set( -0.134685, 0.063185 )
+ga_view_zoom_set( 0.402674 )
+ga_view_center_set( -0.048673, -0.008568 )
+ga_view_zoom_set( 0.268449 )
+ga_view_center_set( -0.000522, -0.047459 )
+ga_view_zoom_set( 0.195236 )
+ga_view_center_set( 0.013672, -0.056860 )
+ga_view_zoom_set( 0.173543 )
+ga_view_center_set( 0.036147, -0.071902 )
+ga_view_zoom_set( 0.138834 )
+ga_view_center_set( 0.046084, -0.078588 )
+ga_view_zoom_set( 0.123408 )
+ga_view_center_set( 0.040101, -0.073411 )
+ga_view_zoom_set( 0.138834 )
+ga_view_center_set( 0.033370, -0.067587 )
+ga_view_zoom_set( 0.156189 )
+ga_view_center_set( 0.025732, -0.060838 )
+ga_view_zoom_set( 0.175712 )
+ga_view_center_set( -0.007653, 0.025261 )
+ga_view_aa_set( -66.050758, -3.686124, -124.549606 )
+ga_view_center_set( -0.004139, 0.004175 )
+ga_view_aa_set( -118.138275, -7.037289, -126.665802 )
+ga_view_center_set( -0.006954, 0.014435 )
+ga_view_zoom_set( 0.197676 )
+ga_view_center_set( -0.016454, 0.049062 )
+ga_view_zoom_set( 0.271805 )
+ga_view_center_set( -0.020809, 0.064932 )
+ga_view_zoom_set( 0.305780 )
+ga_view_center_set( -0.016798, 0.049062 )
+ga_view_zoom_set( 0.271805 )
+ga_view_center_set( -0.006103, 0.003074 )
+ga_view_zoom_set( 0.181203 )
+ga_view_center_set( -0.003591, -0.007146 )
+ga_view_zoom_set( 0.161069 )
+ga_view_center_set( 0.000429, -0.023497 )
+ga_view_zoom_set( 0.128856 )
+ga_view_center_set( 0.003993, -0.035883 )
+ga_view_zoom_set( 0.103084 )
+ga_view_center_set( 0.009475, -0.055072 )
+ga_view_zoom_set( 0.063437 )
+uil_toolbar.wireframe(  )
+ga_view_aa_set( -140.897125, -35.523087, -129.157898 )
+uil_toolbar.shaded_smooth(  )
+ga_view_center_set( 0.014691, -0.054684 )
+ga_view_zoom_set( 0.071366 )
+ga_view_center_set( 0.020527, -0.053887 )
+ga_view_zoom_set( 0.080287 )
+ga_view_center_set( 0.039313, -0.050891 )
+ga_view_zoom_set( 0.110395 )
+ga_view_center_set( 0.056440, -0.048145 )
+ga_view_zoom_set( 0.137993 )
+ga_view_aa_set( -79.371391, -11.615507, -171.978668 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( 0.062839, -0.046255 )
+ga_view_zoom_set( 0.155242 )
+ga_view_center_set( 0.077107, -0.042000 )
+ga_view_zoom_set( 0.194053 )
+ga_view_center_set( 0.086024, -0.039342 )
+ga_view_zoom_set( 0.218309 )
+ga_view_center_set( 0.094952, -0.036350 )
+ga_view_zoom_set( 0.245598 )
+ga_view_center_set( 0.108308, -0.030190 )
+ga_view_zoom_set( 0.276298 )
+ga_view_center_set( 0.124965, -0.021745 )
+ga_view_zoom_set( 0.310835 )
+ga_view_center_set( -0.073969, -0.027961 )
+ga_view_center_set( -0.097426, -0.024882 )
+ga_view_zoom_set( 0.349690 )
+ga_view_center_set( -0.123815, -0.021417 )
+ga_view_zoom_set( 0.393401 )
+ga_view_center_set( -0.097426, -0.024882 )
+ga_view_zoom_set( 0.349690 )
+ga_view_center_set( -0.069890, -0.028497 )
+ga_view_zoom_set( 0.304078 )
+ga_view_center_set( -0.049493, -0.031175 )
+ga_view_zoom_set( 0.270291 )
+ga_view_center_set( -0.031362, -0.033555 )
+ga_view_zoom_set( 0.240259 )
+ga_view_center_set( -0.049493, -0.031175 )
+ga_view_zoom_set( 0.270291 )
+ga_view_center_set( -0.039579, -0.015165 )
+ga_view_zoom_set( 0.304078 )
+ga_view_center_set( -0.028426, 0.002847 )
+ga_view_zoom_set( 0.342088 )
+ga_view_center_set( -0.003332, 0.043372 )
+ga_view_zoom_set( 0.427609 )
+ga_view_center_set( 0.021762, 0.083898 )
+ga_view_zoom_set( 0.513131 )
+ga_view_center_set( 0.048111, 0.126449 )
+ga_view_zoom_set( 0.602929 )
+ga_view_center_set( 0.025035, 0.089184 )
+ga_view_zoom_set( 0.524286 )
+ga_view_center_set( 0.002123, 0.052182 )
+ga_view_zoom_set( 0.446201 )
+ga_view_center_set( -0.036925, -0.010878 )
+ga_view_zoom_set( 0.313124 )
+ga_view_center_set( -0.047133, -0.027365 )
+ga_view_zoom_set( 0.278332 )
+ga_view_center_set( -0.064748, -0.055812 )
+ga_view_zoom_set( 0.218300 )
+ga_view_center_set( -0.071865, -0.067306 )
+ga_view_zoom_set( 0.194044 )
+ga_view_center_set( -0.064748, -0.055812 )
+ga_view_zoom_set( 0.218300 )
+ga_view_center_set( -0.056741, -0.042881 )
+ga_view_zoom_set( 0.245587 )
+ga_view_center_set( 0.088238, -0.184030 )
+ga_view_center_set( -0.044379, -0.004751 )
+ga_view_center_set( -0.059910, -0.003767 )
+ga_view_zoom_set( 0.276286 )
+ga_view_center_set( -0.077381, -0.002661 )
+ga_view_zoom_set( 0.310821 )
+ga_view_center_set( -0.059910, -0.003767 )
+ga_view_zoom_set( 0.276286 )
+ga_view_center_set( -0.044379, -0.004751 )
+ga_view_zoom_set( 0.245587 )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+verify_boundaries_display_mgr.initialize(  )
+verify_normals_display_mgr.initialize(  )
+STRING fem_verify_normals_group_name[32]
+INTEGER fem_verify_normals_table_id
+fem_verify_element_normals( FALSE, TRUE, "", fem_verify_normals_group_name,  @
+fem_verify_normals_table_id )
+$# There are NO reversed normals in group Bandeja_Inf.
+res_data_load_elem_scalar( 0, fem_verify_normals_table_id )
+res_data_title( 0, "ENodal", "Scalar", 1, ["Verify Element Normals"] )
+res_display_fringe_create( "", "FreeFaces", 1, ["GR:Bandeja_Inf"], 12, [ @
+"Range:_", "RangeOverwrite:OFF", "FringeStyle:Discrete/Smooth", "Shade:None",  @
+"ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None", "ScaleFactor:1.0",  @
+"LabelStyle:Exponential,12,White,3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+ga_view_aa_set( -69.203583, -23.972124, -28.855459 )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", FALSE )
+ga_view_aa_set( -66.193726, -0.951487, -69.661476 )
+verify_normals_display_mgr.erase( TRUE, FALSE )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( 0., 180., 0. )
+uil_toolbar.wireframe(  )
+ga_viewport_location_set( "default_viewport", 0.006336, 0.012672, 1 )
+ga_view_center_set( -0.073576, 0.005344 )
+ga_view_zoom_set( 0.276286 )
+ga_view_center_set( -0.106423, 0.016700 )
+ga_view_zoom_set( 0.310821 )
+ga_view_center_set( -0.136169, -0.004200 )
+ga_view_zoom_set( 0.349674 )
+ga_view_center_set( -0.203096, -0.051226 )
+ga_view_zoom_set( 0.437092 )
+ga_view_center_set( -0.243636, -0.078591 )
+ga_view_zoom_set( 0.491729 )
+ga_view_center_set( -0.165387, -0.024993 )
+ga_view_zoom_set( 0.357621 )
+ga_view_center_set( -0.142471, -0.009112 )
+ga_view_zoom_set( 0.317885 )
+ga_view_center_set( -0.130892, 0.000859 )
+ga_view_zoom_set( 0.254308 )
+ga_view_center_set( -0.126889, 0.004719 )
+ga_view_zoom_set( 0.226052 )
+ga_view_center_set( -0.124009, 0.007556 )
+ga_view_zoom_set( 0.200935 )
+ga_view_center_set( -0.127322, 0.002926 )
+ga_view_zoom_set( 0.178609 )
+ga_view_center_set( -0.134912, -0.005689 )
+ga_view_zoom_set( 0.142887 )
+ga_view_center_set( -0.138393, -0.009517 )
+ga_view_zoom_set( 0.127011 )
+ga_view_center_set( -0.141486, -0.012920 )
+ga_view_zoom_set( 0.112898 )
+ga_view_center_set( -0.144237, -0.015945 )
+ga_view_zoom_set( 0.100354 )
+ga_view_center_set( -0.146681, -0.018634 )
+ga_view_zoom_set( 0.089204 )
+ga_view_center_set( -0.157813, -0.016197 )
+ga_view_zoom_set( 0.071363 )
+ga_view_center_set( -0.166766, -0.014296 )
+ga_view_zoom_set( 0.057090 )
+ga_view_center_set( -0.163916, -0.015932 )
+ga_view_zoom_set( 0.045672 )
+ga_view_center_set( -0.162633, -0.016660 )
+ga_view_zoom_set( 0.040598 )
+ga_view_center_set( -0.161492, -0.017322 )
+ga_view_zoom_set( 0.036087 )
+ga_view_center_set( -0.164382, -0.015671 )
+ga_view_zoom_set( 0.040598 )
+ga_view_center_set( -0.170886, -0.011957 )
+ga_view_zoom_set( 0.050747 )
+ga_view_center_set( -0.179016, -0.007314 )
+ga_view_zoom_set( 0.063434 )
+ga_view_center_set( -0.184070, -0.003985 )
+ga_view_zoom_set( 0.071363 )
+ga_view_center_set( -0.201129, 0.007252 )
+ga_view_zoom_set( 0.098124 )
+ga_view_center_set( -0.208947, 0.012402 )
+ga_view_zoom_set( 0.110390 )
+ga_view_center_set( -0.218115, 0.018522 )
+ga_view_zoom_set( 0.124188 )
+ga_view_center_set( -0.249529, 0.039177 )
+ga_view_zoom_set( 0.170759 )
+ga_view_center_set( -0.267814, 0.049507 )
+ga_view_zoom_set( 0.192104 )
+ga_view_center_set( -0.330985, 0.084372 )
+ga_view_zoom_set( 0.264143 )
+ga_view_center_set( -0.360161, 0.100241 )
+ga_view_zoom_set( 0.297161 )
+ga_view_center_set( -0.199694, 0.017036 )
+STRING fem_renum_node_new_ids[VIRTUAL]
+fem_renum_node_1( "Node 1000:1015 1017:1031 1033:1047 1049:1063 1068:1082 " // @
+"1084:1098 1100:1114 1116:1130 1132:1134 1136:1138 1140:1142 1144:1158 116" // @
+"0:1174 1176:1190 1192:1194 1196:1198 1200:1202 1204:1206 1208:1222 1224:1" // @
+"238 1244:1254 1261:1263 1265:1267 1269:1271 1277:1279 1281:1283 1285:1287" // @
+" 1293:1295 1297:1299 1301:1303 1309 1310 1313 1314 1317 1318 1324:1326 13" // @
+"28:1330 1332:1334 1340:1342 1344:1346 1348:1350 1356:1358 1360:1362 1368:" // @
+"1370 1372:1374 1376:1378 1384:1386 1388:1390 1392:1394 1401 1402 1405 140" // @
+"6 1409 1410 1417:1419 1421:1423 1425:1427 1437:1439 1441:1443 1453:1455 1" // @
+"457:1459 1461:1463 1469:1471 1473:1475 1477:1479 1485 1486 1489 1490 1493" // @
+" 1494 1500:1502 1504:1506 1508:1510 1516:1518 1520:1522 1528:1530 1532:15" // @
+"34 1536:1538 1545 1546 1549 1550 1553 1554 1565:1567 1569:1571 1581:1583 " // @
+"1585:1587 1589:1591 1597 1598 1601 1602 1605 1606 1612:1614 1616:1618 162" // @
+"9 1630 1633 1634 1640:1645 1652 1654 1655 1662 1664 1665 1672 1674 1675 1" // @
+"682 1684 1685 1687:1689 1692 1694 1695 1702 1704 1705 1712 1714 1715 1722" // @
+" 1724 1725 1727:1729 1731 1732 1735 1742 1744 1745 1752 1754 1755 1762 17" // @
+"64 1765 1772 1774 1775 1777:1779 1784 1787 1788 1794 1797 1798 1804 1807 " // @
+"1808 1814 1817 1818 1824 1827 1828 1832 1834 1835", "1000", 2,  @
+fem_renum_node_new_ids )
+$# 481 FEM entities renumbered.  New IDs are:  Node 1000:1480
+repaint_graphics(  )
+mesh_seed_display_mgr.erase(  )
+uil_primary_file.db_save(  )
+uil_toolbar.shaded_smooth(  )
+ga_view_aa_set( 114.725204, 3.177569, 168.246338 )
+mesh_seed_display_mgr.erase(  )
+ga_view_aa_set( -71.248802, -0.662857, -60.121029 )
+ga_view_center_set( -0.256696, 0.025743 )
+ga_view_zoom_set( 0.334306 )
+ga_view_center_set( -0.320259, 0.035961 )
+ga_view_zoom_set( 0.376094 )
+ga_view_center_set( -0.391768, 0.047773 )
+ga_view_zoom_set( 0.423106 )
+ga_view_center_set( -0.320260, 0.035961 )
+ga_view_zoom_set( 0.376094 )
+ga_view_center_set( -0.164933, 0.009151 )
+ga_view_zoom_set( 0.273523 )
+ga_view_center_set( -0.118910, 0.001207 )
+ga_view_zoom_set( 0.243131 )
+ga_view_center_set( -0.078001, -0.005672 )
+ga_view_zoom_set( 0.216117 )
+ga_view_center_set( -0.042043, -0.010896 )
+ga_view_zoom_set( 0.192104 )
+ga_view_center_set( -0.010079, -0.015539 )
+ga_view_zoom_set( 0.170759 )
+ga_view_center_set( 0.018332, -0.019667 )
+ga_view_zoom_set( 0.151786 )
+ga_view_center_set( 0.039492, -0.022141 )
+ga_view_zoom_set( 0.134921 )
+ga_view_center_set( 0.057592, -0.024644 )
+ga_view_zoom_set( 0.119929 )
+ga_view_center_set( 0.073457, -0.027003 )
+ga_view_zoom_set( 0.106604 )
+ga_view_center_set( 0.087399, -0.029140 )
+ga_view_zoom_set( 0.094759 )
+ga_view_center_set( 0.079769, -0.026364 )
+ga_view_zoom_set( 0.106604 )
+ga_view_center_set( 0.062601, -0.020117 )
+ga_view_zoom_set( 0.133255 )
+ga_view_center_set( 0.051871, -0.016213 )
+ga_view_zoom_set( 0.149912 )
+ga_view_center_set( 0.027854, -0.007428 )
+ga_view_zoom_set( 0.187390 )
+ga_view_center_set( 0.014187, -0.001858 )
+ga_view_zoom_set( 0.210813 )
+ga_view_center_set( -0.076463, 0.012899 )
+ga_view_center_set( -0.068879, 0.009383 )
+ga_view_zoom_set( 0.187390 )
+ga_view_center_set( -0.062137, 0.006258 )
+ga_view_zoom_set( 0.166569 )
+ga_view_center_set( -0.056145, 0.003481 )
+ga_view_zoom_set( 0.148061 )
+ga_view_center_set( -0.050818, 0.000956 )
+ga_view_zoom_set( 0.131610 )
+ga_view_center_set( -0.010019, -0.001676 )
+$# UNDO:
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", FALSE )
+gm_visibility_widget( " Node 1000:1480 Element 1000:1359 3000:3179 4000:42" // @
+"99 4500:4559", TRUE )
+gm_visibility_widget( " Node 1000:1480 Element 1000:1359 3000:3179 4000:42" // @
+"99 4500:4559", FALSE )
+gm_visibility_widget( " Point 1:125 Curve 1:120 Surface 1:60", TRUE )
