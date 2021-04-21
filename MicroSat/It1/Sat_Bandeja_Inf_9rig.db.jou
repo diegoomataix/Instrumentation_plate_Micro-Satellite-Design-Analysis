@@ -4157,3 +4157,226 @@ uil_primary_file.db_save(  )
 uil_primary_file.db_save(  )
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 21-Apr-21 14:37:04
+$# Appending to existing journal file C:\Users\diego\Documents\MEng Space 
+$# Systems (Local)\2. EUE\Micro-Satellite Design & 
+$# Analysis\MicroSat\It1\Sat_Bandeja_Inf_9rig.db.jou at 21-Apr-21 15:23:15
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\diego\Documents\MEng Space Systems (Local)\2. E" // @
+"UE\Micro-Satellite Design & Analysis\MicroSat\It1" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_view_aa_set( -75.467499, 1.061110, -94.188583 )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "127", "[0.225 0.225 0.38]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 127
+ga_view_aa_set( -84.011261, 9.201307, -48.694569 )
+ga_view_center_set( -0.009216, -0.017835 )
+ga_view_zoom_set( 0.292373 )
+ga_view_center_set( -0.015625, -0.001133 )
+ga_view_zoom_set( 0.328920 )
+ga_view_center_set( -0.022836, 0.017656 )
+ga_view_zoom_set( 0.370035 )
+ga_view_center_set( -0.016180, -0.000301 )
+ga_view_zoom_set( 0.328920 )
+ga_view_center_set( -0.011003, -0.016017 )
+ga_view_zoom_set( 0.292373 )
+uil_toolbar.wireframe(  )
+ga_view_aa_set( -70.123207, -2.393191, -106.553368 )
+ga_view_aa_set( -71.241295, -1.022945, -110.638992 )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_center_set( 0.017812, -0.040176 )
+ga_view_zoom_set( 0.259887 )
+ga_view_center_set( 0.043426, -0.061651 )
+ga_view_zoom_set( 0.231011 )
+ga_view_center_set( 0.066194, -0.080739 )
+ga_view_zoom_set( 0.205343 )
+ga_view_center_set( 0.086432, -0.097707 )
+ga_view_zoom_set( 0.182527 )
+ga_view_center_set( 0.104011, -0.112516 )
+ga_view_zoom_set( 0.162246 )
+ga_view_center_set( 0.119576, -0.125618 )
+ga_view_zoom_set( 0.144219 )
+ga_view_center_set( 0.133411, -0.137265 )
+ga_view_zoom_set( 0.128195 )
+ga_view_center_set( 0.145710, -0.147617 )
+ga_view_zoom_set( 0.113951 )
+ga_view_center_set( 0.156043, -0.156307 )
+ga_view_zoom_set( 0.101290 )
+ga_view_center_set( 0.165229, -0.164032 )
+ga_view_zoom_set( 0.090035 )
+ga_view_center_set( 0.173394, -0.170898 )
+ga_view_zoom_set( 0.080031 )
+ga_view_center_set( 0.180652, -0.177001 )
+ga_view_zoom_set( 0.071139 )
+ga_view_center_set( 0.180622, -0.172397 )
+ga_view_zoom_set( 0.080031 )
+ga_view_center_set( 0.180588, -0.167218 )
+ga_view_zoom_set( 0.090035 )
+ga_view_center_set( 0.180550, -0.161392 )
+ga_view_zoom_set( 0.101290 )
+ga_view_center_set( 0.180508, -0.154837 )
+ga_view_zoom_set( 0.113951 )
+ga_view_center_set( 0.180460, -0.147463 )
+ga_view_zoom_set( 0.128195 )
+ga_view_center_set( 0.180406, -0.139167 )
+ga_view_zoom_set( 0.144219 )
+ga_view_center_set( 0.180345, -0.129834 )
+ga_view_zoom_set( 0.162246 )
+ga_view_center_set( 0.180276, -0.119334 )
+ga_view_zoom_set( 0.182527 )
+ga_view_center_set( 0.180200, -0.107523 )
+ga_view_zoom_set( 0.205343 )
+ga_view_center_set( 0.180113, -0.094234 )
+ga_view_zoom_set( 0.231011 )
+ga_view_center_set( 0.180210, -0.080161 )
+ga_view_zoom_set( 0.259887 )
+ga_view_center_set( 0.180430, -0.064439 )
+ga_view_zoom_set( 0.292373 )
+ga_view_center_set( 0.181046, -0.047120 )
+ga_view_zoom_set( 0.328920 )
+ga_view_center_set( 0.059345, 0.012085 )
+ga_view_center_set( 0.051210, 0.004012 )
+ga_view_zoom_set( 0.292373 )
+ga_view_center_set( 0.043979, -0.003165 )
+ga_view_zoom_set( 0.259887 )
+ga_view_center_set( 0.043979, -0.010962 )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+ga_view_aa_set( -78.215080, 0.262939, -128.419373 )
+mesh_seed_display_mgr.erase(  )
+ga_view_aa_set( 23., 56., 0. )
+ga_view_aa_set( -62.087978, -5.506960, -55.671936 )
+ga_view_center_set( 0.038781, -0.078532 )
+STRING fem_create_nodes__nodes_created[VIRTUAL]
+fem_create_nodes_1( "Coord 0", "Coord 0", 3, "5000", "Point 127",  @
+fem_create_nodes__nodes_created )
+$# === 1 node created.  ID = 5000.
+mesh_seed_display_mgr.erase(  )
+STRING fem_create_elemen_elems_created[VIRTUAL]
+fem_create_elems_1( "Point ", "Point", "5000", "Standard", 3, "Node 5000", "", @
+ "", "", "", "", "", "", fem_create_elemen_elems_created )
+$# === 1 element created.  ID = 5000.
+fem_associate_elems_to_ep( "0D_Mass_sat_39.325kg", "5000", 1 )
+$# 1 Element(s) associated to the Element Property 0D_Mass_sat_39.325kg.
+uil_primary_file.db_save(  )
+mesh_seed_display_mgr.erase(  )
+ga_view_aa_set( 23., 56., 0. )
+ga_view_aa_set( -82.658127, 5.854331, 38.189785 )
+ga_view_center_set( 0.050833, -0.071794 )
+ga_view_zoom_set( 0.292373 )
+ga_view_center_set( 0.064022, -0.065569 )
+ga_view_zoom_set( 0.328920 )
+ga_view_center_set( 0.078028, -0.058151 )
+ga_view_zoom_set( 0.370035 )
+ga_view_center_set( 0.093784, -0.049804 )
+ga_view_zoom_set( 0.416289 )
+ga_view_center_set( 0.100492, -0.050974 )
+ga_view_zoom_set( 0.370035 )
+ga_view_center_set( 0.106454, -0.052014 )
+ga_view_zoom_set( 0.328920 )
+ga_view_aa_set( 0., 180., 0. )
+$# Error reported from application FEM
+$#     Invalid node list specified. At least one node must be selected.
+$? NO 2006004 
+ga_view_aa_set( -80.052742, -1.437464, -120.842636 )
+$# UNDO: MPC Create
+$# UNDO: MPC Create
+$# UNDO: MPC Create
+ga_view_aa_set( -23.576143, 2.980899, -106.128304 )
+ga_view_aa_set( -91.010994, -4.325831, -88.064262 )
+ga_view_aa_set( -72.819817, 7.025070, -148.483047 )
+$# UNDO: MPC Create
+ga_view_aa_set( -85.518967, 7.558911, -95.408447 )
+ga_view_aa_set( -70.846123, 2.574793, -133.212021 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( -60.103088, -11.070397, -30.284273 )
+$# UNDO: MPC Create
+$# UNDO: MPC Create
+ga_view_aa_set( -60.307472, 21.956133, 16.745197 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( -78.693489, 3.348362, 27.162697 )
+$# UNDO: MPC Create
+ga_view_aa_set( -11.634961, 3.465725, 15.751564 )
+ga_view_aa_set( -72.420845, -1.476759, 33.086140 )
+ga_view_aa_set( -31.495708, -0.871812, 36.961498 )
+ga_view_aa_set( -82.219620, 1.276629, 83.515305 )
+ga_view_aa_set( -77.846519, -0.774220, 40.068264 )
+ga_view_aa_set( 0., 0., 0. )
+$# UNDO:
+ga_view_aa_set( -79.234337, -0.764440, 80.714256 )
+ga_view_center_set( 0.115884, -0.060681 )
+ga_view_zoom_set( 0.370035 )
+ga_view_center_set( 0.126024, -0.069651 )
+ga_view_zoom_set( 0.416289 )
+ga_view_center_set( 0.115884, -0.060681 )
+ga_view_zoom_set( 0.370035 )
+ga_view_center_set( 0.106870, -0.052708 )
+ga_view_zoom_set( 0.328920 )
+ga_view_center_set( 0.087205, -0.035311 )
+ga_view_zoom_set( 0.239215 )
+ga_view_center_set( 0.081378, -0.030157 )
+ga_view_zoom_set( 0.212635 )
+ga_view_center_set( 0.076199, -0.025017 )
+ga_view_zoom_set( 0.189009 )
+ga_view_center_set( 0.071595, -0.020449 )
+ga_view_zoom_set( 0.168008 )
+ga_view_center_set( 0.064228, -0.013139 )
+ga_view_zoom_set( 0.134406 )
+ga_view_center_set( 0.060954, -0.009890 )
+ga_view_zoom_set( 0.119472 )
+ga_view_aa_set( -111.075890, -9.411171, 71.012558 )
+ga_view_center_set( 0.064782, -0.012988 )
+ga_view_zoom_set( 0.134406 )
+ga_view_center_set( 0.069089, -0.016472 )
+ga_view_zoom_set( 0.151207 )
+ga_view_center_set( 0.073934, -0.020393 )
+ga_view_zoom_set( 0.170108 )
+ga_view_center_set( 0.079384, -0.024803 )
+ga_view_zoom_set( 0.191372 )
+ga_view_center_set( 0.085516, -0.029765 )
+ga_view_zoom_set( 0.215293 )
+ga_view_center_set( 0.091960, -0.033985 )
+ga_view_zoom_set( 0.242205 )
+ga_view_center_set( 0.099210, -0.038733 )
+ga_view_zoom_set( 0.272480 )
+ga_view_center_set( 0.107366, -0.044075 )
+ga_view_zoom_set( 0.306540 )
+ga_view_center_set( 0.116541, -0.050084 )
+ga_view_zoom_set( 0.344858 )
+ga_view_center_set( 0.126864, -0.056844 )
+ga_view_zoom_set( 0.387965 )
+ga_view_aa_set( -173.078705, 8.717878, -121.998238 )
+ga_view_aa_set( -117.820427, -8.386772, -85.882072 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+result_label_format_set( 1, 4 )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+uil_toolbar.shaded_smooth(  )
+ga_view_aa_set( -69.406960, 2.367379, -36.543297 )
+gm_visibility_widget( " Point 1:127 Curve 1:120 Surface 1:60", FALSE )
+ga_view_aa_set( -138.223999, 0.101488, -38.356964 )
+ga_view_center_set( 0.044053, -0.122321 )
+ga_view_aa_set( -64.966782, -1.730147, 34.157108 )
+ga_view_aa_set( -65.966782, -1.730147, 34.157108 )
+uil_primary_file.db_save(  )
