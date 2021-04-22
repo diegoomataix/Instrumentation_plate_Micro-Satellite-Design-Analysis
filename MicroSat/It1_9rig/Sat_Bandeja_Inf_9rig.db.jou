@@ -5545,3 +5545,15 @@ ga_view_aa_set( -63.279339, -6.635008, 13.709724 )
 uil_primary_file.db_save(  )
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 22-Apr-21 01:59:28
+$# Appending to existing journal file C:\Users\diego\Documents\MEng Space 
+$# Systems (Local)\2. EUE\Micro-Satellite Design & 
+$# Analysis\MicroSat\It1_9rig\Sat_Bandeja_Inf_9rig.db.jou at 22-Apr-21 21:06:28
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\diego\Documents\MEng Space Systems (Local)\2. E" // @
+"UE\Micro-Satellite Design & Analysis\MicroSat\It1_9rig" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 22-Apr-21 21:06:36

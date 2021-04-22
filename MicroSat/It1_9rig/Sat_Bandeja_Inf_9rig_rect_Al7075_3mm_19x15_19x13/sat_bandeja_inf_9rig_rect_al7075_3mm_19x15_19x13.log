@@ -7,7 +7,7 @@ MEM=527MB      $
 MACH='Intel'
 OPER='Windows 10 Home'
 OSV='6.2 9200'
-MODEL='Xeon/2739 (klkgng)'
+MODEL='Xeon/2950 (klkgng)'
 NPROC='8'
 CONFIG=6
 NPROC=8
@@ -15,8 +15,8 @@ symbol=DELDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/
 symbol=DEMODIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
 symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
 symbol=TPLDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
-SDIR='c:/engineering software/nastran-patran/sat_bandeja_inf_9rig_rect_al7075_3mm_19x15_19x13.T17824_33'
-DBS='c:/engineering software/nastran-patran/sat_bandeja_inf_9rig_rect_al7075_3mm_19x15_19x13.T17824_33'
+SDIR='c:/engineering software/nastran-patran/sat_bandeja_inf_9rig_rect_al7075_3mm_19x15_19x13.T25408_7'
+DBS='c:/engineering software/nastran-patran/sat_bandeja_inf_9rig_rect_al7075_3mm_19x15_19x13.T25408_7'
 SCR='yes'
 SMEM=100
 BPOOL=150
@@ -46,9 +46,9 @@ FPE:         yes
 ----------------------------------------------------------------- 
 Current resource limits:
  Physical memory:                    16275 MB
- Physical memory available:           8501 MB
+ Physical memory available:           6975 MB
  Paging file size:                   28563 MB
- Paging file size available:         17745 MB
+ Paging file size available:         12075 MB
  Virtual memory:                 134217727 MB
  Virtual memory available:       134213511 MB
 ----------------------------------------------------------------- 
@@ -56,8 +56,8 @@ System configuration:
  Hostname:         klkgng
  Architecture:     win64i8
  Platform:         Intel Windows 10 Home 6.2 9200 (Windows Compute Cluster)
- Model:            Xeon/2267
- Clock freq.:      2317 MHz
+ Model:            Xeon/2956
+ Clock freq.:      2900 MHz
  Number of CPUs:   8
  Executable:       standard
  Raw model ID:     6
@@ -70,8 +70,8 @@ System configuration:
  Remote shell cmd: "c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
                    <ccs_cmd> (Windows CCS nodes)
 ----------------------------------------------------------------- 
-MSC Nastran started  Thu Apr 22 01:50:33 WEST 2021 
- 01:50:34  Beginning Analysis
+MSC Nastran started  Thu Apr 22 21:18:07 WEST 2021 
+ 21:18:08  Beginning Analysis
 SCA Kernel 24.7.714370 successfully initialized
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
@@ -79,36 +79,36 @@ BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\wi
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
 
- 01:50:34  MSC Authorization Information - Checkout Successful (1016, 0)
- 01:50:34  -------------------------------------------------------------
- 01:50:34  Acquired 1 license for Student Edition Nastran
+ 21:18:08  MSC Authorization Information - Checkout Successful (1016, 0)
+ 21:18:08  -------------------------------------------------------------
+ 21:18:08  Acquired 1 license for Student Edition Nastran
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 01:50:35  2319 records read from JID file "c:/users/diego/pictures/sat_bandeja_inf_9rig_rect_al7075_3mm_19x15_19x13.bdf"
+ 21:18:08  2319 records read from JID file "c:/users/diego/pictures/sat_bandeja_inf_9rig_rect_al7075_3mm_19x15_19x13.bdf"
 
 Processing of bulk data entries is complete.
 
- 01:50:35  Analysis started.
- 01:50:35  Geometry access/verification to CAD part initiated (if needed).
- 01:50:35  Geometry access/verification to CAD part successfully completed (if needed).
- 01:50:35  Finite element model generation started.
- 01:50:35  Finite element model generated 2946 degrees of freedom.
- 01:50:35  Finite element model generation successfully completed.
- 01:50:35  Application of Loads and Boundary Conditions to the finite element model started.
- 01:50:35  Application of Loads and Boundary Conditions to the finite element model successfully completed.
- 01:50:35  Solution of the system equations for normal modes started.
- 01:50:35  Solution of the system equations for normal modes successfully completed.
- 01:50:35  Normal modes analysis completed.
- 01:50:35  19 records read from JID file "c:/users/diego/pictures/sat_bandeja_inf_9rig_rect_al7075_3mm_19x15_19x13.bdf"
- 01:50:35  NSEXIT: EXIT(0)
- 01:50:35  Analysis complete  0
-Real:        0.848 seconds ( 0:00:00.848)
-User:        0.578 seconds ( 0:00:00.578)
-Sys:         0.281 seconds ( 0:00:00.281)
+ 21:18:09  Analysis started.
+ 21:18:09  Geometry access/verification to CAD part initiated (if needed).
+ 21:18:09  Geometry access/verification to CAD part successfully completed (if needed).
+ 21:18:09  Finite element model generation started.
+ 21:18:09  Finite element model generated 2946 degrees of freedom.
+ 21:18:09  Finite element model generation successfully completed.
+ 21:18:09  Application of Loads and Boundary Conditions to the finite element model started.
+ 21:18:09  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 21:18:09  Solution of the system equations for normal modes started.
+ 21:18:09  Solution of the system equations for normal modes successfully completed.
+ 21:18:09  Normal modes analysis completed.
+ 21:18:09  19 records read from JID file "c:/users/diego/pictures/sat_bandeja_inf_9rig_rect_al7075_3mm_19x15_19x13.bdf"
+ 21:18:09  NSEXIT: EXIT(0)
+ 21:18:09  Analysis complete  0
+Real:        1.024 seconds ( 0:00:01.024)
+User:        0.671 seconds ( 0:00:00.671)
+Sys:         0.328 seconds ( 0:00:00.328)
  ==================================================
  OS:                           6.2
  OEM ID:                       9
@@ -124,4 +124,4 @@ Sys:         0.281 seconds ( 0:00:00.281)
  HyperThreading:               On
  Ram:                          16275 Mb
 Can't open the file c:\engineering
-MSC Nastran finished Thu Apr 22 01:50:35 WEST 2021 
+MSC Nastran finished Thu Apr 22 21:18:09 WEST 2021 

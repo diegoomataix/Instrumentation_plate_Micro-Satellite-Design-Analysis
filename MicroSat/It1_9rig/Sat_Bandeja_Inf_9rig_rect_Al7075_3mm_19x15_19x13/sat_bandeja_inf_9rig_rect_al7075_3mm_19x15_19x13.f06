@@ -26,7 +26,7 @@
                                               * *          AUG  4, 2020           * *
                                               * *                                 * *
                                               * *              Intel              * *
-                                              * *    MODEL Xeon/2739 (klkgng)     * *
+                                              * *    MODEL Xeon/2950 (klkgng)     * *
                                               * *    Windows 10 Home 6.2 9200     * *
                                               * * Compiled for 8664 (SINGLE Mode) * *
                                               * *                                 * *
@@ -200,7 +200,7 @@
                                                                                                                                     
                                                                                                                                     
      NASTRAN BUFFSIZE=8193 $(C:/PROGRAM FILES/MSC.SOFTWARE/NAPA_SE/2020/NASTRAN/CONF/
-     $ MSC.NASTRAN INPUT FILE CREATED ON APRIL     22, 2021 AT 00:41:39 BY           
+     $ MSC.NASTRAN INPUT FILE CREATED ON APRIL     22, 2021 AT 21:17:48 BY           
      $ PATRAN 2020  (STUDENT EDITION)                                                
      $ DIRECT TEXT INPUT FOR NASTRAN SYSTEM CELL SECTION                             
      $ DIRECT TEXT INPUT FOR FILE MANAGEMENT SECTION                                 
