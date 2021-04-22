@@ -2812,14 +2812,184 @@ node_size( 9 )
 ga_view_aa_set( -61.879047, -4.324744, 0.418138 )
 ga_view_aa_set( -49.823002, -3.720845, 1.217170 )
 ga_view_center_set( -0.042088, -0.088357 )
-fem_create_mpc_nodal2( 2501, "RBE2", 2.2E-05, 2, [TRUE, FALSE], ["0", "0"], [ @
-"Node 1080 1092:1116:8 1298:1304 1306 1121:1145:8 1151 1281 1307:1312 1006" // @
-" 1015:1039:8 1283:1288 1290 1041 1047:1071:8 1291:1296", "Node 2500"], [ @
-"UX,UY,UZ", ""] )
-$# MPC 2501 created.
-ga_view_aa_set( -63.277653, -8.105317, 7.177765 )
+$# UNDO: MPC Create
+ga_view_center_set( 0.042559, -0.024293 )
+ga_view_zoom_set( 0.334416 )
+ga_view_center_set( 0.005227, -0.007287 )
+ga_view_zoom_set( 0.297258 )
+ga_view_aa_set( -66.584023, -2.755162, -17.450037 )
+ga_view_aa_set( -46.229847, -1.485156, -12.084579 )
+gm_visibility_widget( "Elm 1240:1335", FALSE )
+ga_view_aa_set( -45.229851, -1.485157, -12.084580 )
+ga_view_aa_set( -66.142845, -1.320648, -9.809012 )
+ga_view_center_set( -0.042334, -0.028095 )
+gm_visibility_widget( "Node 2500", FALSE )
+gm_visibility_widget( "Elm 2500 Mpc 2501", FALSE )
+ga_view_aa_set( -46.170265, -2.425910, -10.271030 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.003690, -0.010259 )
+uil_primary_file.db_save(  )
+sys_poll_option( 2 )
+ga_group_create( "CBUSH" )
+ga_group_entity_add( "CBUSH", "Node 1093 1062 1019 1133 1192 1181 1165 1153" )
+ga_group_current_set( "CBUSH" )
+$# Group "CBUSH" created.
+sys_poll_option( 0 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["CBUSH"] )
+uil_toolbar.wireframe(  )
+ga_view_aa_set( -10.007587, -2.988734, -0.209204 )
+ga_view_center_set( 0.000192, -0.016989 )
+ga_view_zoom_set( 0.264230 )
+ga_view_center_set( 0.003644, -0.023064 )
+ga_view_zoom_set( 0.234871 )
+ga_view_center_set( 0.006711, -0.028463 )
+ga_view_zoom_set( 0.208774 )
+uil_primary_file.db_save(  )
+ga_view_center_set( 0.015179, -0.029199 )
+ga_view_zoom_set( 0.234871 )
+mesh_seed_display_mgr.erase(  )
+STRING fem_transform_node__created_ids[VIRTUAL]
+STRING fem_transform_node__deleted_ids[VIRTUAL]
+fem_translate_nodes_2( "1", "<0 0 -0.02>", 0.02, FALSE, "Coord 0", 1, FALSE,  @
+2, "Node 1019 1062 1093 1133 1153 1165 1181 1192",  @
+fem_transform_node__created_ids, fem_transform_node__deleted_ids )
+$# === 8 nodes created.  IDs  = 1:8.
+ga_view_aa_set( -77.228294, -1.754482, 5.270350 )
+uil_primary_file.db_save(  )
+elementprops_create( "1D_CBUSH_IF", 89, 25, 20, 37, 2, 20, [4174, 4177, 4175,  @
+4176, 2104, 2105, 4178, 4179, 4186, 4187, 4198, 4199, 4200, 4201, 4202, 4203,  @
+4192, 4193, 4194, 4195, 4196, 4197, 2028, 2029, 4188, 4189, 4190, 4191, 4204,  @
+4205, 4206, 4207, 4208, 4209, 4180, 4210, 4298, 4299, 4300, 4301, 4302, 4181,  @
+4182, 4183, 4184, 4290, 4291, 4292, 4293, 4294, 4295, 4296, 4297], [2, 1, 9,  @
+2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4, 1, 1, 1, 4], [ @
+"<0 1 0>", "", "", "", "1E9", "1E9", "1E9", "100", "1E7", "1E7", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+""], "" )
+$# Property Set "1D_CBUSH_IF" created.
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( -77.020569, -0.659380, -4.945806 )
+ga_view_aa_set( -90., 0., 0. )
+$# UNDO: PCL: Create Elements
+ga_view_aa_set( -60.332279, -2.306116, -17.461544 )
+$# UNDO: PCL: Create Elements
+ga_view_aa_set( -62.328594, -2.382724, -17.419788 )
+STRING fem_delete_any_deleted_ids[VIRTUAL]
+fem_delete_element( "Elm 10 14 9 13 12 16 11 15", fem_delete_any_deleted_ids )
+$# 8 Elements deleted: Element 9:16
+ga_view_center_set( -0.024982, 0.003171 )
+ga_view_zoom_set( 0.202320 )
+ga_view_center_set( 0.000705, 0.000141 )
+ga_view_zoom_set( 0.179840 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( -72.071358, -1.516120, -5.802919 )
+au_create_elm_by_nodes.main( 1, 1, "Bar2", 2, "Model", "Node 1:8", "Nodes", 0, @
+ ["empty"], "Node 1:8 1019 1062 1093 1133 1153 1165 1181 1192" )
+$# 8 elements created ...
+elementprops_modify( "1D_CBUSH_IF", "1D_CBUSH_IF", 89, 25, 20, 37, 2, 20, [ @
+4174, 4177, 4175, 4176, 2104, 2105, 4178, 4179, 4186, 4187, 4198, 4199, 4200,  @
+4201, 4202, 4203, 4192, 4193, 4194, 4195, 4196, 4197, 2028, 2029, 4188, 4189,  @
+4190, 4191, 4204, 4205, 4206, 4207, 4208, 4209, 4180, 4210, 4298, 4299, 4300,  @
+4301, 4302, 4181, 4182, 4183, 4184, 4290, 4291, 4292, 4293, 4294, 4295, 4296,  @
+4297], [2, 1, 9, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4,  @
+1, 1, 1, 4], ["<0. 1. 0.>", "", "", "", "1E+09", "1E+09", "1E+09", "100.",  @
+"10000000.", "10000000.", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "", "", "", "", "", "", "", "", ""], "Element 1:8" )
+$# Property Set "1D_CBUSH_IF" modified.
 uil_primary_file.db_save(  )
 uil_primary_file.db_save(  )
+uil_viewport_post_groups.posted_groups( "default_viewport", 2, ["Bandeja_Inf", @
+ "CBUSH"] )
+gm_plot_erase_all( 1 )
+ga_view_aa_set( -56.071365, -1.516120, -5.802919 )
+gm_visibility_widget( " Point 1:87 Curve 1:168 Surface 1:84", TRUE )
+gm_visibility_widget( " Point 1:87 Curve 1:168 Surface 1:84", FALSE )
+gm_visibility_widget( " Point 1:87 Curve 1:168 Surface 1:84", TRUE )
+gm_visibility_widget( " Point 1:87 Curve 1:168 Surface 1:84", FALSE )
+ga_view_aa_set( -81.770454, -5.510004, -15.982882 )
 uil_primary_file.db_save(  )
+ga_view_aa_set( -66.782471, -1.605783, -1.516515 )
+ga_view_aa_set( -75.088646, -5.168578, -6.061918 )
+$# Appending to existing journal file C:\Users\diego\Documents\MEng Space 
+$# Systems (Local)\2. EUE\Micro-Satellite Design & 
+$# Analysis\MicroSat\It2_11rig\Sat_Bandeja_Inf_11rig.db.jou at 22-Apr-21 
+$# 04:09:37
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\diego\Documents\MEng Space Systems (Local)\2. E" // @
+"UE\Micro-Satellite Design & Analysis\MicroSat\It2_11rig" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_display_mgr.erase(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadcase_create2( "LoadCase", "Static", "", 1., [""], [0], [0.], "", 0., TRUE )
+$# Load Case "LoadCase" created.
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["CBUSH"] )
+ga_view_center_set( 0.013552, -0.048546 )
+ga_view_zoom_set( 0.305883 )
+ga_view_center_set( 0.023561, -0.034882 )
+ga_view_zoom_set( 0.344119 )
+ga_view_center_set( 0.013552, -0.048905 )
+ga_view_zoom_set( 0.305883 )
+ga_view_center_set( 0.004656, -0.061584 )
+ga_view_zoom_set( 0.271896 )
+ga_view_center_set( -0.003252, -0.072948 )
+ga_view_zoom_set( 0.241685 )
+ga_view_center_set( -0.010281, -0.083134 )
+ga_view_zoom_set( 0.214832 )
+ga_view_center_set( -0.016529, -0.092188 )
+ga_view_zoom_set( 0.190961 )
+ga_view_center_set( -0.022083, -0.100237 )
+ga_view_zoom_set( 0.169743 )
+ga_view_center_set( -0.023780, -0.171529 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadcase_current_set( "LoadCase" )
+loadcase_current_set( "LoadCase" )
+ga_view_aa_set( -90., 0., 0. )
+loadsbcs_create2( "SPC_123456", "Displacement", "Nodal", "", "Static", [ @
+"Node 1:8"], "FEM", "Coord 0", "1.", ["< 0.,0.,0.  >", "< 0.,0.,0.  >",  @
+"<     >", "<     >"], ["", "", "", ""] )
+$# Load/BC set "SPC_123456" created.
+ga_view_aa_set( -71.017975, -0.692291, -4.928293 )
 uil_primary_file.db_save(  )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_Inf"] )
+uil_viewport_post_groups.posted_groups( "default_viewport", 2, ["Bandeja_Inf", @
+ "CBUSH"] )
 uil_primary_file.db_save(  )
+ga_view_aa_set( -95.044937, -0.236873, -8.922989 )
+ga_view_aa_set( -92.549141, 6.036127, -91.844849 )
+ga_view_aa_set( -86.895279, 5.770806, -143.135803 )
+ga_view_aa_set( -94.491470, 5.468052, 166.728760 )
+ga_view_aa_set( -73.927177, -2.977806, 115.621437 )
+uil_primary_file.db_save(  )
+uil_file_saveas.copy( "C:\Users\diego\Documents\MEng Space Systems (Local)" // @
+"\2. EUE\Micro-Satellite Design & Analysis\MicroSat\It2_11rig\Sat_Bandeja_" // @
+"Inf_11rig_rect_Al7075_2mm_13x9.5_13x5\Sat_Bandeja_Inf_11rig_rect_Al7075_2" // @
+"mm_13x9.5_13x5", FALSE )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 22-Apr-21 04:13:06
