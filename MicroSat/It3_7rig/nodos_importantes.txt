@@ -1,0 +1,3 @@
+rig in --> Element 1000:1383
+rig out --> Element 1384:1479
+shell --> Element 3000:3575 4000:4863
