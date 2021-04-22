@@ -1,0 +1,2215 @@
+$# Creating journal file C:\Users\diego\Documents\MEng Space Systems (Local)
+$# \2. EUE\Micro-Satellite Design & 
+$# Analysis\MicroSat\It2_11rig\Sat_Bandeja_Inf_11rig.db.jou at 22-Apr-21 
+$# 02:10:27
+uil_file_rebuild.start("C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/" // @
+"template.db","C:\Users\diego\Documents\MEng Space Systems (Local)\2. EUE\" // @
+"Micro-Satellite Design & Analysis\MicroSat\It2_11rig\Sat_Bandeja_Inf_11rig.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\diego\Documents\MEng Space Systems (Local)\2. E" // @
+"UE\Micro-Satellite Design & Analysis\MicroSat\It2_11rig" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+db_set_pref( 303, 3, 0, FALSE, 4.9999999E-06, "" )
+uil_primary_file.db_save(  )
+point_size( 9 )
+node_size( 9 )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1", "[0 0 0]", "Coord 0", asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+asm_const_grid_xyz( "2", "[0.075 0 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 2
+asm_const_grid_xyz( "3", "[0 0.075 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 3
+asm_const_grid_xyz( "4", "[0.075 0.075 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 4
+asm_const_grid_xyz( "5", "[0.0375 0.0375 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 5
+uil_primary_file.db_save(  )
+ga_view_center_set( -0.003941, -0.001499 )
+ga_view_zoom_set( 0.050625 )
+ga_view_center_set( -0.008375, -0.003185 )
+ga_view_zoom_set( 0.056953 )
+STRING sgm_transform_point_created_ids[VIRTUAL]
+asm_transform_grid_translate_1( "6", "<0.075 0 0>", 0.075000003, FALSE,  @
+"Coord 0", 4, FALSE, FALSE, "Point 1:5", sgm_transform_point_created_ids )
+$# Question in application SGM by application Geometry
+$#     Point 2 already exists at the specified location to create the next 
+$# Point. Do you wish to create a duplicate Point?
+$? NOFORALL 1000034 
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# 12 Points created: Grid 6:17
+ga_view_center_set( 0.013875, -0.002583 )
+ga_view_zoom_set( 0.100215 )
+asm_transform_grid_translate_1( "18", "<0 0.075 0>", 0.075000003, FALSE,  @
+"Coord 0", 4, FALSE, FALSE, "Point 1:17", sgm_transform_point_created_ids )
+$# Question in application SGM by application Geometry
+$#     Point 3 already exists at the specified location to create the next 
+$# Point. Do you wish to create a duplicate Point?
+$? NOFORALL 1000034 
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# 44 Points created: Grid 18:61
+ga_view_center_set( -0.025171, 0.003615 )
+ga_view_zoom_set( 0.253125 )
+STRING asm_delete_any_deleted_ids[VIRTUAL]
+asm_delete_point( "Point 29 30:40:2 41:61", asm_delete_any_deleted_ids )
+$# 28 Points Deleted: Point 29 30:40:2 41:61
+ga_view_center_set( -0.061028, 0.010558 )
+ga_view_zoom_set( 0.284766 )
+asm_delete_point( "Point 16 27 28 39 25 37 18 19 31 33 3 20",  @
+asm_delete_any_deleted_ids )
+$# 12 Points Deleted: Point 3 16 18:20 25 27 28 31 33 37 39
+ga_view_center_set( -0.083735, 0.014463 )
+ga_view_zoom_set( 0.320361 )
+ga_view_center_set( 0.057224, -0.123292 )
+ga_view_center_set( 0.055048, -0.130768 )
+ga_view_zoom_set( 0.284766 )
+ga_view_center_set( 0.053015, -0.137414 )
+ga_view_zoom_set( 0.253125 )
+ga_view_center_set( 0.051207, -0.143321 )
+ga_view_zoom_set( 0.225000 )
+ga_view_center_set( -0.016293, -0.069071 )
+STRING sgm_renum_point_new_ids[VIRTUAL]
+sgm_renumber( 1, "point", "1", "Point 1 2 4:15 17 21:24 26 35",  @
+sgm_renum_point_new_ids )
+$# 21 Points Renumbered: Points 1:21
+repaint_graphics(  )
+uil_primary_file.db_save(  )
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "1", "Point 1", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 1
+asm_const_line_2point( "2", "Point 2", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 2
+asm_const_line_2point( "3", "Point 4", "Point 1", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 3
+asm_const_line_2point( "4", "Point 2", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 4
+asm_const_line_2point( "5", "Point 5", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 5
+asm_const_line_2point( "6", "Point 7", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 6
+$# UNDO: Create Curve 2Point for Point 5Point 8
+$# UNDO: Create Curve 2Point for Point 10Point 5
+asm_const_line_2point( "7", "Point 5", "Point 8", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 7
+asm_const_line_2point( "8", "Point 8", "Point 10", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 8
+asm_const_line_2point( "9", "Point 10", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 9
+asm_const_line_2point( "10", "Point 8", "Point 11", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 10
+asm_const_line_2point( "11", "Point 11", "Point 13", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 11
+asm_const_line_2point( "12", "Point 13", "Point 8", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 12
+asm_const_line_2point( "13", "Point 11", "Point 14", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 13
+asm_const_line_2point( "14", "Point 14", "Point 15", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 14
+asm_const_line_2point( "15", "Point 15", "Point 11", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 15
+asm_const_line_2point( "16", "Point 4", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 16
+asm_const_line_2point( "17", "Point 7", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 17
+asm_const_line_2point( "18", "Point 3", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 18
+asm_const_line_2point( "19", "Point 7", "Point 10", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 19
+asm_const_line_2point( "20", "Point 10", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 20
+asm_const_line_2point( "21", "Point 6", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 21
+asm_const_line_2point( "22", "Point 10", "Point 13", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 22
+asm_const_line_2point( "23", "Point 13", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 23
+asm_const_line_2point( "24", "Point 9", "Point 10", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 24
+asm_const_line_2point( "25", "Point 13", "Point 15", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 25
+asm_const_line_2point( "26", "Point 15", "Point 12", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 26
+asm_const_line_2point( "27", "Point 12", "Point 13", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 27
+asm_const_line_2point( "28", "Point 3", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 28
+asm_const_line_2point( "29", "Point 6", "Point 17", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 29
+asm_const_line_2point( "30", "Point 17", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 30
+STRING asm_delete_any_deleted_ids[VIRTUAL]
+asm_delete_point( "Point 1:21 Curve 1:30", asm_delete_any_deleted_ids )
+$# 21 Points Deleted: Point 1:21
+asm_delete_curve( "Point 1:21 Curve 1:30", asm_delete_any_deleted_ids )
+$# 30 Curves Deleted: Curve 1:30
+ga_view_center_set( -0.065534, -0.066161 )
+ga_view_zoom_set( 0.253125 )
+ga_view_center_set( -0.015940, -0.069424 )
+ga_view_zoom_set( 0.225000 )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1", "[0 0 0]", "Coord 0", asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+asm_const_grid_xyz( "2", "[0.075 0 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 2
+asm_const_grid_xyz( "3", "[0 0.075 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 3
+asm_const_grid_xyz( "4", "[0.075 0.075 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 4
+asm_const_grid_xyz( "5", "[0.0375 0.0375 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 5
+STRING sgm_transform_point_created_ids[VIRTUAL]
+asm_transform_grid_translate_1( "6", "< 0.075 0 0>", 0.075000003, FALSE,  @
+"Coord 0", 5, FALSE, FALSE, "Point 1:5", sgm_transform_point_created_ids )
+$# Question in application SGM by application Geometry
+$#     Point 2 already exists at the specified location to create the next 
+$# Point. Do you wish to create a duplicate Point?
+$? NOFORALL 1000034 
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# 15 Points created: Grid 6:20
+asm_transform_grid_translate_1( "21", "< 0 0.075 0>", 0.075000003, FALSE,  @
+"Coord 0", 3, FALSE, FALSE, "Point 1:20", sgm_transform_point_created_ids )
+$# Question in application SGM by application Geometry
+$#     Point 3 already exists at the specified location to create the next 
+$# Point. Do you wish to create a duplicate Point?
+$? NOFORALL 1000034 
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# 39 Points created: Grid 21:59
+ga_view_center_set( -0.013154, 0.004655 )
+ga_view_zoom_set( 0.202500 )
+ga_view_center_set( -0.011991, 0.001622 )
+ga_view_zoom_set( 0.180000 )
+ga_view_center_set( -0.013084, 0.004867 )
+ga_view_zoom_set( 0.202500 )
+ga_view_center_set( -0.014314, 0.008517 )
+ga_view_zoom_set( 0.227813 )
+ga_view_center_set( -0.005201, 0.006239 )
+asm_delete_point( "Point 43 45 56 58 59 46 32 19 33 30 44 41 54 57 55 50 5" // @
+"3 52 35 37 48 50 51 21 22 34:36 38 47:49 51 3 23", asm_delete_any_deleted_ids )
+$# 31 Points Deleted: Point 3 19 21:23 30 32:38 41 43:59
+$# Warning reported from application SGM
+$#     4 Points not Deleted: Point 35 48 50 51 non-existent in the database.
+ga_view_center_set( -0.050683, 0.013023 )
+ga_view_zoom_set( 0.256289 )
+ga_view_center_set( -0.007522, 0.005703 )
+ga_view_zoom_set( 0.227812 )
+STRING sgm_renum_point_new_ids[VIRTUAL]
+sgm_renumber( 1, "point", "1", "Point 1 2 4:18 20 24:29 31 39 40 42",  @
+sgm_renum_point_new_ids )
+$# 28 Points Renumbered: Points 1:28
+repaint_graphics(  )
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "1", "Point 1", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 1
+asm_const_line_2point( "2", "Point 2", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 2
+asm_const_line_2point( "3", "Point 4", "Point 1", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 3
+asm_const_line_2point( "4", "Point 2", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 4
+asm_const_line_2point( "5", "Point 5", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 5
+asm_const_line_2point( "6", "Point 7", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 6
+asm_const_line_2point( "7", "Point 5", "Point 8", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 7
+asm_const_line_2point( "8", "Point 8", "Point 10", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 8
+asm_const_line_2point( "9", "Point 10", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 9
+asm_const_line_2point( "10", "Point 8", "Point 11", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 10
+asm_const_line_2point( "11", "Point 11", "Point 13", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 11
+asm_const_line_2point( "12", "Point 13", "Point 8", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 12
+asm_const_line_2point( "13", "Point 11", "Point 14", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 13
+asm_const_line_2point( "14", "Point 14", "Point 16", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 14
+asm_const_line_2point( "15", "Point 16", "Point 11", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 15
+asm_const_line_2point( "16", "Point 14", "Point 17", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 16
+asm_const_line_2point( "17", "Point 17", "Point 18", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 17
+asm_const_line_2point( "18", "Point 18", "Point 14", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 18
+asm_const_line_2point( "19", "Point 7", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 19
+asm_const_line_2point( "20", "Point 3", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 20
+asm_const_line_2point( "21", "Point 10", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 21
+asm_const_line_2point( "22", "Point 6", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 22
+asm_const_line_2point( "23", "Point 13", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 23
+asm_const_line_2point( "24", "Point 9", "Point 10", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 24
+asm_const_line_2point( "25", "Point 16", "Point 12", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 25
+asm_const_line_2point( "26", "Point 12", "Point 13", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 26
+asm_const_line_2point( "27", "Point 18", "Point 15", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 27
+asm_const_line_2point( "28", "Point 15", "Point 16", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 28
+asm_const_line_2point( "29", "Point 6", "Point 20", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 29
+asm_const_line_2point( "30", "Point 20", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 30
+asm_const_line_2point( "31", "Point 9", "Point 22", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 31
+asm_const_line_2point( "32", "Point 22", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 32
+asm_const_line_2point( "33", "Point 12", "Point 24", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 33
+asm_const_line_2point( "34", "Point 24", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 34
+asm_const_line_2point( "35", "Point 15", "Point 25", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 35
+asm_const_line_2point( "36", "Point 25", "Point 12", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 36
+asm_const_line_2point( "37", "Point 22", "Point 19", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 37
+asm_const_line_2point( "38", "Point 19", "Point 20", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 38
+asm_const_line_2point( "39", "Point 24", "Point 21", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 39
+asm_const_line_2point( "40", "Point 21", "Point 22", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 40
+asm_const_line_2point( "41", "Point 25", "Point 23", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 41
+asm_const_line_2point( "42", "Point 23", "Point 24", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 42
+asm_const_line_2point( "43", "Point 21", "Point 27", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 43
+asm_const_line_2point( "44", "Point 27", "Point 19", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 44
+asm_const_line_2point( "45", "Point 23", "Point 28", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 45
+asm_const_line_2point( "46", "Point 28", "Point 21", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 46
+asm_const_line_2point( "47", "Point 28", "Point 26", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 47
+asm_const_line_2point( "48", "Point 26", "Point 27", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 48
+uil_primary_file.db_save(  )
+$# UNDO: Transform Point Rotate Command Point 1:28
+ga_view_center_set( 0.015367, -0.010368 )
+ga_view_zoom_set( 0.151875 )
+ga_view_center_set( 0.032596, -0.021914 )
+ga_view_zoom_set( 0.170859 )
+ga_view_center_set( 0.051979, -0.034902 )
+ga_view_zoom_set( 0.192217 )
+ga_view_center_set( 0.073558, -0.048385 )
+ga_view_zoom_set( 0.216244 )
+ga_view_center_set( 0.097834, -0.063552 )
+ga_view_zoom_set( 0.243274 )
+ga_view_center_set( 0.125145, -0.080616 )
+ga_view_zoom_set( 0.273684 )
+ga_view_center_set( 0.155871, -0.099812 )
+ga_view_zoom_set( 0.307894 )
+ga_view_center_set( 0.060423, 0.100319 )
+$# UNDO: Transform Point Rotate Command Point 1:28
+ga_view_center_set( 0.021662, -0.009839 )
+ga_view_zoom_set( 0.151875 )
+ga_view_center_set( 0.046033, -0.020909 )
+ga_view_zoom_set( 0.170859 )
+ga_view_center_set( 0.073449, -0.033362 )
+ga_view_zoom_set( 0.192217 )
+STRING asm_delete_any_deleted_ids[VIRTUAL]
+asm_delete_point( "Point 1:28 Curve 1:48", asm_delete_any_deleted_ids )
+$# 28 Points Deleted: Point 1:28
+asm_delete_curve( "Point 1:28 Curve 1:48", asm_delete_any_deleted_ids )
+$# 48 Curves Deleted: Curve 1:48
+ga_view_center_set( 0.037710, -0.034416 )
+ga_view_zoom_set( 0.216244 )
+ga_view_center_set( 0.073600, -0.033512 )
+ga_view_zoom_set( 0.192217 )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1", "[0 0 0]", "Coord 0", asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+asm_const_grid_xyz( "2", "[0.075 0 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 2
+asm_const_grid_xyz( "3", "[0 0.075 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 3
+asm_const_grid_xyz( "4", "[0.075 0.075 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 4
+asm_const_grid_xyz( "5", "[0.0375 0.0375 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 5
+STRING sgm_transform_point_created_ids[VIRTUAL]
+asm_transform_grid_translate_1( "6", "< 0.075 0 0>", 0.075000003, FALSE,  @
+"Coord 0", 5, FALSE, FALSE, "Point 1:5", sgm_transform_point_created_ids )
+$# Question in application SGM by application Geometry
+$#     Point 2 already exists at the specified location to create the next 
+$# Point. Do you wish to create a duplicate Point?
+$? NOFORALL 1000034 
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# 15 Points created: Grid 6:20
+asm_transform_grid_translate_1( "21", "<0 0.075 0>", 0.075000003, FALSE,  @
+"Coord 0", 5, FALSE, FALSE, "Point 1:20", sgm_transform_point_created_ids )
+$# Question in application SGM by application Geometry
+$#     Point 3 already exists at the specified location to create the next 
+$# Point. Do you wish to create a duplicate Point?
+$? NOFORALL 1000034 
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# Duplicate Point was not created at users request.
+$# 65 Points created: Grid 21:85
+$# UNDO: Create Curve 2Point for Point 1Point 2
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "1", "Point 1", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 1
+asm_const_line_2point( "2", "Point 2", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 2
+asm_const_line_2point( "3", "Point 5", "Point 1", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 3
+asm_const_line_2point( "4", "Point 2", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 4
+asm_const_line_2point( "5", "Point 6", "Point 8", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 5
+asm_const_line_2point( "6", "Point 8", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 6
+asm_const_line_2point( "7", "Point 6", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 7
+asm_const_line_2point( "8", "Point 9", "Point 11", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 8
+asm_const_line_2point( "9", "Point 11", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 9
+asm_const_line_2point( "10", "Point 9", "Point 12", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 10
+asm_const_line_2point( "11", "Point 12", "Point 14", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 11
+asm_const_line_2point( "12", "Point 14", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 12
+asm_const_line_2point( "13", "Point 12", "Point 15", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 13
+asm_const_line_2point( "14", "Point 15", "Point 17", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 14
+asm_const_line_2point( "15", "Point 17", "Point 12", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 15
+asm_const_line_2point( "16", "Point 15", "Point 18", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 16
+asm_const_line_2point( "17", "Point 18", "Point 20", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 17
+asm_const_line_2point( "18", "Point 20", "Point 15", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 18
+asm_const_line_2point( "19", "Point 18", "Point 19", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 19
+asm_const_line_2point( "20", "Point 19", "Point 20", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 20
+asm_const_line_2point( "21", "Point 19", "Point 32", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 21
+asm_const_line_2point( "22", "Point 32", "Point 33", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 22
+asm_const_line_2point( "23", "Point 33", "Point 19", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 23
+asm_const_line_2point( "24", "Point 32", "Point 45", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 24
+asm_const_line_2point( "25", "Point 45", "Point 46", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 25
+asm_const_line_2point( "26", "Point 46", "Point 32", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 26
+asm_const_line_2point( "27", "Point 45", "Point 58", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 27
+asm_const_line_2point( "28", "Point 58", "Point 59", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 28
+asm_const_line_2point( "29", "Point 59", "Point 45", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 29
+asm_const_line_2point( "30", "Point 58", "Point 71", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 30
+asm_const_line_2point( "31", "Point 71", "Point 72", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 31
+asm_const_line_2point( "32", "Point 72", "Point 58", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 32
+asm_const_line_2point( "33", "Point 71", "Point 84", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 33
+asm_const_line_2point( "34", "Point 84", "Point 85", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 34
+asm_const_line_2point( "35", "Point 85", "Point 71", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 35
+asm_const_line_2point( "36", "Point 84", "Point 82", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 36
+asm_const_line_2point( "37", "Point 82", "Point 85", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 37
+asm_const_line_2point( "38", "Point 82", "Point 80", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 38
+asm_const_line_2point( "39", "Point 80", "Point 83", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 39
+asm_const_line_2point( "40", "Point 83", "Point 82", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 40
+asm_const_line_2point( "41", "Point 80", "Point 78", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 41
+asm_const_line_2point( "42", "Point 78", "Point 81", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 42
+asm_const_line_2point( "43", "Point 81", "Point 80", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 43
+asm_const_line_2point( "44", "Point 78", "Point 76", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 44
+asm_const_line_2point( "45", "Point 76", "Point 79", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 45
+asm_const_line_2point( "46", "Point 79", "Point 78", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 46
+asm_const_line_2point( "47", "Point 76", "Point 74", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 47
+asm_const_line_2point( "48", "Point 74", "Point 77", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 48
+asm_const_line_2point( "49", "Point 77", "Point 76", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 49
+asm_const_line_2point( "50", "Point 74", "Point 73", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 50
+asm_const_line_2point( "51", "Point 73", "Point 75", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 51
+asm_const_line_2point( "52", "Point 75", "Point 74", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 52
+asm_const_line_2point( "53", "Point 73", "Point 60", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 53
+asm_const_line_2point( "54", "Point 60", "Point 75", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 54
+asm_const_line_2point( "55", "Point 60", "Point 47", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 55
+asm_const_line_2point( "56", "Point 47", "Point 62", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 56
+asm_const_line_2point( "57", "Point 62", "Point 60", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 57
+asm_const_line_2point( "58", "Point 47", "Point 34", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 58
+asm_const_line_2point( "59", "Point 34", "Point 49", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 59
+asm_const_line_2point( "60", "Point 49", "Point 47", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 60
+asm_const_line_2point( "61", "Point 34", "Point 21", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 61
+$# UNDO: Create Curve 2Point for Point 21Point 21
+asm_const_line_2point( "62", "Point 21", "Point 36", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 62
+asm_const_line_2point( "63", "Point 36", "Point 34", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 63
+asm_const_line_2point( "64", "Point 21", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 64
+asm_const_line_2point( "65", "Point 3", "Point 23", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 65
+$# UNDO: Create Curve 2Point for Point 23Point 21
+$# UNDO: Create Curve 2Point for Point 3Point 23
+asm_const_line_2point( "66", "Point 23", "Point 21", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 66
+asm_const_line_2point( "67", "Point 3", "Point 1", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 67
+asm_const_line_2point( "68", "Point 5", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 68
+asm_const_line_2point( "69", "Point 8", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 69
+asm_const_line_2point( "70", "Point 4", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 70
+asm_const_line_2point( "71", "Point 11", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 71
+asm_const_line_2point( "72", "Point 7", "Point 8", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 72
+asm_const_line_2point( "73", "Point 14", "Point 10", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 73
+asm_const_line_2point( "74", "Point 10", "Point 11", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 74
+asm_const_line_2point( "75", "Point 17", "Point 13", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 75
+asm_const_line_2point( "76", "Point 13", "Point 14", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 76
+asm_const_line_2point( "77", "Point 20", "Point 16", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 77
+asm_const_line_2point( "78", "Point 16", "Point 17", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 78
+asm_const_line_2point( "79", "Point 33", "Point 16", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 79
+asm_const_line_2point( "80", "Point 46", "Point 30", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 80
+asm_const_line_2point( "81", "Point 30", "Point 33", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 81
+asm_const_line_2point( "82", "Point 59", "Point 43", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 82
+asm_const_line_2point( "83", "Point 43", "Point 46", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 83
+asm_const_line_2point( "84", "Point 72", "Point 56", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 84
+asm_const_line_2point( "85", "Point 56", "Point 59", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 85
+asm_const_line_2point( "86", "Point 85", "Point 69", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 86
+asm_const_line_2point( "87", "Point 69", "Point 72", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 87
+asm_const_line_2point( "88", "Point 83", "Point 69", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 88
+asm_const_line_2point( "89", "Point 81", "Point 67", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 89
+asm_const_line_2point( "90", "Point 67", "Point 83", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 90
+asm_const_line_2point( "91", "Point 79", "Point 65", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 91
+asm_const_line_2point( "92", "Point 65", "Point 81", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 92
+asm_const_line_2point( "93", "Point 77", "Point 63", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 93
+asm_const_line_2point( "94", "Point 63", "Point 79", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 94
+asm_const_line_2point( "95", "Point 75", "Point 61", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 95
+asm_const_line_2point( "96", "Point 61", "Point 77", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 96
+asm_const_line_2point( "97", "Point 62", "Point 61", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 97
+asm_const_line_2point( "98", "Point 49", "Point 48", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 98
+asm_const_line_2point( "99", "Point 48", "Point 62", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 99
+asm_const_line_2point( "100", "Point 36", "Point 35", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 100
+asm_const_line_2point( "101", "Point 35", "Point 49", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 101
+asm_const_line_2point( "102", "Point 23", "Point 22", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 102
+asm_const_line_2point( "103", "Point 22", "Point 36", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 103
+asm_const_line_2point( "104", "Point 4", "Point 23", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 104
+asm_const_line_2point( "105", "Point 7", "Point 25", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 105
+asm_const_line_2point( "106", "Point 25", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 106
+asm_const_line_2point( "107", "Point 10", "Point 27", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 107
+asm_const_line_2point( "108", "Point 27", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 108
+asm_const_line_2point( "109", "Point 13", "Point 29", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 109
+asm_const_line_2point( "110", "Point 29", "Point 10", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 110
+asm_const_line_2point( "111", "Point 16", "Point 31", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 111
+asm_const_line_2point( "112", "Point 31", "Point 13", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 112
+asm_const_line_2point( "113", "Point 30", "Point 31", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 113
+asm_const_line_2point( "114", "Point 43", "Point 44", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 114
+asm_const_line_2point( "115", "Point 44", "Point 30", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 115
+asm_const_line_2point( "116", "Point 56", "Point 57", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 116
+asm_const_line_2point( "117", "Point 57", "Point 43", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 117
+asm_const_line_2point( "118", "Point 69", "Point 70", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 118
+asm_const_line_2point( "119", "Point 70", "Point 56", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 119
+asm_const_line_2point( "120", "Point 67", "Point 70", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 120
+asm_const_line_2point( "121", "Point 65", "Point 68", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 121
+asm_const_line_2point( "122", "Point 68", "Point 67", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 122
+asm_const_line_2point( "123", "Point 63", "Point 66", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 123
+asm_const_line_2point( "124", "Point 66", "Point 65", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 124
+asm_const_line_2point( "125", "Point 61", "Point 64", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 125
+asm_const_line_2point( "126", "Point 64", "Point 63", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 126
+asm_const_line_2point( "127", "Point 48", "Point 64", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 127
+asm_const_line_2point( "128", "Point 35", "Point 51", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 128
+asm_const_line_2point( "129", "Point 51", "Point 48", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 129
+asm_const_line_2point( "130", "Point 22", "Point 38", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 130
+asm_const_line_2point( "131", "Point 38", "Point 35", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 131
+asm_const_line_2point( "132", "Point 25", "Point 22", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 132
+asm_const_line_2point( "133", "Point 27", "Point 24", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 133
+asm_const_line_2point( "134", "Point 24", "Point 25", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 134
+asm_const_line_2point( "135", "Point 24", "Point 38", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 135
+asm_const_line_2point( "136", "Point 29", "Point 26", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 136
+asm_const_line_2point( "137", "Point 26", "Point 27", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 137
+asm_const_line_2point( "138", "Point 31", "Point 28", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 138
+asm_const_line_2point( "139", "Point 28", "Point 29", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 139
+asm_const_line_2point( "140", "Point 44", "Point 28", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 140
+asm_const_line_2point( "141", "Point 44", "Point 41", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 141
+asm_const_line_2point( "142", "Point 57", "Point 41", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 142
+asm_const_line_2point( "143", "Point 57", "Point 54", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 143
+asm_const_line_2point( "144", "Point 54", "Point 70", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 144
+asm_const_line_2point( "145", "Point 54", "Point 68", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 145
+asm_const_line_2point( "146", "Point 68", "Point 52", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 146
+asm_const_line_2point( "147", "Point 52", "Point 66", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 147
+asm_const_line_2point( "148", "Point 66", "Point 50", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 148
+asm_const_line_2point( "149", "Point 50", "Point 64", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 149
+asm_const_line_2point( "150", "Point 51", "Point 50", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 150
+asm_const_line_2point( "151", "Point 38", "Point 37", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 151
+asm_const_line_2point( "152", "Point 37", "Point 51", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 152
+asm_const_line_2point( "153", "Point 24", "Point 40", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 153
+asm_const_line_2point( "154", "Point 40", "Point 37", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 154
+asm_const_line_2point( "155", "Point 26", "Point 40", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 155
+asm_const_line_2point( "156", "Point 28", "Point 42", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 156
+asm_const_line_2point( "157", "Point 42", "Point 26", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 157
+asm_const_line_2point( "158", "Point 41", "Point 42", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 158
+$# UNDO: Create Curve 2Point for Point 54Point 55
+asm_const_line_2point( "159", "Point 54", "Point 55", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 159
+asm_const_line_2point( "160", "Point 41", "Point 55", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 160
+asm_const_line_2point( "161", "Point 55", "Point 52", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 161
+asm_const_line_2point( "162", "Point 52", "Point 53", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 162
+asm_const_line_2point( "163", "Point 53", "Point 50", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 163
+asm_const_line_2point( "164", "Point 37", "Point 53", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 164
+asm_const_line_2point( "165", "Point 40", "Point 39", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 165
+asm_const_line_2point( "166", "Point 39", "Point 42", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 166
+asm_const_line_2point( "167", "Point 39", "Point 55", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 167
+asm_const_line_2point( "168", "Point 39", "Point 53", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 168
+$# UNDO: Create Surface 3Curve for Curve 1Curve 2Curve 3
+ga_view_center_set( 0.003339, -0.006395 )
+ga_view_zoom_set( 0.240000 )
+ga_view_center_set( 0.006306, -0.012330 )
+ga_view_zoom_set( 0.213333 )
+ga_view_center_set( 0.004173, -0.076330 )
+ga_view_center_set( 0.019345, -0.063791 )
+ga_view_zoom_set( 0.240000 )
+$# UNDO:
+$# UNDO: Create Surface 3Curve for Curve 109Curve 36Curve 37
+$# UNDO: Create Surface 3Curve for Curve 36Curve 34Curve 37
+STRING sgm_surface_3curve_created_ids[VIRTUAL]
+sgm_const_surface_3curve_v1( "1", 2, "Curve 1", "Curve 2", "Curve 3",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 1
+ga_view_center_set( -0.008624, -0.024394 )
+ga_view_zoom_set( 0.243179 )
+uil_toolbar.shaded_smooth(  )
+sgm_const_surface_3curve_v1( "2", 2, "Curve 4", "Curve 5", "Curve 6",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 2
+sgm_const_surface_3curve_v1( "3", 2, "Curve 7", "Curve 8", "Curve 9",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 3
+sgm_const_surface_3curve_v1( "4", 2, "Curve 10", "Curve 11", "Curve 12",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 4
+sgm_const_surface_3curve_v1( "5", 2, "Curve 13", "Curve 14", "Curve 15",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 5
+sgm_const_surface_3curve_v1( "6", 2, "Curve 16", "Curve 17", "Curve 18",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 6
+sgm_const_surface_3curve_v1( "7", 2, "Curve 19", "Curve 20", "Curve 17",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 7
+sgm_const_surface_3curve_v1( "8", 2, "Curve 21", "Curve 22", "Curve 23",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 8
+sgm_const_surface_3curve_v1( "9", 2, "Curve 24", "Curve 25", "Curve 26",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 9
+sgm_const_surface_3curve_v1( "10", 2, "Curve 27", "Curve 28", "Curve 29",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 10
+sgm_const_surface_3curve_v1( "11", 2, "Curve 30", "Curve 31", "Curve 32",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 11
+sgm_const_surface_3curve_v1( "12", 2, "Curve 33", "Curve 34", "Curve 35",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 12
+sgm_const_surface_3curve_v1( "13", 2, "Curve 36", "Curve 37", "Curve 34",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 13
+sgm_const_surface_3curve_v1( "14", 2, "Curve 38", "Curve 39", "Curve 40",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 14
+sgm_const_surface_3curve_v1( "15", 2, "Curve 41", "Curve 42", "Curve 43",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 15
+sgm_const_surface_3curve_v1( "16", 2, "Curve 44", "Curve 45", "Curve 46",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 16
+sgm_const_surface_3curve_v1( "17", 2, "Curve 47", "Curve 48", "Curve 49",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 17
+sgm_const_surface_3curve_v1( "18", 2, "Curve 50", "Curve 51", "Curve 52",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 18
+sgm_const_surface_3curve_v1( "19", 2, "Curve 53", "Curve 54", "Curve 51",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 19
+sgm_const_surface_3curve_v1( "20", 2, "Curve 55", "Curve 56", "Curve 57",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 20
+sgm_const_surface_3curve_v1( "21", 2, "Curve 58", "Curve 59", "Curve 60",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 21
+sgm_const_surface_3curve_v1( "22", 2, "Curve 61", "Curve 62", "Curve 63",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 22
+$# UNDO:
+sgm_const_surface_3curve_v1( "23", 2, "Curve 64", "Curve 65", "Curve 66",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 23
+sgm_const_surface_3curve_v1( "24", 2, "Curve 67", "Curve 3", "Curve 68",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 24
+ga_view_center_set( 0.010263, 0.019440 )
+ga_view_zoom_set( 0.311796 )
+ga_view_center_set( 0.041920, 0.007168 )
+ga_view_zoom_set( 0.277152 )
+ga_view_center_set( 0.074115, 0.029467 )
+ga_view_zoom_set( 0.246357 )
+ga_view_center_set( 0.102560, 0.049289 )
+ga_view_zoom_set( 0.218984 )
+ga_view_center_set( 0.120981, 0.067443 )
+ga_view_zoom_set( 0.194653 )
+ga_view_center_set( 0.135659, 0.083714 )
+ga_view_zoom_set( 0.173025 )
+ga_view_center_set( 0.148044, 0.098178 )
+ga_view_zoom_set( 0.153800 )
+ga_view_center_set( 0.158678, 0.111035 )
+ga_view_zoom_set( 0.136711 )
+ga_view_center_set( 0.166749, 0.121940 )
+ga_view_zoom_set( 0.121521 )
+ga_view_center_set( 0.173500, 0.131505 )
+ga_view_zoom_set( 0.108018 )
+ga_view_center_set( 0.179351, 0.139971 )
+ga_view_zoom_set( 0.096016 )
+ga_view_center_set( 0.184417, 0.147429 )
+ga_view_zoom_set( 0.085348 )
+ga_view_center_set( 0.188624, 0.153850 )
+ga_view_zoom_set( 0.075865 )
+ga_view_center_set( 0.192231, 0.159505 )
+ga_view_zoom_set( 0.067435 )
+ga_view_center_set( 0.195437, 0.164531 )
+ga_view_zoom_set( 0.059943 )
+ga_view_center_set( 0.198245, 0.168686 )
+ga_view_zoom_set( 0.053282 )
+ga_view_center_set( 0.200166, 0.171878 )
+ga_view_zoom_set( 0.047362 )
+ga_view_center_set( 0.201741, 0.174666 )
+ga_view_zoom_set( 0.042100 )
+ga_view_center_set( 0.203039, 0.177115 )
+ga_view_zoom_set( 0.037422 )
+ga_view_center_set( 0.203111, 0.178992 )
+ga_view_zoom_set( 0.033264 )
+ga_view_center_set( 0.203070, 0.180649 )
+ga_view_zoom_set( 0.029568 )
+ga_view_center_set( 0.202983, 0.182111 )
+ga_view_zoom_set( 0.026283 )
+ga_view_center_set( 0.202804, 0.183356 )
+ga_view_zoom_set( 0.023362 )
+ga_view_center_set( 0.202572, 0.184439 )
+ga_view_zoom_set( 0.020766 )
+ga_view_center_set( 0.202337, 0.185386 )
+ga_view_zoom_set( 0.018459 )
+ga_view_center_set( 0.202096, 0.186177 )
+ga_view_zoom_set( 0.016408 )
+ga_view_center_set( 0.201636, 0.186691 )
+ga_view_zoom_set( 0.014585 )
+ga_view_center_set( 0.201202, 0.187143 )
+ga_view_zoom_set( 0.012964 )
+ga_view_center_set( 0.200793, 0.187545 )
+ga_view_zoom_set( 0.011524 )
+ga_view_center_set( 0.200418, 0.187903 )
+ga_view_zoom_set( 0.010243 )
+ga_view_aa_set( 8.619420, 27.920538, -1.824508 )
+ga_view_center_set( 0.200841, 0.187698 )
+ga_view_zoom_set( 0.011524 )
+ga_view_center_set( 0.201317, 0.187468 )
+ga_view_zoom_set( 0.012964 )
+ga_view_center_set( 0.201853, 0.187208 )
+ga_view_zoom_set( 0.014585 )
+ga_view_center_set( 0.202456, 0.186917 )
+ga_view_zoom_set( 0.016408 )
+ga_view_center_set( 0.203134, 0.186589 )
+ga_view_zoom_set( 0.018459 )
+ga_view_center_set( 0.203905, 0.186184 )
+ga_view_zoom_set( 0.020766 )
+ga_view_center_set( 0.204771, 0.185728 )
+ga_view_zoom_set( 0.023362 )
+ga_view_center_set( 0.205746, 0.185215 )
+ga_view_zoom_set( 0.026283 )
+ga_view_center_set( 0.206843, 0.184639 )
+ga_view_zoom_set( 0.029568 )
+ga_view_center_set( 0.208077, 0.183967 )
+ga_view_zoom_set( 0.033264 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( 0.210130, 0.183523 )
+ga_view_zoom_set( 0.037422 )
+ga_view_center_set( 0.212439, 0.183025 )
+ga_view_zoom_set( 0.042100 )
+ga_view_center_set( 0.215037, 0.182481 )
+ga_view_zoom_set( 0.047362 )
+ga_view_center_set( 0.217960, 0.181868 )
+ga_view_zoom_set( 0.053282 )
+ga_view_center_set( 0.221249, 0.181200 )
+ga_view_zoom_set( 0.059943 )
+ga_view_center_set( 0.225019, 0.181552 )
+ga_view_zoom_set( 0.067435 )
+ga_view_center_set( 0.229260, 0.181949 )
+ga_view_zoom_set( 0.075865 )
+ga_view_center_set( 0.234031, 0.182395 )
+ga_view_zoom_set( 0.085348 )
+ga_view_center_set( 0.239399, 0.182896 )
+ga_view_zoom_set( 0.096016 )
+ga_view_center_set( 0.245438, 0.183461 )
+ga_view_zoom_set( 0.108018 )
+ga_view_center_set( 0.251935, 0.185154 )
+ga_view_zoom_set( 0.121521 )
+ga_view_center_set( 0.259196, 0.187058 )
+ga_view_zoom_set( 0.136711 )
+ga_view_center_set( 0.267312, 0.189201 )
+ga_view_zoom_set( 0.153800 )
+ga_view_center_set( 0.276382, 0.191612 )
+ga_view_zoom_set( 0.173025 )
+ga_view_center_set( 0.286383, 0.194798 )
+ga_view_zoom_set( 0.194653 )
+ga_view_center_set( 0.297633, 0.198383 )
+ga_view_zoom_set( 0.218984 )
+ga_view_center_set( 0.310204, 0.202416 )
+ga_view_zoom_set( 0.246357 )
+ga_view_center_set( 0.338489, 0.211104 )
+ga_view_zoom_set( 0.307946 )
+ga_view_center_set( 0.355564, 0.217138 )
+ga_view_zoom_set( 0.346440 )
+ga_view_center_set( 0.374773, 0.223926 )
+ga_view_zoom_set( 0.389745 )
+ga_view_center_set( 0.396230, 0.231562 )
+ga_view_zoom_set( 0.438463 )
+ga_view_center_set( 0.420198, 0.240152 )
+ga_view_zoom_set( 0.493271 )
+ga_view_center_set( 0.069976, 0.023113 )
+ga_view_center_set( 0.053739, 0.011945 )
+ga_view_zoom_set( 0.438463 )
+ga_view_center_set( 0.039307, 0.002018 )
+ga_view_zoom_set( 0.389745 )
+ga_view_center_set( 0.026614, -0.006805 )
+ga_view_zoom_set( 0.346440 )
+ga_view_center_set( 0.015332, -0.014649 )
+ga_view_zoom_set( 0.307946 )
+$# UNDO: Create Surface 4Curve for Curve 2Curve 6Curve 69Curve 70
+STRING asm_delete_any_deleted_ids[VIRTUAL]
+asm_delete_surface( "Surface 1:24", asm_delete_any_deleted_ids )
+$# 24 Surfaces Deleted: Surface 1:24
+ga_view_center_set( -0.061595, -0.009340 )
+ga_view_zoom_set( 0.346440 )
+$# UNDO:
+ga_view_center_set( 0.052618, -0.012414 )
+ga_view_zoom_set( 0.240000 )
+ga_view_center_set( -0.000000, -0.000000 )
+ga_view_zoom_set( 0.270000 )
+$# UNDO: Delete for entities Point 1:85 Curve 1:168
+ga_view_center_set( 0.026503, -0.009205 )
+ga_view_zoom_set( 0.303750 )
+ga_view_center_set( 0.056199, -0.019560 )
+ga_view_zoom_set( 0.341719 )
+ga_view_center_set( 0.026860, -0.010395 )
+ga_view_zoom_set( 0.303750 )
+ga_view_center_set( 0.000992, -0.002671 )
+ga_view_zoom_set( 0.270000 )
+uil_primary_file.db_save(  )
+ga_view_center_set( -0.011375, -0.017248 )
+ga_view_zoom_set( 0.240000 )
+ga_view_center_set( -0.022368, -0.030373 )
+ga_view_zoom_set( 0.213333 )
+ga_view_center_set( -0.032139, -0.042039 )
+ga_view_zoom_set( 0.189630 )
+ga_view_center_set( -0.040230, -0.052475 )
+ga_view_zoom_set( 0.168560 )
+ga_view_center_set( -0.047363, -0.061751 )
+ga_view_zoom_set( 0.149831 )
+ga_view_center_set( -0.053548, -0.070049 )
+ga_view_zoom_set( 0.133183 )
+ga_view_center_set( -0.104157, -0.168604 )
+STRING asm_delete_any_deleted_ids[VIRTUAL]
+asm_delete_curve( "Curve 1 67", asm_delete_any_deleted_ids )
+$# 2 Curves Deleted: Curve 1 67
+ga_view_center_set( -0.099173, -0.160828 )
+ga_view_zoom_set( 0.149831 )
+ga_view_center_set( -0.104105, -0.168604 )
+ga_view_zoom_set( 0.133183 )
+ga_view_center_set( -0.108442, -0.175470 )
+ga_view_zoom_set( 0.118385 )
+ga_view_center_set( -0.112174, -0.181531 )
+ga_view_zoom_set( 0.105231 )
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "169", "Point 1", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 169
+asm_const_line_2point( "170", "Point 1", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 170
+ga_view_center_set( -0.107164, -0.178109 )
+ga_view_zoom_set( 0.118385 )
+ga_view_center_set( -0.101481, -0.174259 )
+ga_view_zoom_set( 0.133183 )
+ga_view_center_set( -0.092166, -0.168048 )
+ga_view_zoom_set( 0.149831 )
+ga_view_center_set( -0.081686, -0.161062 )
+ga_view_zoom_set( 0.168560 )
+ga_view_center_set( -0.069896, -0.153202 )
+ga_view_zoom_set( 0.189630 )
+ga_view_center_set( -0.064137, -0.148743 )
+ga_view_zoom_set( 0.213333 )
+ga_view_center_set( -0.051337, -0.059143 )
+ga_view_center_set( -0.096353, -0.061818 )
+ga_view_zoom_set( 0.240000 )
+ga_view_center_set( -0.146902, -0.064546 )
+ga_view_zoom_set( 0.270000 )
+ga_view_center_set( -0.203769, -0.067614 )
+ga_view_zoom_set( 0.303750 )
+STRING sgm_renum_curve_new_ids[VIRTUAL]
+sgm_renumber( 1, "curve", "1", "Curve 2:66 68:170", sgm_renum_curve_new_ids )
+$# 168 Curves Renumbered: Curves 1:168
+repaint_graphics(  )
+ga_view_center_set( -0.283693, -0.064995 )
+ga_view_zoom_set( 0.341719 )
+ga_view_center_set( -0.363031, -0.058300 )
+ga_view_zoom_set( 0.384434 )
+ga_view_center_set( -0.445807, -0.049864 )
+ga_view_zoom_set( 0.432488 )
+ga_view_center_set( -0.535034, -0.040205 )
+ga_view_zoom_set( 0.486549 )
+ga_view_center_set( -0.448519, -0.050203 )
+ga_view_zoom_set( 0.432488 )
+ga_view_center_set( -0.371919, -0.059694 )
+ga_view_zoom_set( 0.384434 )
+ga_view_center_set( -0.304097, -0.068531 )
+ga_view_zoom_set( 0.341719 )
+ga_view_center_set( -0.195583, -0.082671 )
+ga_view_zoom_set( 0.273375 )
+ga_view_center_set( -0.147259, -0.089527 )
+ga_view_zoom_set( 0.243000 )
+ga_view_center_set( -0.104305, -0.095621 )
+ga_view_zoom_set( 0.216000 )
+ga_view_center_set( -0.066123, -0.101038 )
+ga_view_zoom_set( 0.192000 )
+ga_view_center_set( -0.032183, -0.105853 )
+ga_view_zoom_set( 0.170667 )
+ga_view_center_set( -0.103863, -0.092200 )
+$# UNDO:
+STRING sgm_surface_3edge_created_ids[VIRTUAL]
+sgm_const_surface_3edge( "1", "Curve 167", "Curve 1", "Curve 2",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 1
+ga_view_center_set( 0.020770, 0.026773 )
+ga_view_zoom_set( 0.305016 )
+ga_view_center_set( 0.044136, 0.056772 )
+ga_view_zoom_set( 0.343143 )
+ga_view_center_set( 0.069885, 0.089580 )
+ga_view_zoom_set( 0.386035 )
+ga_view_center_set( 0.045615, 0.057713 )
+ga_view_zoom_set( 0.343143 )
+ga_view_center_set( 0.024042, 0.029387 )
+ga_view_zoom_set( 0.305016 )
+ga_view_center_set( 0.004866, 0.004208 )
+ga_view_zoom_set( 0.271125 )
+ga_view_center_set( -0.025817, -0.036078 )
+ga_view_zoom_set( 0.216900 )
+ga_view_center_set( -0.039453, -0.053983 )
+ga_view_zoom_set( 0.192800 )
+ga_view_center_set( -0.051037, -0.069966 )
+ga_view_zoom_set( 0.171378 )
+ga_view_center_set( -0.061334, -0.084173 )
+ga_view_zoom_set( 0.152336 )
+ga_view_center_set( -0.070487, -0.096801 )
+ga_view_zoom_set( 0.135410 )
+ga_view_center_set( -0.078482, -0.108026 )
+ga_view_zoom_set( 0.120364 )
+ga_view_center_set( -0.078482, -0.142932 )
+sgm_const_surface_3edge( "2", "Curve 3", "Curve 4", "Curve 5",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 2
+sgm_const_surface_3edge( "3", "Curve 6", "Curve 7", "Curve 8",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 3
+sgm_const_surface_3edge( "4", "Curve 9", "Curve 10", "Curve 11",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 4
+sgm_const_surface_3edge( "5", "Curve 12", "Curve 13", "Curve 14",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 5
+sgm_const_surface_3edge( "6", "Curve 15", "Curve 16", "Curve 17",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 6
+sgm_const_surface_3edge( "7", "Curve 18", "Curve 19", "Curve 16",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 7
+sgm_const_surface_3edge( "8", "Curve 20", "Curve 21", "Curve 22",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 8
+sgm_const_surface_3edge( "9", "Curve 23", "Curve 24", "Curve 25",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 9
+sgm_const_surface_3edge( "10", "Curve 26", "Curve 27", "Curve 28",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 10
+sgm_const_surface_3edge( "11", "Curve 29", "Curve 30", "Curve 31",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 11
+sgm_const_surface_3edge( "12", "Curve 32", "Curve 33", "Curve 34",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 12
+sgm_const_surface_3edge( "13", "Curve 35", "Curve 36", "Curve 33",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 13
+sgm_const_surface_3edge( "14", "Curve 37", "Curve 38", "Curve 39",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 14
+sgm_const_surface_3edge( "15", "Curve 40", "Curve 41", "Curve 42",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 15
+sgm_const_surface_3edge( "16", "Curve 43", "Curve 44", "Curve 45",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 16
+sgm_const_surface_3edge( "17", "Curve 46", "Curve 47", "Curve 48",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 17
+sgm_const_surface_3edge( "18", "Curve 49", "Curve 50", "Curve 51",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 18
+sgm_const_surface_3edge( "19", "Curve 52", "Curve 53", "Curve 50",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 19
+sgm_const_surface_3edge( "20", "Curve 54", "Curve 55", "Curve 56",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 20
+sgm_const_surface_3edge( "21", "Curve 57", "Curve 58", "Curve 59",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 21
+sgm_const_surface_3edge( "22", "Curve 60", "Curve 61", "Curve 62",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 22
+sgm_const_surface_3edge( "23", "Curve 63", "Curve 64", "Curve 65",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 23
+sgm_const_surface_3edge( "24", "Curve 168", "Curve 2", "Curve 66",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 24
+STRING sgm_surface_4edge_created_ids[VIRTUAL]
+sgm_const_surface_4edge( "25", "Curve 5", "Curve 67", "Curve 68", "Curve 1",  @
+sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 25
+sgm_const_surface_4edge( "26", "Curve 8", "Curve 69", "Curve 70", "Curve 4",  @
+sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 26
+sgm_const_surface_4edge( "27", "Curve 11", "Curve 71", "Curve 72", "Curve 7",  @
+sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 27
+$# UNDO:
+sgm_const_surface_4edge( "28", "Curve 14", "Curve 73", "Curve 74", "Curve 10", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 28
+sgm_const_surface_4edge( "29", "Curve 17", "Curve 75", "Curve 76", "Curve 13", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 29
+sgm_const_surface_4edge( "30", "Curve 19", "Curve 22", "Curve 77", "Curve 75", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 30
+sgm_const_surface_4edge( "31", "Curve 21", "Curve 25", "Curve 78", "Curve 79", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 31
+sgm_const_surface_4edge( "32", "Curve 24", "Curve 28", "Curve 80", "Curve 81", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 32
+sgm_const_surface_4edge( "33", "Curve 27", "Curve 31", "Curve 82", "Curve 83", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 33
+sgm_const_surface_4edge( "34", "Curve 30", "Curve 34", "Curve 84", "Curve 85", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 34
+sgm_const_surface_4edge( "35", "Curve 84", "Curve 36", "Curve 39", "Curve 86", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 35
+sgm_const_surface_4edge( "36", "Curve 88", "Curve 38", "Curve 42", "Curve 87", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 36
+sgm_const_surface_4edge( "37", "Curve 90", "Curve 41", "Curve 45", "Curve 89", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 37
+sgm_const_surface_4edge( "38", "Curve 92", "Curve 44", "Curve 48", "Curve 91", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 38
+sgm_const_surface_4edge( "39", "Curve 94", "Curve 47", "Curve 51", "Curve 93", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 39
+$# UNDO:
+sgm_const_surface_4edge( "40", "Curve 95", "Curve 93", "Curve 53", "Curve 56", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 40
+sgm_const_surface_4edge( "41", "Curve 96", "Curve 97", "Curve 55", "Curve 59", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 41
+sgm_const_surface_4edge( "42", "Curve 98", "Curve 99", "Curve 58", "Curve 62", @
+ sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 42
+sgm_const_surface_4edge( "43", "Curve 100", "Curve 101", "Curve 61",  @
+"Curve 65", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 43
+sgm_const_surface_4edge( "44", "Curve 68", "Curve 102", "Curve 64", "Curve 66" @
+, sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 44
+sgm_const_surface_4edge( "45", "Curve 70", "Curve 103", "Curve 104",  @
+"Curve 67", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 45
+sgm_const_surface_4edge( "46", "Curve 72", "Curve 105", "Curve 106",  @
+"Curve 69", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 46
+sgm_const_surface_4edge( "47", "Curve 74", "Curve 107", "Curve 108",  @
+"Curve 71", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 47
+sgm_const_surface_4edge( "48", "Curve 76", "Curve 109", "Curve 110",  @
+"Curve 73", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 48
+sgm_const_surface_4edge( "49", "Curve 77", "Curve 79", "Curve 111",  @
+"Curve 109", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 49
+sgm_const_surface_4edge( "50", "Curve 78", "Curve 81", "Curve 112",  @
+"Curve 113", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 50
+sgm_const_surface_4edge( "51", "Curve 80", "Curve 83", "Curve 114",  @
+"Curve 115", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 51
+sgm_const_surface_4edge( "52", "Curve 82", "Curve 85", "Curve 116",  @
+"Curve 117", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 52
+sgm_const_surface_4edge( "53", "Curve 116", "Curve 86", "Curve 88",  @
+"Curve 118", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 53
+sgm_const_surface_4edge( "54", "Curve 120", "Curve 87", "Curve 90",  @
+"Curve 119", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 54
+sgm_const_surface_4edge( "55", "Curve 122", "Curve 89", "Curve 92",  @
+"Curve 121", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 55
+sgm_const_surface_4edge( "56", "Curve 124", "Curve 91", "Curve 94",  @
+"Curve 123", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 56
+sgm_const_surface_4edge( "57", "Curve 125", "Curve 123", "Curve 95",  @
+"Curve 97", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 57
+sgm_const_surface_4edge( "58", "Curve 126", "Curve 127", "Curve 96",  @
+"Curve 99", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 58
+sgm_const_surface_4edge( "59", "Curve 128", "Curve 129", "Curve 98",  @
+"Curve 101", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 59
+sgm_const_surface_4edge( "60", "Curve 104", "Curve 130", "Curve 100",  @
+"Curve 102", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 60
+sgm_const_surface_4edge( "61", "Curve 106", "Curve 131", "Curve 132",  @
+"Curve 103", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 61
+sgm_const_surface_4edge( "62", "Curve 108", "Curve 134", "Curve 135",  @
+"Curve 105", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 62
+sgm_const_surface_4edge( "63", "Curve 110", "Curve 136", "Curve 137",  @
+"Curve 107", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 63
+sgm_const_surface_4edge( "64", "Curve 111", "Curve 113", "Curve 138",  @
+"Curve 136", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 64
+sgm_const_surface_4edge( "65", "Curve 112", "Curve 115", "Curve 140",  @
+"Curve 139", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 65
+sgm_const_surface_4edge( "66", "Curve 114", "Curve 117", "Curve 142",  @
+"Curve 141", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 66
+sgm_const_surface_4edge( "67", "Curve 142", "Curve 118", "Curve 120",  @
+"Curve 143", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 67
+sgm_const_surface_4edge( "68", "Curve 144", "Curve 119", "Curve 122",  @
+"Curve 145", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 68
+sgm_const_surface_4edge( "69", "Curve 146", "Curve 121", "Curve 124",  @
+"Curve 147", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 69
+sgm_const_surface_4edge( "70", "Curve 148", "Curve 147", "Curve 125",  @
+"Curve 127", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 70
+sgm_const_surface_4edge( "71", "Curve 149", "Curve 150", "Curve 126",  @
+"Curve 129", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 71
+sgm_const_surface_4edge( "72", "Curve 132", "Curve 133", "Curve 128",  @
+"Curve 130", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 72
+sgm_const_surface_4edge( "73", "Curve 135", "Curve 153", "Curve 151",  @
+"Curve 131", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 73
+sgm_const_surface_4edge( "74", "Curve 137", "Curve 154", "Curve 155",  @
+"Curve 134", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 74
+sgm_const_surface_4edge( "75", "Curve 138", "Curve 139", "Curve 156",  @
+"Curve 154", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 75
+sgm_const_surface_4edge( "76", "Curve 140", "Curve 141", "Curve 157",  @
+"Curve 158", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 76
+sgm_const_surface_4edge( "77", "Curve 157", "Curve 143", "Curve 144",  @
+"Curve 159", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 77
+sgm_const_surface_4edge( "78", "Curve 160", "Curve 145", "Curve 146",  @
+"Curve 161", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 78
+sgm_const_surface_4edge( "79", "Curve 162", "Curve 161", "Curve 148",  @
+"Curve 150", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 79
+sgm_const_surface_4edge( "80", "Curve 151", "Curve 152", "Curve 149",  @
+"Curve 133", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 80
+sgm_const_surface_4edge( "81", "Curve 155", "Curve 164", "Curve 163",  @
+"Curve 153", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 81
+sgm_const_surface_4edge( "82", "Curve 156", "Curve 158", "Curve 165",  @
+"Curve 164", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 82
+sgm_const_surface_4edge( "83", "Curve 165", "Curve 159", "Curve 160",  @
+"Curve 166", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 83
+sgm_const_surface_4edge( "84", "Curve 163", "Curve 166", "Curve 162",  @
+"Curve 152", sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 84
+ga_view_center_set( -0.013929, -0.003334 )
+ga_view_zoom_set( 0.308812 )
+ga_view_center_set( 0.000753, -0.001183 )
+ga_view_zoom_set( 0.274500 )
+uil_primary_file.db_save(  )
+ga_view_center_set( -0.007261, -0.005808 )
+ga_view_zoom_set( 0.308812 )
+ga_view_center_set( -0.000538, -0.001183 )
+ga_view_zoom_set( 0.274500 )
+ga_view_center_set( 0.005247, 0.002928 )
+ga_view_zoom_set( 0.244000 )
+ga_view_center_set( -0.000060, -0.001279 )
+ga_view_zoom_set( 0.274500 )
+ga_view_aa_set( -78.926315, 4.206981, 0.088642 )
+ga_view_aa_set( -50.857925, 3.929186, -0.913504 )
+ga_view_aa_set( -65.708023, 1.146346, -2.689468 )
+ga_view_aa_set( -81.020775, -1.292493, 33.811672 )
+ga_view_aa_set( -70.965607, 0.086074, 38.614445 )
+ga_view_center_set( 0.004837, 0.008700 )
+ga_view_zoom_set( 0.215321 )
+ga_view_center_set( 0.001350, -0.000600 )
+ga_view_zoom_set( 0.191397 )
+$# Error reported from application APP
+$#     Unable to process list: ""
+$? NO 16000101 
+STRING sgm_edit_surface_r_reversed_ids[VIRTUAL]
+sgm_edit_surface_reverse( TRUE, "Surface 23 43 59 42 22 58 71 70 79 83 84 " // @
+"80 41 21 57 56 39 40 20 19 17 38 16 55 37 15 36 14 54 67 13:1:-1",  @
+sgm_edit_surface_r_reversed_ids )
+$# 43 Surfaces Reversed: Surfaces 23,43,59,42,22,58,71,70,79,83,84,80,41,21,
+$# 57,56,39,40,20,19,17,38,16,55,37,15,36,14,54,67,13:1:-1
+sgm_edit_surface_reverse( TRUE, "Surface 18", sgm_edit_surface_r_reversed_ids )
+$# 1 Surface Reversed: Surface 18
+ga_view_center_set( -0.021205, -0.000931 )
+ga_view_zoom_set( 0.171207 )
+ga_view_aa_set( -81.086876, -1.263942, -85.117203 )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -73.172676, -2.152670, -87.992943 )
+material.create( "Analysis code ID", 1, "Analysis type ID", 1, "Al7075", 0,  @
+"Date: 22-Apr-21           Time: 02:52:15", "Isotropic", 1, "Directionality",  @
+1, "Linearity", 1, "Homogeneous", 0, "Linear Elastic", 1,  @
+"Model Options & IDs", ["", "", "", "", ""], [0, 0, 0, 0, 0], "Active Flag",  @
+1, "Create", 10, "External Flag", FALSE, "Property IDs", ["Elastic Modulus",  @
+"Poisson Ratio", "Density", "Thermal Expan. Coeff", "Reference Temperature"],  @
+[2, 5, 16, 24, 1, 0], "Property Values", ["71E9", "0.33", "2800", "22E-6",  @
+"20.", ""] )
+ga_view_aa_set( -84.989464, -1.485934, -82.053574 )
+elementprops_create( "2D_Al7075_Bandeja_2mm", 51, 25, 35, 1, 1, 20, [13, 20,  @
+36, 4037, 4111, 4118, 4119, 8111, 4401, 4402, 4403, 4404, 4405, 4406, 4407,  @
+4408, 4409], [5, 9, 1, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 1, 4, 4], ["m:Al7075", @
+ "", "0.002", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], "" )
+$# Property Set "2D_Al7075_Bandeja_2mm" created.
+beam_section_display( "BAR", "Section_rig_in_13x5", ["0.005", "0.013"], "", "" @
+, 0. )
+beam_section_create( "Section_rig_in_13x5", "BAR", ["0.005", "0.013"] )
+$# Beam Section "Section_rig_in_13x5" created.
+$# UNDO: Beam Section Create
+ga_view_center_set( -0.045299, -0.003372 )
+ga_view_zoom_set( 0.171207 )
+elementprops_create( "1D_Al7075_Rig_in", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["Section_rig_in_13x5",  @
+"m:Al7075", "<0 0 1>", "<0 0 -0.0075>", "<0 0 -0.0075>", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "Analysis", "Analysis", "Analysis"], "" )
+$# Property Set "1D_Al7075_Rig_in" created.
+beam_section_create( "Section_rig_out_13x9.5", "BAR", ["0.0095", "0.013"] )
+$# Beam Section "Section_rig_out_13x9.5" created.
+elementprops_create( "1D_Al7075_Rig_out", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["Section_rig_out_13x9.5", @
+ "m:Al7075", "<0 0 1>", "<0 0 -0.0075>", "<0 0 -0.0075>", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "Analysis", "Analysis", "Analysis"], "" )
+$# Property Set "1D_Al7075_Rig_out" created.
+uil_primary_file.db_save(  )
+ga_view_aa_set( -73.942024, -1.480514, -80.022476 )
+$# Appending to existing journal file C:\Users\diego\Documents\MEng Space 
+$# Systems (Local)\2. EUE\Micro-Satellite Design & 
+$# Analysis\MicroSat\It2_11rig\Sat_Bandeja_Inf_11rig.db.jou at 22-Apr-21 
+$# 03:11:01
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\diego\Documents\MEng Space Systems (Local)\2. E" // @
+"UE\Micro-Satellite Design & Analysis\MicroSat\It2_11rig" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_view_aa_set( -54.941414, -1.258383, -80.066681 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.043723, -0.010080 )
+ga_view_zoom_set( 0.192607 )
+ga_view_center_set( -0.042175, -0.017401 )
+ga_view_zoom_set( 0.216683 )
+ga_view_center_set( -0.040435, -0.025637 )
+ga_view_zoom_set( 0.243769 )
+ga_view_center_set( -0.038477, -0.035380 )
+ga_view_zoom_set( 0.274240 )
+ga_view_center_set( -0.036274, -0.046341 )
+ga_view_zoom_set( 0.308520 )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_create( "Curve 1:168", 1, 2, 0., 0., 0. )
+$# UNDO: FEM Create Mesh Surface for Surface 25:84
+INTEGER fem_create_mesh_surfa_num_nodes
+INTEGER fem_create_mesh_surfa_num_elems
+STRING fem_create_mesh_s_nodes_created[VIRTUAL]
+STRING fem_create_mesh_s_elems_created[VIRTUAL]
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 25:84", 1, ["0.0106066"],  @
+"Quad4", "1000", "1000", "Coord 0", "Coord 0",  @
+fem_create_mesh_surfa_num_nodes, fem_create_mesh_surfa_num_elems,  @
+fem_create_mesh_s_nodes_created, fem_create_mesh_s_elems_created )
+$# 9 nodes and 4 elements created for Surface 25.
+$# 9 nodes and 4 elements created for Surface 26.
+$# 9 nodes and 4 elements created for Surface 27.
+$# 9 nodes and 4 elements created for Surface 28.
+$# 9 nodes and 4 elements created for Surface 29.
+$# 9 nodes and 4 elements created for Surface 30.
+$# 9 nodes and 4 elements created for Surface 31.
+$# 9 nodes and 4 elements created for Surface 32.
+$# 9 nodes and 4 elements created for Surface 33.
+$# 9 nodes and 4 elements created for Surface 34.
+$# 9 nodes and 4 elements created for Surface 35.
+$# 9 nodes and 4 elements created for Surface 36.
+$# 9 nodes and 4 elements created for Surface 37.
+$# 9 nodes and 4 elements created for Surface 38.
+$# 9 nodes and 4 elements created for Surface 39.
+$# 9 nodes and 4 elements created for Surface 40.
+$# 9 nodes and 4 elements created for Surface 41.
+$# 9 nodes and 4 elements created for Surface 42.
+$# 9 nodes and 4 elements created for Surface 43.
+$# 9 nodes and 4 elements created for Surface 44.
+$# 9 nodes and 4 elements created for Surface 45.
+$# 9 nodes and 4 elements created for Surface 46.
+$# 9 nodes and 4 elements created for Surface 47.
+$# 9 nodes and 4 elements created for Surface 48.
+$# 9 nodes and 4 elements created for Surface 49.
+$# 9 nodes and 4 elements created for Surface 50.
+$# 9 nodes and 4 elements created for Surface 51.
+$# 9 nodes and 4 elements created for Surface 52.
+$# 9 nodes and 4 elements created for Surface 53.
+$# 9 nodes and 4 elements created for Surface 54.
+$# 9 nodes and 4 elements created for Surface 55.
+$# 9 nodes and 4 elements created for Surface 56.
+$# 9 nodes and 4 elements created for Surface 57.
+$# 9 nodes and 4 elements created for Surface 58.
+$# 9 nodes and 4 elements created for Surface 59.
+$# 9 nodes and 4 elements created for Surface 60.
+$# 9 nodes and 4 elements created for Surface 61.
+$# 9 nodes and 4 elements created for Surface 62.
+$# 9 nodes and 4 elements created for Surface 63.
+$# 9 nodes and 4 elements created for Surface 64.
+$# 9 nodes and 4 elements created for Surface 65.
+$# 9 nodes and 4 elements created for Surface 66.
+$# 9 nodes and 4 elements created for Surface 67.
+$# 9 nodes and 4 elements created for Surface 68.
+$# 9 nodes and 4 elements created for Surface 69.
+$# 9 nodes and 4 elements created for Surface 70.
+$# 9 nodes and 4 elements created for Surface 71.
+$# 9 nodes and 4 elements created for Surface 72.
+$# 9 nodes and 4 elements created for Surface 73.
+$# 9 nodes and 4 elements created for Surface 74.
+$# 9 nodes and 4 elements created for Surface 75.
+$# 9 nodes and 4 elements created for Surface 76.
+$# 9 nodes and 4 elements created for Surface 77.
+$# 9 nodes and 4 elements created for Surface 78.
+$# 9 nodes and 4 elements created for Surface 79.
+$# 9 nodes and 4 elements created for Surface 80.
+$# 9 nodes and 4 elements created for Surface 81.
+$# 9 nodes and 4 elements created for Surface 82.
+$# 9 nodes and 4 elements created for Surface 83.
+$# 9 nodes and 4 elements created for Surface 84.
+$# === 540 nodes created.  IDs  = 1000:1539.
+$# === 240 elements created.  IDs  = 1000:1239.
+fem_associate_elems_to_ep( "2D_Al7075_Bandeja_2mm",  @
+fem_create_mesh_s_elems_created, fem_create_mesh_surfa_num_elems )
+$# 240 Element(s) associated to the Element Property 2D_Al7075_Bandeja_2mm.
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 1:24", 1, ["0.0062132"],  @
+"Tria3", "1500", "1500", "Coord 0", "Coord 0",  @
+fem_create_mesh_surfa_num_nodes, fem_create_mesh_surfa_num_elems,  @
+fem_create_mesh_s_nodes_created, fem_create_mesh_s_elems_created )
+$# Warning reported from application Database
+$#     A conflict in NODE ids starting with number 1500 was encountered. Ids 
+$# will continue at 1540.
+$# 6 nodes and 4 elements created for Surface 1.
+$# 6 nodes and 4 elements created for Surface 2.
+$# 6 nodes and 4 elements created for Surface 3.
+$# 6 nodes and 4 elements created for Surface 4.
+$# 6 nodes and 4 elements created for Surface 5.
+$# 6 nodes and 4 elements created for Surface 6.
+$# 6 nodes and 4 elements created for Surface 7.
+$# 6 nodes and 4 elements created for Surface 8.
+$# 6 nodes and 4 elements created for Surface 9.
+$# 6 nodes and 4 elements created for Surface 10.
+$# 6 nodes and 4 elements created for Surface 11.
+$# 6 nodes and 4 elements created for Surface 12.
+$# 6 nodes and 4 elements created for Surface 13.
+$# 6 nodes and 4 elements created for Surface 14.
+$# 6 nodes and 4 elements created for Surface 15.
+$# 6 nodes and 4 elements created for Surface 16.
+$# 6 nodes and 4 elements created for Surface 17.
+$# 6 nodes and 4 elements created for Surface 18.
+$# 6 nodes and 4 elements created for Surface 19.
+$# 6 nodes and 4 elements created for Surface 20.
+$# 6 nodes and 4 elements created for Surface 21.
+$# 6 nodes and 4 elements created for Surface 22.
+$# 6 nodes and 4 elements created for Surface 23.
+$# 6 nodes and 4 elements created for Surface 24.
+$# === 144 nodes created.  IDs  = 1540:1683.
+$# === 96 elements created.  IDs  = 1500:1595.
+fem_associate_elems_to_ep( "2D_Al7075_Bandeja_2mm",  @
+fem_create_mesh_s_elems_created, fem_create_mesh_surfa_num_elems )
+$# 96 Element(s) associated to the Element Property 2D_Al7075_Bandeja_2mm.
+ga_view_center_set( -0.076592, -0.067860 )
+ga_view_zoom_set( 0.347085 )
+ga_view_center_set( -0.122085, -0.091933 )
+ga_view_zoom_set( 0.390470 )
+ga_view_center_set( -0.076592, -0.068132 )
+ga_view_zoom_set( 0.347085 )
+ga_view_center_set( -0.036274, -0.047339 )
+ga_view_zoom_set( 0.308520 )
+ga_view_center_set( -0.000436, -0.028856 )
+ga_view_zoom_set( 0.274240 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -38.051945, 3.388668, 2.377387 )
+ga_view_aa_set( 3.004254, 2.456657, -1.198764 )
+ga_view_aa_set( 0., 0., 0. )
+$# UNDO: FEM Create Mesh Curve for Curve 1 2 4 5 7 8 10 11 13 14 16 17:21:2 ...
+$# UNDO: FEM Create Mesh Curve for Curve 1 2 4 5 7 8 10 11 13 14 16 17:21:2 ...
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 1 2 4 5 7 8 10 11 13 14 16 17:21:2 22 24 25" // @
+" 27 28 30 31 33 34:38:2 39 41 42 44 45 47 48 50 51:55:2 56 58 59 61 62 64" // @
+":166", 16384, 0.0053033, "Bar2", "2000", "2000", "Coord 0", "Coord 0",  @
+fem_create_mesh_curve_num_nodes, fem_create_mesh_curve_num_elems,  @
+fem_create_mesh_c_nodes_created, fem_create_mesh_c_elems_created )
+$# 3 nodes and 2 elements created for Curve 1.
+$# 3 nodes and 2 elements created for Curve 2.
+$# 3 nodes and 2 elements created for Curve 4.
+$# 3 nodes and 2 elements created for Curve 5.
+$# 3 nodes and 2 elements created for Curve 7.
+$# 3 nodes and 2 elements created for Curve 8.
+$# 3 nodes and 2 elements created for Curve 10.
+$# 3 nodes and 2 elements created for Curve 11.
+$# 3 nodes and 2 elements created for Curve 13.
+$# 3 nodes and 2 elements created for Curve 14.
+$# 3 nodes and 2 elements created for Curve 16.
+$# 3 nodes and 2 elements created for Curve 17.
+$# 3 nodes and 2 elements created for Curve 19.
+$# 3 nodes and 2 elements created for Curve 21.
+$# 3 nodes and 2 elements created for Curve 22.
+$# 3 nodes and 2 elements created for Curve 24.
+$# 3 nodes and 2 elements created for Curve 25.
+$# 3 nodes and 2 elements created for Curve 27.
+$# 3 nodes and 2 elements created for Curve 28.
+$# 3 nodes and 2 elements created for Curve 30.
+$# 3 nodes and 2 elements created for Curve 31.
+$# 3 nodes and 2 elements created for Curve 33.
+$# 3 nodes and 2 elements created for Curve 34.
+$# 3 nodes and 2 elements created for Curve 36.
+$# 3 nodes and 2 elements created for Curve 38.
+$# 3 nodes and 2 elements created for Curve 39.
+$# 3 nodes and 2 elements created for Curve 41.
+$# 3 nodes and 2 elements created for Curve 42.
+$# 3 nodes and 2 elements created for Curve 44.
+$# 3 nodes and 2 elements created for Curve 45.
+$# 3 nodes and 2 elements created for Curve 47.
+$# 3 nodes and 2 elements created for Curve 48.
+$# 3 nodes and 2 elements created for Curve 50.
+$# 3 nodes and 2 elements created for Curve 51.
+$# 3 nodes and 2 elements created for Curve 53.
+$# 3 nodes and 2 elements created for Curve 55.
+$# 3 nodes and 2 elements created for Curve 56.
+$# 3 nodes and 2 elements created for Curve 58.
+$# 3 nodes and 2 elements created for Curve 59.
+$# 3 nodes and 2 elements created for Curve 61.
+$# 3 nodes and 2 elements created for Curve 62.
+$# 3 nodes and 2 elements created for Curve 64.
+$# 3 nodes and 2 elements created for Curve 65.
+$# 3 nodes and 2 elements created for Curve 66.
+$# 3 nodes and 2 elements created for Curve 67.
+$# 3 nodes and 2 elements created for Curve 68.
+$# 3 nodes and 2 elements created for Curve 69.
+$# 3 nodes and 2 elements created for Curve 70.
+$# 3 nodes and 2 elements created for Curve 71.
+$# 3 nodes and 2 elements created for Curve 72.
+$# 3 nodes and 2 elements created for Curve 73.
+$# 3 nodes and 2 elements created for Curve 74.
+$# 3 nodes and 2 elements created for Curve 75.
+$# 3 nodes and 2 elements created for Curve 76.
+$# 3 nodes and 2 elements created for Curve 77.
+$# 3 nodes and 2 elements created for Curve 78.
+$# 3 nodes and 2 elements created for Curve 79.
+$# 3 nodes and 2 elements created for Curve 80.
+$# 3 nodes and 2 elements created for Curve 81.
+$# 3 nodes and 2 elements created for Curve 82.
+$# 3 nodes and 2 elements created for Curve 83.
+$# 3 nodes and 2 elements created for Curve 84.
+$# 3 nodes and 2 elements created for Curve 85.
+$# 3 nodes and 2 elements created for Curve 86.
+$# 3 nodes and 2 elements created for Curve 87.
+$# 3 nodes and 2 elements created for Curve 88.
+$# 3 nodes and 2 elements created for Curve 89.
+$# 3 nodes and 2 elements created for Curve 90.
+$# 3 nodes and 2 elements created for Curve 91.
+$# 3 nodes and 2 elements created for Curve 92.
+$# 3 nodes and 2 elements created for Curve 93.
+$# 3 nodes and 2 elements created for Curve 94.
+$# 3 nodes and 2 elements created for Curve 95.
+$# 3 nodes and 2 elements created for Curve 96.
+$# 3 nodes and 2 elements created for Curve 97.
+$# 3 nodes and 2 elements created for Curve 98.
+$# 3 nodes and 2 elements created for Curve 99.
+$# 3 nodes and 2 elements created for Curve 100.
+$# 3 nodes and 2 elements created for Curve 101.
+$# 3 nodes and 2 elements created for Curve 102.
+$# 3 nodes and 2 elements created for Curve 103.
+$# 3 nodes and 2 elements created for Curve 104.
+$# 3 nodes and 2 elements created for Curve 105.
+$# 3 nodes and 2 elements created for Curve 106.
+$# 3 nodes and 2 elements created for Curve 107.
+$# 3 nodes and 2 elements created for Curve 108.
+$# 3 nodes and 2 elements created for Curve 109.
+$# 3 nodes and 2 elements created for Curve 110.
+$# 3 nodes and 2 elements created for Curve 111.
+$# 3 nodes and 2 elements created for Curve 112.
+$# 3 nodes and 2 elements created for Curve 113.
+$# 3 nodes and 2 elements created for Curve 114.
+$# 3 nodes and 2 elements created for Curve 115.
+$# 3 nodes and 2 elements created for Curve 116.
+$# 3 nodes and 2 elements created for Curve 117.
+$# 3 nodes and 2 elements created for Curve 118.
+$# 3 nodes and 2 elements created for Curve 119.
+$# 3 nodes and 2 elements created for Curve 120.
+$# 3 nodes and 2 elements created for Curve 121.
+$# 3 nodes and 2 elements created for Curve 122.
+$# 3 nodes and 2 elements created for Curve 123.
+$# 3 nodes and 2 elements created for Curve 124.
+$# 3 nodes and 2 elements created for Curve 125.
+$# 3 nodes and 2 elements created for Curve 126.
+$# 3 nodes and 2 elements created for Curve 127.
+$# 3 nodes and 2 elements created for Curve 128.
+$# 3 nodes and 2 elements created for Curve 129.
+$# 3 nodes and 2 elements created for Curve 130.
+$# 3 nodes and 2 elements created for Curve 131.
+$# 3 nodes and 2 elements created for Curve 132.
+$# 3 nodes and 2 elements created for Curve 133.
+$# 3 nodes and 2 elements created for Curve 134.
+$# 3 nodes and 2 elements created for Curve 135.
+$# 3 nodes and 2 elements created for Curve 136.
+$# 3 nodes and 2 elements created for Curve 137.
+$# 3 nodes and 2 elements created for Curve 138.
+$# 3 nodes and 2 elements created for Curve 139.
+$# 3 nodes and 2 elements created for Curve 140.
+$# 3 nodes and 2 elements created for Curve 141.
+$# 3 nodes and 2 elements created for Curve 142.
+$# 3 nodes and 2 elements created for Curve 143.
+$# 3 nodes and 2 elements created for Curve 144.
+$# 3 nodes and 2 elements created for Curve 145.
+$# 3 nodes and 2 elements created for Curve 146.
+$# 3 nodes and 2 elements created for Curve 147.
+$# 3 nodes and 2 elements created for Curve 148.
+$# 3 nodes and 2 elements created for Curve 149.
+$# 3 nodes and 2 elements created for Curve 150.
+$# 3 nodes and 2 elements created for Curve 151.
+$# 3 nodes and 2 elements created for Curve 152.
+$# 3 nodes and 2 elements created for Curve 153.
+$# 3 nodes and 2 elements created for Curve 154.
+$# 3 nodes and 2 elements created for Curve 155.
+$# 3 nodes and 2 elements created for Curve 156.
+$# 3 nodes and 2 elements created for Curve 157.
+$# 3 nodes and 2 elements created for Curve 158.
+$# 3 nodes and 2 elements created for Curve 159.
+$# 3 nodes and 2 elements created for Curve 160.
+$# 3 nodes and 2 elements created for Curve 161.
+$# 3 nodes and 2 elements created for Curve 162.
+$# 3 nodes and 2 elements created for Curve 163.
+$# 3 nodes and 2 elements created for Curve 164.
+$# 3 nodes and 2 elements created for Curve 165.
+$# 3 nodes and 2 elements created for Curve 166.
+$# === 432 nodes created.  IDs  = 2000:2431.
+$# === 288 elements created.  IDs  = 2000:2287.
+fem_associate_elems_to_ep( "1D_Al7075_Rig_in",  @
+fem_create_mesh_c_elems_created, fem_create_mesh_curve_num_elems )
+$# 288 Element(s) associated to the Element Property 1D_Al7075_Rig_in.
+ga_view_center_set( -0.034984, -0.014241 )
+ga_view_zoom_set( 0.308520 )
+ga_view_center_set( -0.000436, -0.028855 )
+ga_view_zoom_set( 0.274240 )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 18 20:35:3 37:52:3 54:63:3 168 167 3:15:3",  @
+16384, 0.0074999998, "Bar2", "2500", "2500", "Coord 0", "Coord 0",  @
+fem_create_mesh_curve_num_nodes, fem_create_mesh_curve_num_elems,  @
+fem_create_mesh_c_nodes_created, fem_create_mesh_c_elems_created )
+$# 3 nodes and 2 elements created for Curve 18.
+$# 3 nodes and 2 elements created for Curve 20.
+$# 3 nodes and 2 elements created for Curve 23.
+$# 3 nodes and 2 elements created for Curve 26.
+$# 3 nodes and 2 elements created for Curve 29.
+$# 3 nodes and 2 elements created for Curve 32.
+$# 3 nodes and 2 elements created for Curve 35.
+$# 3 nodes and 2 elements created for Curve 37.
+$# 3 nodes and 2 elements created for Curve 40.
+$# 3 nodes and 2 elements created for Curve 43.
+$# 3 nodes and 2 elements created for Curve 46.
+$# 3 nodes and 2 elements created for Curve 49.
+$# 3 nodes and 2 elements created for Curve 52.
+$# 3 nodes and 2 elements created for Curve 54.
+$# 3 nodes and 2 elements created for Curve 57.
+$# 3 nodes and 2 elements created for Curve 60.
+$# 3 nodes and 2 elements created for Curve 63.
+$# 3 nodes and 2 elements created for Curve 168.
+$# 3 nodes and 2 elements created for Curve 167.
+$# 3 nodes and 2 elements created for Curve 3.
+$# 3 nodes and 2 elements created for Curve 6.
+$# 3 nodes and 2 elements created for Curve 9.
+$# 3 nodes and 2 elements created for Curve 12.
+$# 3 nodes and 2 elements created for Curve 15.
+$# === 72 nodes created.  IDs  = 2500:2571.
+$# === 48 elements created.  IDs  = 2500:2547.
+fem_associate_elems_to_ep( "1D_Al7075_Rig_out",  @
+fem_create_mesh_c_elems_created, fem_create_mesh_curve_num_elems )
+$# 48 Element(s) associated to the Element Property 1D_Al7075_Rig_out.
+ga_view_aa_set( 99.930962, 8.021400, -15.312101 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+result_label_format_set( 1, 4 )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -120.059067, -7.880929, -23.287455 )
+ga_view_center_set( 0.009208, -0.005973 )
+ga_view_zoom_set( 0.149239 )
+ga_view_center_set( 0.019705, -0.011704 )
+ga_view_zoom_set( 0.167894 )
+ga_view_aa_set( -55.991673, -0.251988, -33.318977 )
+ga_view_center_set( 0.026401, -0.014219 )
+ga_view_zoom_set( 0.149239 )
+ga_view_center_set( 0.033497, -0.017078 )
+ga_view_zoom_set( 0.132657 )
+ga_view_center_set( 0.040358, -0.019850 )
+ga_view_zoom_set( 0.117917 )
+ga_view_center_set( 0.046745, -0.022479 )
+ga_view_zoom_set( 0.104816 )
+ga_view_center_set( 0.052495, -0.024888 )
+ga_view_zoom_set( 0.093169 )
+ga_view_center_set( 0.059780, -0.028133 )
+ga_view_zoom_set( 0.082817 )
+ga_view_center_set( 0.066256, -0.031018 )
+ga_view_zoom_set( 0.073615 )
+ga_view_center_set( 0.071987, -0.033582 )
+ga_view_zoom_set( 0.065436 )
+ga_view_aa_set( -120.499237, -0.065599, -50.495930 )
+ga_view_center_set( 0.070154, -0.032377 )
+ga_view_zoom_set( 0.073615 )
+ga_view_center_set( 0.068034, -0.031021 )
+ga_view_zoom_set( 0.082817 )
+ga_view_center_set( 0.065583, -0.029528 )
+ga_view_zoom_set( 0.093169 )
+ga_view_center_set( 0.062681, -0.028141 )
+ga_view_zoom_set( 0.104816 )
+ga_view_center_set( 0.059416, -0.026580 )
+ga_view_zoom_set( 0.117917 )
+ga_view_center_set( 0.055742, -0.024824 )
+ga_view_zoom_set( 0.132657 )
+ga_view_center_set( 0.051610, -0.022849 )
+ga_view_zoom_set( 0.149239 )
+ga_view_center_set( 0.046961, -0.020919 )
+ga_view_zoom_set( 0.167894 )
+ga_view_aa_set( -65.985558, 1.376945, -38.711834 )
+gm_visibility_widget( " Point 1:85 Curve 1:168 Surface 1:84", FALSE )
+ga_view_aa_set( -55.985561, 1.376944, -38.711838 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -79.316208, -5.045220, -30.618444 )
+ga_view_aa_set( -67.935287, -3.813072, -25.763885 )
+ga_view_center_set( 0.044889, -0.013353 )
+ga_view_zoom_set( 0.188881 )
+ga_view_center_set( 0.046961, -0.020919 )
+ga_view_zoom_set( 0.167894 )
+ga_view_center_set( 0.048803, -0.027644 )
+ga_view_zoom_set( 0.149239 )
+ga_view_center_set( 0.050441, -0.033622 )
+ga_view_zoom_set( 0.132657 )
+ga_view_center_set( 0.051896, -0.038936 )
+ga_view_zoom_set( 0.117917 )
+ga_view_center_set( 0.053190, -0.043659 )
+ga_view_zoom_set( 0.104816 )
+ga_view_center_set( 0.051978, -0.038895 )
+ga_view_zoom_set( 0.117917 )
+ga_view_center_set( 0.050615, -0.033535 )
+ga_view_zoom_set( 0.132657 )
+ga_view_center_set( 0.049082, -0.027505 )
+ga_view_zoom_set( 0.149239 )
+ga_view_center_set( 0.047357, -0.020721 )
+ga_view_zoom_set( 0.167894 )
+ga_view_center_set( 0.035749, -0.034698 )
+ga_view_zoom_set( 0.149239 )
+ga_view_center_set( 0.025431, -0.047070 )
+ga_view_zoom_set( 0.132657 )
+ga_view_center_set( 0.016259, -0.058067 )
+ga_view_zoom_set( 0.117917 )
+ga_view_center_set( 0.008106, -0.067801 )
+ga_view_zoom_set( 0.104816 )
+ga_view_center_set( 0.016259, -0.058724 )
+ga_view_zoom_set( 0.117917 )
+ga_view_center_set( 0.025431, -0.048512 )
+ga_view_zoom_set( 0.132657 )
+ga_view_center_set( 0.035749, -0.037024 )
+ga_view_zoom_set( 0.149239 )
+ga_view_center_set( 0.047357, -0.024100 )
+ga_view_zoom_set( 0.167894 )
+ga_view_aa_set( -71.516640, 4.501827, -45.370354 )
+ga_view_aa_set( -79.974174, 1.644738, -55.995628 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -110.752350, -3.591220, -43.005203 )
+ga_view_aa_set( -72.791183, -10.327920, -11.499938 )
+ga_view_aa_set( -104.160812, -29.631115, -101.860550 )
+ga_view_aa_set( -73.471199, -6.614823, -82.238609 )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -80.056953, -5.105254, -78.463959 )
