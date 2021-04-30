@@ -25,3 +25,6 @@ $# Checking for Patran 2020  (Student Edition) module license...
 pref_geo_set_v1( 0, 0.0099999998, 3 )
 pref_global_set_v3( TRUE, 3, "1e-06", "SAVE" )
 pref_env_set_logical( "revert_enabled", FALSE )
+ga_viewport_unpost( "default_viewport" )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 30-Apr-21 02:58:05

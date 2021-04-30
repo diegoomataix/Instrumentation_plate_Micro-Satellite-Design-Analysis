@@ -567,7 +567,7 @@ CTRIA3   3178    1       1479    1427    1428
 CTRIA3   3179    1       1478    1428    1429
 $ Elements and Element Properties for region : 1D_Al7075_Rig_in
 PBARL    2       1               I1
-         .0025   .0025    .018   .032
+         .00175  .003    .0195   .032
 $ Pset: "1D_Al7075_Rig_in" will be imported as: "pbarl.2"
 CBAR     4000    2       1444    1443    0.      0.      1.
                          0.      0.      -.01725   0.      0.      -.01725
@@ -1171,7 +1171,7 @@ CBAR     4299    2       1116    1117    0.      0.      1.
                          0.      0.      -.01725   0.      0.      -.01725
 $ Elements and Element Properties for region : 1D_Al7075_Rig_out
 PBARL    3       1               BAR
-         .005   .032
+         .002   .032
 $ Pset: "1D_Al7075_Rig_out" will be imported as: "pbarl.3"
 CBAR     4500    3       1462    1465    0.      0.      1.
                          0.      0.      -.01725   0.      0.      -.01725
