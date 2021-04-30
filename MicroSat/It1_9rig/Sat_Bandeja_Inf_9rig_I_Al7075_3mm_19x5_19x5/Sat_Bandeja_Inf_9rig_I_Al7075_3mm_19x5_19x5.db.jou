@@ -1,0 +1,27 @@
+$# Creating journal file C:\Users\diego\Documents\MEng Space Systems (Local)
+$# \2. EUE\Micro-Satellite Design & 
+$# Analysis\MicroSat\It1_9rig\Sat_Bandeja_Inf_9rig_I_Al7075_3mm_19x5_19x5\Sat_
+$# Bandeja_Inf_9rig_I_Al7075_3mm_19x5_19x5.db.jou at 29-Apr-21 14:01:15
+uil_file_rebuild.start("C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/" // @
+"template.db","C:\Users\diego\Documents\MEng Space Systems (Local)\2. EUE\" // @
+"Micro-Satellite Design & Analysis\MicroSat\It1_9rig\Sat_Bandeja_Inf_9rig_" // @
+"I_Al7075_3mm_19x5_19x5\Sat_Bandeja_Inf_9rig_I_Al7075_3mm_19x5_19x5.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\diego\Documents\MEng Space Systems (Local)\2. E" // @
+"UE\Micro-Satellite Design & Analysis\MicroSat\It1_9rig\Sat_Bandeja_Inf_9r" // @
+"ig_I_Al7075_3mm_19x5_19x5" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+$# Checking for Patran 2020  (Student Edition) module license...
+$# Checking for Patran 2020  (Student Edition) module license...
+$# Checking for Patran 2020  (Student Edition) module license...
+$# Checking for Patran 2020  (Student Edition) module license...
+$# Checking for Patran 2020  (Student Edition) module license...
+$# Checking for Patran 2020  (Student Edition) module license...
+$# Checking for Patran 2020  (Student Edition) module license...
+$# Checking for Patran 2020  (Student Edition) module license...
+pref_geo_set_v1( 0, 0.0099999998, 3 )
+pref_global_set_v3( TRUE, 3, "1e-06", "SAVE" )
+pref_env_set_logical( "revert_enabled", FALSE )
