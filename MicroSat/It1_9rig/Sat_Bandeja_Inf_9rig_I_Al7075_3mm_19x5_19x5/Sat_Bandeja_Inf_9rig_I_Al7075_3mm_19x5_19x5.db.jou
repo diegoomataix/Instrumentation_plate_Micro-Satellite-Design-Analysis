@@ -28,3 +28,17 @@ pref_env_set_logical( "revert_enabled", FALSE )
 ga_viewport_unpost( "default_viewport" )
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 30-Apr-21 02:58:05
+$# Appending to existing journal file C:\Users\diego\Documents\MEng Space 
+$# Systems (Local)\2. EUE\Micro-Satellite Design & 
+$# Analysis\MicroSat\It1_9rig\Sat_Bandeja_Inf_9rig_I_Al7075_3mm_19x5_19x5\Sat_
+$# Bandeja_Inf_9rig_I_Al7075_3mm_19x5_19x5.db.jou at 01-May-21 18:09:05
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\diego\Documents\MEng Space Systems (Local)\2. E" // @
+"UE\Micro-Satellite Design & Analysis\MicroSat\It1_9rig\Sat_Bandeja_Inf_9r" // @
+"ig_I_Al7075_3mm_19x5_19x5" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 01-May-21 18:09:08
