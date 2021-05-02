@@ -1,0 +1,56 @@
+$ Direct Text Input for Nastran System Cell Section
+NASTRAN SYSTEM(151)=1
+NASTRAN BUFFSIZE=65537
+NASTRAN DBCFACT=4
+SOL 101
+CEND
+$ Direct Text Input for Global Case Control Data
+TITLE = Quasi_Static_XZ
+ECHO = NONE
+MAXMIN(DEF) STRESS QUAD4 9 17 MAXA=1
+LINES=50000
+SUBCASE 1
+ $Subcase name : QStatic_X
+   SUBTITLE=QStatic_X
+   SPC = 2
+   LOAD = 11
+$   DISPLACEMENT(SORT1,REAL)=ALL
+   SET 102 = 1 THRU 12
+   SPCFORCES(SORT1,PHASE)=ALL
+   FORCES(SORT1,PHASE)=102
+   STRESS(PLOT,SORT1,REAL,VONMISES,BILIN)=ALL
+   MAXMIN(elem,VONMISES,center,fiber)=ALL
+SUBCASE 2
+ $Subcase name : QStatic_Z
+   SUBTITLE=QStatic_Z
+   SPC = 2
+   LOAD = 13
+$   DISPLACEMENT(SORT1,REAL)=ALL
+   SET 102 = 1 THRU 12
+   SPCFORCES(SORT1,PHASE)=ALL
+   FORCES(SORT1,PHASE)=102
+   STRESS(PLOT,SORT1,REAL,VONMISES,BILIN)=ALL
+   MAXMIN(elem,VONMISES,center,fiber)=ALL
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+SPCADD   2       1
+$ Loads for Load Case : QStatic_X
+LOAD     11      9.81      1.       2      0.       3      0.       4
+$ Loads for Load Case : QStatic_Z
+LOAD     13      9.81      0.       2      0.       3      1.       4
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Displacement Constraints of Load Set : SPC_123456
+SPC1     1       123456  1       THRU    12
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Gravity Loading of Load Set : QStatic_69.3gOoP
+GRAV     2              50.       1.      0.     0.
+$ Gravity Loading of Load Set : QStatic_69.3gIP_0deg
+GRAV     3              68.4      0.      1.     0.
+$ Gravity Loading of Load Set : QStatic_69.3gIP_90deg
+GRAV     4              80.       0.      0.     1.
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+INCLUDE '../Sat_Bandeja_Inf_9rig_I_Al7075_2mm_26x3_26x6_12CBUSH.bdf'
+$
+ENDDATA

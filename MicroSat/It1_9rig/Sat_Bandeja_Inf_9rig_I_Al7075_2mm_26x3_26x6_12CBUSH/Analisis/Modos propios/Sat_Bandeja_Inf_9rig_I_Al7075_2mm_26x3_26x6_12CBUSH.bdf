@@ -19,7 +19,7 @@ SUBCASE 1
 $ Direct Text Input for this Subcase
 BEGIN BULK
 $ Direct Text Input for Bulk Data
-MDLPRM   HDF5    0
+PARAM    POST    0
 PARAM   PRTMAXIM YES
 EIGRL    1                       10      0                       MASS
 $ Elements and Element Properties for region : 2D_Al7075_Bandeja_Inf_2mm
