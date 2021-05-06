@@ -1,0 +1,76 @@
+Design Study Name
+   Default
+
+------------------------------------------------------------------------------------------------------------------------------------
+Design Variables
+
+              Name                   Value        Lower Bound     Upper Bound      Move Limit        Power      
+
+             Thick                   0.002           0.0005           0.03            0.5                                       
+             Rin_H                   0.026           0.0005           0.05            0.5                                       
+             Rin_t2                  0.003           0.0005           0.05            0.5                                       
+             Rin_t1                  0.003           0.0005           0.05            0.5                                       
+             Rin_W                   0.012           0.0005           0.05            0.5                                       
+             Rou_H                   0.026           0.0005           0.05            0.5                                       
+             Rou_W                   0.003           0.0005           0.05            0.5                                       
+             RinOf1                  -0.014           -0.1            0.1             0.5                                       
+             RinOf2                  -0.014           -0.1            0.1             0.5                                       
+             RouOf1                  -0.014           -0.1            0.1             0.5                                       
+             RouOf2                  -0.014           -0.1            0.1             0.5                                       
+
+------------------------------------------------------------------------------------------------------------------------------------
+Design Responses
+
+              Name               Solution Type   Response Type     Component    Element Loc.    Custom Function   Mode Number   
+
+  -NONE-
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+Design Objectives
+
+              Name               Solution Type   Response Type     Component    Element Loc.    Custom Function   Mode Number   
+
+            MinMass                  Global          Weight                                                                     
+
+------------------------------------------------------------------------------------------------------------------------------------
+Design Constraints
+
+              Name               Solution Type   Response Type     Component    Element Loc.    Custom Function   Mode Number     Lower Bound     Upper Bound   
+
+        Constraint_Freq1          Normal Modes     Frequency                                                           1            150.005           175.      
+   Constraint_stress_1D_maxA     Linear Static       Stress         Maximum           ENDA            N/A                           1.8E+08         2.8E+08     
+Region = PSET - 1D_Al7075_Rig_in 1D_Al7075_Rig_out 
+
+   Constraint_stress_1D_maxB     Linear Static       Stress         Minimum           ENDA            N/A                           -2.8E+08        -1.8E+08    
+Region = PSET - 1D_Al7075_Rig_in 1D_Al7075_Rig_out 
+
+      Constraint_stress_2D       Linear Static       Stress        von Mises     Corners/Z1,Z2      Maximum                         1.8E+08         2.8E+08     
+Region = PSET - 2D_Al7075_Bandeja_Inf_2mm 
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+Constraints Sets
+
+              Name               Solution Type      Constraints to be included    
+
+      Set_Constraint_Modes        Normal Modes        Constraint_Freq1
+     Set_Constraint_Static       Linear Static        Constraint_stress_1D_maxA, Constraint_stress_1D_maxB, Constraint_stress_2D
+
+------------------------------------------------------------------------------------------------------------------------------------
+MinMax
+
+              Name               Solution Type      C1        C2        C3        Min or Max       Responses to be included   
+
+  -NONE-
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+Design Variable Links
+
+              Name                     Dependent Variable              Co            CMULT            Independent Variables              Ci       
+
+           Rel_RinOf1                        RinOf1                    0.              1.             Thick, Rin_H      -0.5, -0.5
+           Rel_RinOf2                        RinOf2                    0.              1.             Thick, Rin_H      -0.5, -0.5
+           Rel_RouOf1                        RouOf1                    0.              1.             Thick, Rou_H      -0.5, -0.5
+           Rel_RouOf2                        RouOf2                    0.              1.             Thick, Rou_H      -0.5, -0.5
