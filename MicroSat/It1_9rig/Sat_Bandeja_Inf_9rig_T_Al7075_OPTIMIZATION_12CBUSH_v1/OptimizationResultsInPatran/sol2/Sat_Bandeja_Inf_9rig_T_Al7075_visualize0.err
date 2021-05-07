@@ -1,0 +1,13 @@
+/COM,ANSYS RELEASE 2021 R1           BUILD 21.1      UP20201109       01:48:35
+
+ *** ERROR ***                           CP =       0.594   TIME= 01:48:44
+ Data file C:\Users\diego\Documents\MEng Space Systems (Local)\2.        
+ EUE\Micro-Satellite Design &                                            
+ Analysis\MicroSat\It1_9rig\Sat_Bandeja_Inf_9rig_T_Al7075_OPTIMIZATION_1 
+ 2CBUSH_v1\OptimizationResultsInPatran\sol2\Sat_Bandeja_Inf_9rig_T_Al707 
+ 5_visualize.db has incorrect format, is missing READ/WRITE permission,  
+ or is empty for RESUME.                                                 
+
+ *** WARNING ***                         CP =       0.594   TIME= 01:48:44
+ WHILE PROCESSING FILE BASED INPUT (/INPUT OR MACRO) AN ERROR HAS        
+ OCCURRED.  SHOULD INPUT PROCESSING BE SUSPENDED?                        

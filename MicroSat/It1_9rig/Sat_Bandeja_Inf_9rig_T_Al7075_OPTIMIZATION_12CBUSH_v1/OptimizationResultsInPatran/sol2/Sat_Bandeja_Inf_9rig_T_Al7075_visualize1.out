@@ -1,0 +1,97 @@
+
+ ANSYS Mechanical Enterprise                       
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS 2021 R1          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2021 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2021 R1 
+     
+ Point Releases and Patches installed:   
+     
+ Academic Student 2021 R1
+ Aqwa 2021 R1
+ EnSight 2021 R1 
+ FENSAP-ICE 2021 R1  
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  INITIAL JOBNAME              = Sat_Bandeja_Inf_9rig_T_Al7075_visualize                                                                                                                                                                                                                 
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       2 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     2 CORES REQUESTED
+  MPI OPTION                   = INTELMPI
+  START-UP FILE MODE           = READ  
+  STOP FILE MODE               = READ  
+  MODEL FILE NAME              = C:\Users\diego\Documents\MEng Space Systems (Local)\2. EUE\Micro-Satellite Design & Analysis\MicroSat\It1_9rig\Sat_Bandeja_Inf_9rig_T_Al7075_OPTIMIZATION_12CBUSH_v1\OptimizationResultsInPatran\sol2\Sat_Bandeja_Inf_9rig_T_Al7075_visualize.db                    
+  GRAPHICS DEVICE REQUESTED    = win32   
+  GRAPHICAL ENTRY              = YES   
+  LANGUAGE                     = en-us               
+  INITIAL DIRECTORY = C:\Users\diego\Documents\MEng Space Systems (Local)\2. EUE\Micro-Satellite Design & Analysis\MicroSat\It1_9rig\Sat_Bandeja_Inf_9rig_T_Al7075_OPTIMIZATION_12CBUSH_v1\OptimizationResultsInPatran\sol2
+
+ RELEASE= 2021 R1              BUILD= 21.1      UP20201109   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=Sat_Bandeja_Inf_9rig_T_Al7075_visualize1  01:48:41  MAY 07, 2021 CP=      0.156
+
+
+ RESUME ANSYS DATA FROM FILE NAME=C:\Users\diego\Documents\MEng Space Systems (Local)\2. EUE\Micro-Satellite Design & Analysis\MicroSat\It1_9rig\Sat_Bandeja_Inf_9rig_T_Al7075_OPTIMIZATION_12CBUSH_v1\OptimizationResultsInPatran\sol2\Sat_Bandeja_Inf_9rig_T_Al7075_visualize.db                    
+
+ *** ERROR ***                           CP =       2.531   TIME= 01:48:44
+ Data file C:\Users\diego\Documents\MEng Space Systems (Local)\2.        
+ EUE\Micro-Satellite Design &                                            
+ Analysis\MicroSat\It1_9rig\Sat_Bandeja_Inf_9rig_T_Al7075_OPTIMIZATION_1 
+ 2CBUSH_v1\OptimizationResultsInPatran\sol2\Sat_Bandeja_Inf_9rig_T_Al707 
+ 5_visualize.db has incorrect format, is missing READ/WRITE permission,  
+ or is empty for RESUME.                                                 
