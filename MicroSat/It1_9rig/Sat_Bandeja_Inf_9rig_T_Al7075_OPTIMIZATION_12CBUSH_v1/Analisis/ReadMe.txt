@@ -21,6 +21,13 @@ SOL3 --> CUMPLE FREQ (1.501882E+02 Hz) NO CUMPLE REQ. STRESS (MOS = ). MASS = 5.
 		--- MASS =  5.220545E+01 kg => 1.880 kg
 		--- 1 FREQ = 1.501209E+02
 		--- MOS = 2.17
+
+SOL4 --> CUMPLE FREQ (1.504023E+02 Hz) NO CUMPLE REQ. STRESS (MOS = ). MASS =  5.294429E+01  kg => 2.619 kg
+     --> edit --> igualando altura rigidizadores:
+		--- MASS =   5.305836E+01 kg => 2.733 kg
+		--- 1 FREQ = 1.503558E+02
+		--- MOS = 
+
 ----------------------------------------------------------------------------------------------------------
 
 Rin --> Element 4000:4299    
