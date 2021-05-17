@@ -26,7 +26,7 @@ SOL4 --> CUMPLE FREQ (1.504023E+02 Hz) NO CUMPLE REQ. STRESS (MOS = ). MASS =  5
      --> edit --> igualando altura rigidizadores:
 		--- MASS =   5.305836E+01 kg => 2.733 kg
 		--- 1 FREQ = 1.503558E+02
-		--- MOS = 
+		--- MOS = 2.22
 
 ----------------------------------------------------------------------------------------------------------
 
